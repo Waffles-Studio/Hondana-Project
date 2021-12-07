@@ -333,7 +333,7 @@ namespace Hondana_Project_Beta
             this.MaximizeBox = false;
             this.Name = "FormLoginSignup";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FormLoginSignup";
+            this.Text = "Hondana 本棚 Project";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

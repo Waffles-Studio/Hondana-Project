@@ -73,9 +73,9 @@ namespace Hondana_Project_Beta
             this.label3.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(12, 55);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(635, 44);
+            this.label3.Size = new System.Drawing.Size(519, 44);
             this.label3.TabIndex = 3;
-            this.label3.Text = "We welcome you to the Hondana Project";
+            this.label3.Text = "Welcome to the Hondana Project";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pictureBox2
