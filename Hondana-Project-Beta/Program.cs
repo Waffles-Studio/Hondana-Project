@@ -16,7 +16,7 @@ namespace Hondana_Project_Beta
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new FormWelcome());
         }
     }
 }
