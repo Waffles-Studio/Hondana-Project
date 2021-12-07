@@ -16,5 +16,16 @@ namespace Hondana_Project_Beta
         {
             InitializeComponent();
         }
+
+        private void BtnLibrary_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnFavorites_Click(object sender, EventArgs e)
+        {
+            FormFavorites FF = new FormFavorites();
+            FF.ShowDialog();
+        }
     }
 }
