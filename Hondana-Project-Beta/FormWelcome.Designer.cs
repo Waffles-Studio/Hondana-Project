@@ -35,12 +35,13 @@ namespace Hondana_Project_Beta
             this.label3 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.BtnConnect = new System.Windows.Forms.Button();
-            this.TxtConnection = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.BtnLogin = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.cmbserv = new System.Windows.Forms.ComboBox();
+            this.txtaddserver = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -53,7 +54,7 @@ namespace Hondana_Project_Beta
             this.label1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.label1.Location = new System.Drawing.Point(46, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(157, 27);
+            this.label1.Size = new System.Drawing.Size(127, 21);
             this.label1.TabIndex = 1;
             this.label1.Text = "Waffles Studio™";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -73,7 +74,7 @@ namespace Hondana_Project_Beta
             this.label3.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(12, 55);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(519, 44);
+            this.label3.Size = new System.Drawing.Size(506, 36);
             this.label3.TabIndex = 3;
             this.label3.Text = "Welcome to the Hondana Project";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -95,23 +96,16 @@ namespace Hondana_Project_Beta
             this.BtnConnect.Name = "BtnConnect";
             this.BtnConnect.Size = new System.Drawing.Size(100, 32);
             this.BtnConnect.TabIndex = 5;
-            this.BtnConnect.Text = "Connect";
+            this.BtnConnect.Text = "Test";
             this.BtnConnect.UseVisualStyleBackColor = true;
-            // 
-            // TxtConnection
-            // 
-            this.TxtConnection.Font = new System.Drawing.Font("Segoe UI Variable Text", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtConnection.Location = new System.Drawing.Point(294, 313);
-            this.TxtConnection.Name = "TxtConnection";
-            this.TxtConnection.Size = new System.Drawing.Size(250, 27);
-            this.TxtConnection.TabIndex = 6;
+            this.BtnConnect.Click += new System.EventHandler(this.BtnConnect_Click);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(12, 99);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(369, 154);
+            this.label4.Size = new System.Drawing.Size(297, 133);
             this.label4.TabIndex = 7;
             this.label4.Text = "✓  Enjoy a collection of completely free books.\r\n\r\n✓  Create a free account and s" +
     "ave your favorite\r\nbooks to a personal list.\r\n\r\n✓  Enter into a community and sh" +
@@ -120,9 +114,9 @@ namespace Hondana_Project_Beta
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(164, 314);
+            this.label5.Location = new System.Drawing.Point(35, 316);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(124, 22);
+            this.label5.Size = new System.Drawing.Size(101, 19);
             this.label5.TabIndex = 8;
             this.label5.Text = "Current Server:";
             // 
@@ -159,16 +153,36 @@ namespace Hondana_Project_Beta
             this.pictureBox1.TabIndex = 11;
             this.pictureBox1.TabStop = false;
             // 
+            // cmbserv
+            // 
+            this.cmbserv.FormattingEnabled = true;
+            this.cmbserv.Location = new System.Drawing.Point(142, 313);
+            this.cmbserv.Name = "cmbserv";
+            this.cmbserv.Size = new System.Drawing.Size(296, 27);
+            this.cmbserv.TabIndex = 11;
+            // 
+            // txtaddserver
+            // 
+            this.txtaddserver.Font = new System.Drawing.Font("Segoe UI Variable Text Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtaddserver.Location = new System.Drawing.Point(444, 309);
+            this.txtaddserver.Name = "txtaddserver";
+            this.txtaddserver.Size = new System.Drawing.Size(100, 32);
+            this.txtaddserver.TabIndex = 12;
+            this.txtaddserver.Text = "Add";
+            this.txtaddserver.UseVisualStyleBackColor = true;
+            this.txtaddserver.Click += new System.EventHandler(this.txtaddserver_Click);
+            // 
             // FormWelcome
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 22F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(662, 353);
+            this.Controls.Add(this.txtaddserver);
+            this.Controls.Add(this.cmbserv);
             this.Controls.Add(this.BtnLogin);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.TxtConnection);
             this.Controls.Add(this.BtnConnect);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label3);
@@ -196,12 +210,13 @@ namespace Hondana_Project_Beta
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Button BtnConnect;
-        private System.Windows.Forms.TextBox TxtConnection;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button BtnLogin;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.ComboBox cmbserv;
+        private System.Windows.Forms.Button txtaddserver;
     }
 }
 
