@@ -27,5 +27,11 @@ namespace Hondana_Project_Beta
             FormFavorites FF = new FormFavorites();
             FF.ShowDialog();
         }
+
+        private void BtnSearch_Click(object sender, EventArgs e)
+        {
+            FormSearch FS = new FormSearch();
+            FS.ShowDialog();
+        }
     }
 }
