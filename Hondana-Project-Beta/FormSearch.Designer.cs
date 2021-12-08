@@ -40,14 +40,44 @@ namespace Hondana_Project_Beta
             this.BtnFavorites = new System.Windows.Forms.Button();
             this.BtnLibrary = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.BtnHelp = new System.Windows.Forms.Button();
             this.BtnUserProfile = new System.Windows.Forms.Button();
             this.BtnSettings = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.panel22 = new System.Windows.Forms.Panel();
+            this.panel24 = new System.Windows.Forms.Panel();
+            this.radioButton7 = new System.Windows.Forms.RadioButton();
+            this.panel25 = new System.Windows.Forms.Panel();
+            this.radioButton8 = new System.Windows.Forms.RadioButton();
+            this.panel26 = new System.Windows.Forms.Panel();
+            this.radioButton9 = new System.Windows.Forms.RadioButton();
+            this.panel27 = new System.Windows.Forms.Panel();
+            this.radioButton10 = new System.Windows.Forms.RadioButton();
+            this.panel28 = new System.Windows.Forms.Panel();
+            this.radioButton11 = new System.Windows.Forms.RadioButton();
+            this.panel29 = new System.Windows.Forms.Panel();
+            this.radioButton12 = new System.Windows.Forms.RadioButton();
+            this.panel30 = new System.Windows.Forms.Panel();
+            this.label33 = new System.Windows.Forms.Label();
+            this.panel15 = new System.Windows.Forms.Panel();
+            this.panel21 = new System.Windows.Forms.Panel();
+            this.radioButton6 = new System.Windows.Forms.RadioButton();
+            this.panel20 = new System.Windows.Forms.Panel();
+            this.radioButton5 = new System.Windows.Forms.RadioButton();
+            this.panel19 = new System.Windows.Forms.Panel();
+            this.radioButton4 = new System.Windows.Forms.RadioButton();
+            this.panel18 = new System.Windows.Forms.Panel();
+            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.panel17 = new System.Windows.Forms.Panel();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.panel16 = new System.Windows.Forms.Panel();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.panel23 = new System.Windows.Forms.Panel();
+            this.label61 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
             this.panel13 = new System.Windows.Forms.Panel();
             this.label29 = new System.Windows.Forms.Label();
@@ -94,40 +124,24 @@ namespace Hondana_Project_Beta
             this.panel14 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.panel15 = new System.Windows.Forms.Panel();
-            this.panel23 = new System.Windows.Forms.Panel();
-            this.label61 = new System.Windows.Forms.Label();
-            this.panel16 = new System.Windows.Forms.Panel();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.panel17 = new System.Windows.Forms.Panel();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.panel18 = new System.Windows.Forms.Panel();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.panel19 = new System.Windows.Forms.Panel();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
-            this.panel20 = new System.Windows.Forms.Panel();
-            this.radioButton5 = new System.Windows.Forms.RadioButton();
-            this.panel21 = new System.Windows.Forms.Panel();
-            this.radioButton6 = new System.Windows.Forms.RadioButton();
-            this.panel22 = new System.Windows.Forms.Panel();
-            this.panel24 = new System.Windows.Forms.Panel();
-            this.radioButton7 = new System.Windows.Forms.RadioButton();
-            this.panel25 = new System.Windows.Forms.Panel();
-            this.radioButton8 = new System.Windows.Forms.RadioButton();
-            this.panel26 = new System.Windows.Forms.Panel();
-            this.radioButton9 = new System.Windows.Forms.RadioButton();
-            this.panel27 = new System.Windows.Forms.Panel();
-            this.radioButton10 = new System.Windows.Forms.RadioButton();
-            this.panel28 = new System.Windows.Forms.Panel();
-            this.radioButton11 = new System.Windows.Forms.RadioButton();
-            this.panel29 = new System.Windows.Forms.Panel();
-            this.radioButton12 = new System.Windows.Forms.RadioButton();
-            this.panel30 = new System.Windows.Forms.Panel();
-            this.label33 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
+            this.panel22.SuspendLayout();
+            this.panel24.SuspendLayout();
+            this.panel25.SuspendLayout();
+            this.panel26.SuspendLayout();
+            this.panel27.SuspendLayout();
+            this.panel28.SuspendLayout();
+            this.panel29.SuspendLayout();
+            this.panel15.SuspendLayout();
+            this.panel21.SuspendLayout();
+            this.panel20.SuspendLayout();
+            this.panel19.SuspendLayout();
+            this.panel18.SuspendLayout();
+            this.panel17.SuspendLayout();
+            this.panel16.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel13.SuspendLayout();
             this.panel12.SuspendLayout();
@@ -136,20 +150,6 @@ namespace Hondana_Project_Beta
             this.panel9.SuspendLayout();
             this.panel8.SuspendLayout();
             this.panel7.SuspendLayout();
-            this.panel15.SuspendLayout();
-            this.panel16.SuspendLayout();
-            this.panel17.SuspendLayout();
-            this.panel18.SuspendLayout();
-            this.panel19.SuspendLayout();
-            this.panel20.SuspendLayout();
-            this.panel21.SuspendLayout();
-            this.panel22.SuspendLayout();
-            this.panel24.SuspendLayout();
-            this.panel25.SuspendLayout();
-            this.panel26.SuspendLayout();
-            this.panel27.SuspendLayout();
-            this.panel28.SuspendLayout();
-            this.panel29.SuspendLayout();
             this.SuspendLayout();
             // 
             // textBox1
@@ -296,12 +296,38 @@ namespace Hondana_Project_Beta
             this.panel2.Size = new System.Drawing.Size(1326, 72);
             this.panel2.TabIndex = 22;
             // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.White;
+            this.panel3.Controls.Add(this.button1);
+            this.panel3.Controls.Add(this.textBox1);
+            this.panel3.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.panel3.Location = new System.Drawing.Point(7, 13);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(500, 48);
+            this.panel3.TabIndex = 25;
+            // 
+            // button1
+            // 
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Segoe UI Variable Text", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.Location = new System.Drawing.Point(0, 0);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(48, 48);
+            this.button1.TabIndex = 26;
+            this.button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // BtnHelp
             // 
             this.BtnHelp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.BtnHelp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnHelp.Font = new System.Drawing.Font("Segoe UI Variable Text", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnHelp.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.BtnHelp.ForeColor = System.Drawing.Color.Ivory;
             this.BtnHelp.Image = ((System.Drawing.Image)(resources.GetObject("BtnHelp.Image")));
             this.BtnHelp.Location = new System.Drawing.Point(1153, 13);
             this.BtnHelp.Margin = new System.Windows.Forms.Padding(4);
@@ -317,7 +343,7 @@ namespace Hondana_Project_Beta
             this.BtnUserProfile.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.BtnUserProfile.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnUserProfile.Font = new System.Drawing.Font("Segoe UI Variable Text", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnUserProfile.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.BtnUserProfile.ForeColor = System.Drawing.Color.Ivory;
             this.BtnUserProfile.Location = new System.Drawing.Point(1265, 13);
             this.BtnUserProfile.Margin = new System.Windows.Forms.Padding(4);
             this.BtnUserProfile.Name = "BtnUserProfile";
@@ -331,7 +357,7 @@ namespace Hondana_Project_Beta
             this.BtnSettings.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.BtnSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnSettings.Font = new System.Drawing.Font("Segoe UI Variable Text", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnSettings.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.BtnSettings.ForeColor = System.Drawing.Color.Ivory;
             this.BtnSettings.Image = ((System.Drawing.Image)(resources.GetObject("BtnSettings.Image")));
             this.BtnSettings.Location = new System.Drawing.Point(1209, 13);
             this.BtnSettings.Margin = new System.Windows.Forms.Padding(4);
@@ -363,32 +389,6 @@ namespace Hondana_Project_Beta
             this.label2.TabIndex = 24;
             this.label2.Text = "Hondana Project Open Beta Program";
             // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.White;
-            this.panel3.Controls.Add(this.button1);
-            this.panel3.Controls.Add(this.textBox1);
-            this.panel3.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.panel3.Location = new System.Drawing.Point(7, 13);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(500, 48);
-            this.panel3.TabIndex = 25;
-            // 
-            // button1
-            // 
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Segoe UI Variable Text", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(0, 0);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(48, 48);
-            this.button1.TabIndex = 26;
-            this.button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // panel4
             // 
             this.panel4.AutoScroll = true;
@@ -406,6 +406,322 @@ namespace Hondana_Project_Beta
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(1307, 675);
             this.panel4.TabIndex = 25;
+            // 
+            // panel22
+            // 
+            this.panel22.BackColor = System.Drawing.Color.Ivory;
+            this.panel22.Controls.Add(this.panel24);
+            this.panel22.Controls.Add(this.panel25);
+            this.panel22.Controls.Add(this.panel26);
+            this.panel22.Controls.Add(this.panel27);
+            this.panel22.Controls.Add(this.panel28);
+            this.panel22.Controls.Add(this.panel29);
+            this.panel22.Location = new System.Drawing.Point(14, 205);
+            this.panel22.Name = "panel22";
+            this.panel22.Size = new System.Drawing.Size(1260, 58);
+            this.panel22.TabIndex = 23;
+            // 
+            // panel24
+            // 
+            this.panel24.BackColor = System.Drawing.Color.White;
+            this.panel24.Controls.Add(this.radioButton7);
+            this.panel24.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.panel24.Location = new System.Drawing.Point(1027, 9);
+            this.panel24.Name = "panel24";
+            this.panel24.Size = new System.Drawing.Size(186, 39);
+            this.panel24.TabIndex = 6;
+            // 
+            // radioButton7
+            // 
+            this.radioButton7.AutoSize = true;
+            this.radioButton7.Location = new System.Drawing.Point(8, 3);
+            this.radioButton7.Name = "radioButton7";
+            this.radioButton7.Size = new System.Drawing.Size(48, 26);
+            this.radioButton7.TabIndex = 2;
+            this.radioButton7.TabStop = true;
+            this.radioButton7.Text = "ID";
+            this.radioButton7.UseVisualStyleBackColor = true;
+            // 
+            // panel25
+            // 
+            this.panel25.BackColor = System.Drawing.Color.White;
+            this.panel25.Controls.Add(this.radioButton8);
+            this.panel25.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.panel25.Location = new System.Drawing.Point(829, 9);
+            this.panel25.Name = "panel25";
+            this.panel25.Size = new System.Drawing.Size(186, 39);
+            this.panel25.TabIndex = 5;
+            // 
+            // radioButton8
+            // 
+            this.radioButton8.AutoSize = true;
+            this.radioButton8.Location = new System.Drawing.Point(8, 3);
+            this.radioButton8.Name = "radioButton8";
+            this.radioButton8.Size = new System.Drawing.Size(74, 26);
+            this.radioButton8.TabIndex = 2;
+            this.radioButton8.TabStop = true;
+            this.radioButton8.Text = "Views";
+            this.radioButton8.UseVisualStyleBackColor = true;
+            // 
+            // panel26
+            // 
+            this.panel26.BackColor = System.Drawing.Color.White;
+            this.panel26.Controls.Add(this.radioButton9);
+            this.panel26.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.panel26.Location = new System.Drawing.Point(631, 9);
+            this.panel26.Name = "panel26";
+            this.panel26.Size = new System.Drawing.Size(186, 39);
+            this.panel26.TabIndex = 4;
+            // 
+            // radioButton9
+            // 
+            this.radioButton9.AutoSize = true;
+            this.radioButton9.Location = new System.Drawing.Point(8, 3);
+            this.radioButton9.Name = "radioButton9";
+            this.radioButton9.Size = new System.Drawing.Size(80, 26);
+            this.radioButton9.TabIndex = 2;
+            this.radioButton9.TabStop = true;
+            this.radioButton9.Text = "Rating";
+            this.radioButton9.UseVisualStyleBackColor = true;
+            // 
+            // panel27
+            // 
+            this.panel27.BackColor = System.Drawing.Color.White;
+            this.panel27.Controls.Add(this.radioButton10);
+            this.panel27.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.panel27.Location = new System.Drawing.Point(433, 9);
+            this.panel27.Name = "panel27";
+            this.panel27.Size = new System.Drawing.Size(186, 39);
+            this.panel27.TabIndex = 3;
+            // 
+            // radioButton10
+            // 
+            this.radioButton10.AutoSize = true;
+            this.radioButton10.Location = new System.Drawing.Point(8, 3);
+            this.radioButton10.Name = "radioButton10";
+            this.radioButton10.Size = new System.Drawing.Size(67, 26);
+            this.radioButton10.TabIndex = 2;
+            this.radioButton10.TabStop = true;
+            this.radioButton10.Text = "Date";
+            this.radioButton10.UseVisualStyleBackColor = true;
+            // 
+            // panel28
+            // 
+            this.panel28.BackColor = System.Drawing.Color.White;
+            this.panel28.Controls.Add(this.radioButton11);
+            this.panel28.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.panel28.Location = new System.Drawing.Point(235, 9);
+            this.panel28.Name = "panel28";
+            this.panel28.Size = new System.Drawing.Size(186, 39);
+            this.panel28.TabIndex = 2;
+            // 
+            // radioButton11
+            // 
+            this.radioButton11.AutoSize = true;
+            this.radioButton11.Location = new System.Drawing.Point(8, 3);
+            this.radioButton11.Name = "radioButton11";
+            this.radioButton11.Size = new System.Drawing.Size(75, 26);
+            this.radioButton11.TabIndex = 2;
+            this.radioButton11.TabStop = true;
+            this.radioButton11.Text = "Pages";
+            this.radioButton11.UseVisualStyleBackColor = true;
+            // 
+            // panel29
+            // 
+            this.panel29.BackColor = System.Drawing.Color.White;
+            this.panel29.Controls.Add(this.radioButton12);
+            this.panel29.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.panel29.Location = new System.Drawing.Point(37, 9);
+            this.panel29.Name = "panel29";
+            this.panel29.Size = new System.Drawing.Size(186, 39);
+            this.panel29.TabIndex = 1;
+            // 
+            // radioButton12
+            // 
+            this.radioButton12.AutoSize = true;
+            this.radioButton12.Location = new System.Drawing.Point(8, 3);
+            this.radioButton12.Name = "radioButton12";
+            this.radioButton12.Size = new System.Drawing.Size(125, 26);
+            this.radioButton12.TabIndex = 2;
+            this.radioButton12.TabStop = true;
+            this.radioButton12.Text = "Alphabetical";
+            this.radioButton12.UseVisualStyleBackColor = true;
+            // 
+            // panel30
+            // 
+            this.panel30.BackColor = System.Drawing.Color.Gold;
+            this.panel30.Location = new System.Drawing.Point(14, 196);
+            this.panel30.Name = "panel30";
+            this.panel30.Size = new System.Drawing.Size(108, 3);
+            this.panel30.TabIndex = 22;
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Font = new System.Drawing.Font("Segoe UI Variable Text", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label33.Location = new System.Drawing.Point(8, 156);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(114, 32);
+            this.label33.TabIndex = 21;
+            this.label33.Text = "Order by:";
+            // 
+            // panel15
+            // 
+            this.panel15.BackColor = System.Drawing.Color.Ivory;
+            this.panel15.Controls.Add(this.panel21);
+            this.panel15.Controls.Add(this.panel20);
+            this.panel15.Controls.Add(this.panel19);
+            this.panel15.Controls.Add(this.panel18);
+            this.panel15.Controls.Add(this.panel17);
+            this.panel15.Controls.Add(this.panel16);
+            this.panel15.Location = new System.Drawing.Point(14, 95);
+            this.panel15.Name = "panel15";
+            this.panel15.Size = new System.Drawing.Size(1260, 58);
+            this.panel15.TabIndex = 20;
+            // 
+            // panel21
+            // 
+            this.panel21.BackColor = System.Drawing.Color.White;
+            this.panel21.Controls.Add(this.radioButton6);
+            this.panel21.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.panel21.Location = new System.Drawing.Point(1027, 9);
+            this.panel21.Name = "panel21";
+            this.panel21.Size = new System.Drawing.Size(186, 39);
+            this.panel21.TabIndex = 6;
+            // 
+            // radioButton6
+            // 
+            this.radioButton6.AutoSize = true;
+            this.radioButton6.Location = new System.Drawing.Point(8, 3);
+            this.radioButton6.Name = "radioButton6";
+            this.radioButton6.Size = new System.Drawing.Size(77, 26);
+            this.radioButton6.TabIndex = 2;
+            this.radioButton6.TabStop = true;
+            this.radioButton6.Text = "Genre";
+            this.radioButton6.UseVisualStyleBackColor = true;
+            // 
+            // panel20
+            // 
+            this.panel20.BackColor = System.Drawing.Color.White;
+            this.panel20.Controls.Add(this.radioButton5);
+            this.panel20.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.panel20.Location = new System.Drawing.Point(829, 9);
+            this.panel20.Name = "panel20";
+            this.panel20.Size = new System.Drawing.Size(186, 39);
+            this.panel20.TabIndex = 5;
+            // 
+            // radioButton5
+            // 
+            this.radioButton5.AutoSize = true;
+            this.radioButton5.Location = new System.Drawing.Point(8, 3);
+            this.radioButton5.Name = "radioButton5";
+            this.radioButton5.Size = new System.Drawing.Size(106, 26);
+            this.radioButton5.TabIndex = 2;
+            this.radioButton5.TabStop = true;
+            this.radioButton5.Text = "Language";
+            this.radioButton5.UseVisualStyleBackColor = true;
+            // 
+            // panel19
+            // 
+            this.panel19.BackColor = System.Drawing.Color.White;
+            this.panel19.Controls.Add(this.radioButton4);
+            this.panel19.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.panel19.Location = new System.Drawing.Point(631, 9);
+            this.panel19.Name = "panel19";
+            this.panel19.Size = new System.Drawing.Size(186, 39);
+            this.panel19.TabIndex = 4;
+            // 
+            // radioButton4
+            // 
+            this.radioButton4.AutoSize = true;
+            this.radioButton4.Location = new System.Drawing.Point(8, 3);
+            this.radioButton4.Name = "radioButton4";
+            this.radioButton4.Size = new System.Drawing.Size(93, 26);
+            this.radioButton4.TabIndex = 2;
+            this.radioButton4.TabStop = true;
+            this.radioButton4.Text = "Editorial";
+            this.radioButton4.UseVisualStyleBackColor = true;
+            // 
+            // panel18
+            // 
+            this.panel18.BackColor = System.Drawing.Color.White;
+            this.panel18.Controls.Add(this.radioButton3);
+            this.panel18.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.panel18.Location = new System.Drawing.Point(433, 9);
+            this.panel18.Name = "panel18";
+            this.panel18.Size = new System.Drawing.Size(186, 39);
+            this.panel18.TabIndex = 3;
+            // 
+            // radioButton3
+            // 
+            this.radioButton3.AutoSize = true;
+            this.radioButton3.Location = new System.Drawing.Point(8, 3);
+            this.radioButton3.Name = "radioButton3";
+            this.radioButton3.Size = new System.Drawing.Size(84, 26);
+            this.radioButton3.TabIndex = 2;
+            this.radioButton3.TabStop = true;
+            this.radioButton3.Text = "Author";
+            this.radioButton3.UseVisualStyleBackColor = true;
+            // 
+            // panel17
+            // 
+            this.panel17.BackColor = System.Drawing.Color.White;
+            this.panel17.Controls.Add(this.radioButton2);
+            this.panel17.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.panel17.Location = new System.Drawing.Point(235, 9);
+            this.panel17.Name = "panel17";
+            this.panel17.Size = new System.Drawing.Size(186, 39);
+            this.panel17.TabIndex = 2;
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Location = new System.Drawing.Point(8, 3);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(63, 26);
+            this.radioButton2.TabIndex = 2;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "Title";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // panel16
+            // 
+            this.panel16.BackColor = System.Drawing.Color.White;
+            this.panel16.Controls.Add(this.radioButton1);
+            this.panel16.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.panel16.Location = new System.Drawing.Point(37, 9);
+            this.panel16.Name = "panel16";
+            this.panel16.Size = new System.Drawing.Size(186, 39);
+            this.panel16.TabIndex = 1;
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(8, 3);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(48, 26);
+            this.radioButton1.TabIndex = 2;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "ID";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            // 
+            // panel23
+            // 
+            this.panel23.BackColor = System.Drawing.Color.Gold;
+            this.panel23.Location = new System.Drawing.Point(14, 86);
+            this.panel23.Name = "panel23";
+            this.panel23.Size = new System.Drawing.Size(109, 3);
+            this.panel23.TabIndex = 19;
+            // 
+            // label61
+            // 
+            this.label61.AutoSize = true;
+            this.label61.Font = new System.Drawing.Font("Segoe UI Variable Text", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label61.Location = new System.Drawing.Point(8, 46);
+            this.label61.Name = "label61";
+            this.label61.Size = new System.Drawing.Size(124, 32);
+            this.label61.TabIndex = 18;
+            this.label61.Text = "Search by:";
             // 
             // panel6
             // 
@@ -899,322 +1215,6 @@ namespace Hondana_Project_Beta
             this.label3.Text = "\"Your Search\"";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // panel15
-            // 
-            this.panel15.BackColor = System.Drawing.Color.Ivory;
-            this.panel15.Controls.Add(this.panel21);
-            this.panel15.Controls.Add(this.panel20);
-            this.panel15.Controls.Add(this.panel19);
-            this.panel15.Controls.Add(this.panel18);
-            this.panel15.Controls.Add(this.panel17);
-            this.panel15.Controls.Add(this.panel16);
-            this.panel15.Location = new System.Drawing.Point(14, 95);
-            this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(1260, 58);
-            this.panel15.TabIndex = 20;
-            // 
-            // panel23
-            // 
-            this.panel23.BackColor = System.Drawing.Color.Gold;
-            this.panel23.Location = new System.Drawing.Point(14, 86);
-            this.panel23.Name = "panel23";
-            this.panel23.Size = new System.Drawing.Size(109, 3);
-            this.panel23.TabIndex = 19;
-            // 
-            // label61
-            // 
-            this.label61.AutoSize = true;
-            this.label61.Font = new System.Drawing.Font("Segoe UI Variable Text", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label61.Location = new System.Drawing.Point(8, 46);
-            this.label61.Name = "label61";
-            this.label61.Size = new System.Drawing.Size(124, 32);
-            this.label61.TabIndex = 18;
-            this.label61.Text = "Search by:";
-            // 
-            // panel16
-            // 
-            this.panel16.BackColor = System.Drawing.Color.White;
-            this.panel16.Controls.Add(this.radioButton1);
-            this.panel16.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.panel16.Location = new System.Drawing.Point(37, 9);
-            this.panel16.Name = "panel16";
-            this.panel16.Size = new System.Drawing.Size(186, 39);
-            this.panel16.TabIndex = 1;
-            // 
-            // radioButton1
-            // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(8, 3);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(48, 26);
-            this.radioButton1.TabIndex = 2;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "ID";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            // 
-            // panel17
-            // 
-            this.panel17.BackColor = System.Drawing.Color.White;
-            this.panel17.Controls.Add(this.radioButton2);
-            this.panel17.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.panel17.Location = new System.Drawing.Point(235, 9);
-            this.panel17.Name = "panel17";
-            this.panel17.Size = new System.Drawing.Size(186, 39);
-            this.panel17.TabIndex = 2;
-            // 
-            // radioButton2
-            // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(8, 3);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(63, 26);
-            this.radioButton2.TabIndex = 2;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Title";
-            this.radioButton2.UseVisualStyleBackColor = true;
-            // 
-            // panel18
-            // 
-            this.panel18.BackColor = System.Drawing.Color.White;
-            this.panel18.Controls.Add(this.radioButton3);
-            this.panel18.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.panel18.Location = new System.Drawing.Point(433, 9);
-            this.panel18.Name = "panel18";
-            this.panel18.Size = new System.Drawing.Size(186, 39);
-            this.panel18.TabIndex = 3;
-            // 
-            // radioButton3
-            // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(8, 3);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(84, 26);
-            this.radioButton3.TabIndex = 2;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "Author";
-            this.radioButton3.UseVisualStyleBackColor = true;
-            // 
-            // panel19
-            // 
-            this.panel19.BackColor = System.Drawing.Color.White;
-            this.panel19.Controls.Add(this.radioButton4);
-            this.panel19.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.panel19.Location = new System.Drawing.Point(631, 9);
-            this.panel19.Name = "panel19";
-            this.panel19.Size = new System.Drawing.Size(186, 39);
-            this.panel19.TabIndex = 4;
-            // 
-            // radioButton4
-            // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(8, 3);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(93, 26);
-            this.radioButton4.TabIndex = 2;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "Editorial";
-            this.radioButton4.UseVisualStyleBackColor = true;
-            // 
-            // panel20
-            // 
-            this.panel20.BackColor = System.Drawing.Color.White;
-            this.panel20.Controls.Add(this.radioButton5);
-            this.panel20.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.panel20.Location = new System.Drawing.Point(829, 9);
-            this.panel20.Name = "panel20";
-            this.panel20.Size = new System.Drawing.Size(186, 39);
-            this.panel20.TabIndex = 5;
-            // 
-            // radioButton5
-            // 
-            this.radioButton5.AutoSize = true;
-            this.radioButton5.Location = new System.Drawing.Point(8, 3);
-            this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(106, 26);
-            this.radioButton5.TabIndex = 2;
-            this.radioButton5.TabStop = true;
-            this.radioButton5.Text = "Language";
-            this.radioButton5.UseVisualStyleBackColor = true;
-            // 
-            // panel21
-            // 
-            this.panel21.BackColor = System.Drawing.Color.White;
-            this.panel21.Controls.Add(this.radioButton6);
-            this.panel21.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.panel21.Location = new System.Drawing.Point(1027, 9);
-            this.panel21.Name = "panel21";
-            this.panel21.Size = new System.Drawing.Size(186, 39);
-            this.panel21.TabIndex = 6;
-            // 
-            // radioButton6
-            // 
-            this.radioButton6.AutoSize = true;
-            this.radioButton6.Location = new System.Drawing.Point(8, 3);
-            this.radioButton6.Name = "radioButton6";
-            this.radioButton6.Size = new System.Drawing.Size(77, 26);
-            this.radioButton6.TabIndex = 2;
-            this.radioButton6.TabStop = true;
-            this.radioButton6.Text = "Genre";
-            this.radioButton6.UseVisualStyleBackColor = true;
-            // 
-            // panel22
-            // 
-            this.panel22.BackColor = System.Drawing.Color.Ivory;
-            this.panel22.Controls.Add(this.panel24);
-            this.panel22.Controls.Add(this.panel25);
-            this.panel22.Controls.Add(this.panel26);
-            this.panel22.Controls.Add(this.panel27);
-            this.panel22.Controls.Add(this.panel28);
-            this.panel22.Controls.Add(this.panel29);
-            this.panel22.Location = new System.Drawing.Point(14, 205);
-            this.panel22.Name = "panel22";
-            this.panel22.Size = new System.Drawing.Size(1260, 58);
-            this.panel22.TabIndex = 23;
-            // 
-            // panel24
-            // 
-            this.panel24.BackColor = System.Drawing.Color.White;
-            this.panel24.Controls.Add(this.radioButton7);
-            this.panel24.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.panel24.Location = new System.Drawing.Point(1027, 9);
-            this.panel24.Name = "panel24";
-            this.panel24.Size = new System.Drawing.Size(186, 39);
-            this.panel24.TabIndex = 6;
-            // 
-            // radioButton7
-            // 
-            this.radioButton7.AutoSize = true;
-            this.radioButton7.Location = new System.Drawing.Point(8, 3);
-            this.radioButton7.Name = "radioButton7";
-            this.radioButton7.Size = new System.Drawing.Size(48, 26);
-            this.radioButton7.TabIndex = 2;
-            this.radioButton7.TabStop = true;
-            this.radioButton7.Text = "ID";
-            this.radioButton7.UseVisualStyleBackColor = true;
-            // 
-            // panel25
-            // 
-            this.panel25.BackColor = System.Drawing.Color.White;
-            this.panel25.Controls.Add(this.radioButton8);
-            this.panel25.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.panel25.Location = new System.Drawing.Point(829, 9);
-            this.panel25.Name = "panel25";
-            this.panel25.Size = new System.Drawing.Size(186, 39);
-            this.panel25.TabIndex = 5;
-            // 
-            // radioButton8
-            // 
-            this.radioButton8.AutoSize = true;
-            this.radioButton8.Location = new System.Drawing.Point(8, 3);
-            this.radioButton8.Name = "radioButton8";
-            this.radioButton8.Size = new System.Drawing.Size(74, 26);
-            this.radioButton8.TabIndex = 2;
-            this.radioButton8.TabStop = true;
-            this.radioButton8.Text = "Views";
-            this.radioButton8.UseVisualStyleBackColor = true;
-            // 
-            // panel26
-            // 
-            this.panel26.BackColor = System.Drawing.Color.White;
-            this.panel26.Controls.Add(this.radioButton9);
-            this.panel26.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.panel26.Location = new System.Drawing.Point(631, 9);
-            this.panel26.Name = "panel26";
-            this.panel26.Size = new System.Drawing.Size(186, 39);
-            this.panel26.TabIndex = 4;
-            // 
-            // radioButton9
-            // 
-            this.radioButton9.AutoSize = true;
-            this.radioButton9.Location = new System.Drawing.Point(8, 3);
-            this.radioButton9.Name = "radioButton9";
-            this.radioButton9.Size = new System.Drawing.Size(80, 26);
-            this.radioButton9.TabIndex = 2;
-            this.radioButton9.TabStop = true;
-            this.radioButton9.Text = "Rating";
-            this.radioButton9.UseVisualStyleBackColor = true;
-            // 
-            // panel27
-            // 
-            this.panel27.BackColor = System.Drawing.Color.White;
-            this.panel27.Controls.Add(this.radioButton10);
-            this.panel27.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.panel27.Location = new System.Drawing.Point(433, 9);
-            this.panel27.Name = "panel27";
-            this.panel27.Size = new System.Drawing.Size(186, 39);
-            this.panel27.TabIndex = 3;
-            // 
-            // radioButton10
-            // 
-            this.radioButton10.AutoSize = true;
-            this.radioButton10.Location = new System.Drawing.Point(8, 3);
-            this.radioButton10.Name = "radioButton10";
-            this.radioButton10.Size = new System.Drawing.Size(67, 26);
-            this.radioButton10.TabIndex = 2;
-            this.radioButton10.TabStop = true;
-            this.radioButton10.Text = "Date";
-            this.radioButton10.UseVisualStyleBackColor = true;
-            // 
-            // panel28
-            // 
-            this.panel28.BackColor = System.Drawing.Color.White;
-            this.panel28.Controls.Add(this.radioButton11);
-            this.panel28.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.panel28.Location = new System.Drawing.Point(235, 9);
-            this.panel28.Name = "panel28";
-            this.panel28.Size = new System.Drawing.Size(186, 39);
-            this.panel28.TabIndex = 2;
-            // 
-            // radioButton11
-            // 
-            this.radioButton11.AutoSize = true;
-            this.radioButton11.Location = new System.Drawing.Point(8, 3);
-            this.radioButton11.Name = "radioButton11";
-            this.radioButton11.Size = new System.Drawing.Size(75, 26);
-            this.radioButton11.TabIndex = 2;
-            this.radioButton11.TabStop = true;
-            this.radioButton11.Text = "Pages";
-            this.radioButton11.UseVisualStyleBackColor = true;
-            // 
-            // panel29
-            // 
-            this.panel29.BackColor = System.Drawing.Color.White;
-            this.panel29.Controls.Add(this.radioButton12);
-            this.panel29.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.panel29.Location = new System.Drawing.Point(37, 9);
-            this.panel29.Name = "panel29";
-            this.panel29.Size = new System.Drawing.Size(186, 39);
-            this.panel29.TabIndex = 1;
-            // 
-            // radioButton12
-            // 
-            this.radioButton12.AutoSize = true;
-            this.radioButton12.Location = new System.Drawing.Point(8, 3);
-            this.radioButton12.Name = "radioButton12";
-            this.radioButton12.Size = new System.Drawing.Size(125, 26);
-            this.radioButton12.TabIndex = 2;
-            this.radioButton12.TabStop = true;
-            this.radioButton12.Text = "Alphabetical";
-            this.radioButton12.UseVisualStyleBackColor = true;
-            // 
-            // panel30
-            // 
-            this.panel30.BackColor = System.Drawing.Color.Gold;
-            this.panel30.Location = new System.Drawing.Point(14, 196);
-            this.panel30.Name = "panel30";
-            this.panel30.Size = new System.Drawing.Size(108, 3);
-            this.panel30.TabIndex = 22;
-            // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.Font = new System.Drawing.Font("Segoe UI Variable Text", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.Location = new System.Drawing.Point(8, 156);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(114, 32);
-            this.label33.TabIndex = 21;
-            this.label33.Text = "Order by:";
-            // 
             // FormSearch
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 22F);
@@ -1239,6 +1239,32 @@ namespace Hondana_Project_Beta
             this.panel3.PerformLayout();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
+            this.panel22.ResumeLayout(false);
+            this.panel24.ResumeLayout(false);
+            this.panel24.PerformLayout();
+            this.panel25.ResumeLayout(false);
+            this.panel25.PerformLayout();
+            this.panel26.ResumeLayout(false);
+            this.panel26.PerformLayout();
+            this.panel27.ResumeLayout(false);
+            this.panel27.PerformLayout();
+            this.panel28.ResumeLayout(false);
+            this.panel28.PerformLayout();
+            this.panel29.ResumeLayout(false);
+            this.panel29.PerformLayout();
+            this.panel15.ResumeLayout(false);
+            this.panel21.ResumeLayout(false);
+            this.panel21.PerformLayout();
+            this.panel20.ResumeLayout(false);
+            this.panel20.PerformLayout();
+            this.panel19.ResumeLayout(false);
+            this.panel19.PerformLayout();
+            this.panel18.ResumeLayout(false);
+            this.panel18.PerformLayout();
+            this.panel17.ResumeLayout(false);
+            this.panel17.PerformLayout();
+            this.panel16.ResumeLayout(false);
+            this.panel16.PerformLayout();
             this.panel6.ResumeLayout(false);
             this.panel13.ResumeLayout(false);
             this.panel13.PerformLayout();
@@ -1254,32 +1280,6 @@ namespace Hondana_Project_Beta
             this.panel8.PerformLayout();
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
-            this.panel15.ResumeLayout(false);
-            this.panel16.ResumeLayout(false);
-            this.panel16.PerformLayout();
-            this.panel17.ResumeLayout(false);
-            this.panel17.PerformLayout();
-            this.panel18.ResumeLayout(false);
-            this.panel18.PerformLayout();
-            this.panel19.ResumeLayout(false);
-            this.panel19.PerformLayout();
-            this.panel20.ResumeLayout(false);
-            this.panel20.PerformLayout();
-            this.panel21.ResumeLayout(false);
-            this.panel21.PerformLayout();
-            this.panel22.ResumeLayout(false);
-            this.panel24.ResumeLayout(false);
-            this.panel24.PerformLayout();
-            this.panel25.ResumeLayout(false);
-            this.panel25.PerformLayout();
-            this.panel26.ResumeLayout(false);
-            this.panel26.PerformLayout();
-            this.panel27.ResumeLayout(false);
-            this.panel27.PerformLayout();
-            this.panel28.ResumeLayout(false);
-            this.panel28.PerformLayout();
-            this.panel29.ResumeLayout(false);
-            this.panel29.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
