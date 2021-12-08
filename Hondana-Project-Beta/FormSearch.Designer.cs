@@ -32,7 +32,6 @@ namespace Hondana_Project_Beta
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormSearch));
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
             this.BtnUpdates = new System.Windows.Forms.Button();
             this.BtnAbout = new System.Windows.Forms.Button();
             this.BtnLogout = new System.Windows.Forms.Button();
@@ -166,7 +165,6 @@ namespace Hondana_Project_Beta
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel1.Controls.Add(this.panel5);
             this.panel1.Controls.Add(this.BtnUpdates);
             this.panel1.Controls.Add(this.BtnAbout);
             this.panel1.Controls.Add(this.BtnLogout);
@@ -180,14 +178,6 @@ namespace Hondana_Project_Beta
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(96, 753);
             this.panel1.TabIndex = 21;
-            // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.Color.DarkOrange;
-            this.panel5.Location = new System.Drawing.Point(3, 31);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(7, 36);
-            this.panel5.TabIndex = 17;
             // 
             // BtnUpdates
             // 
@@ -882,10 +872,10 @@ namespace Hondana_Project_Beta
             // 
             // panel14
             // 
-            this.panel14.BackColor = System.Drawing.Color.DarkOrange;
+            this.panel14.BackColor = System.Drawing.Color.Gold;
             this.panel14.Location = new System.Drawing.Point(19, 306);
             this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(254, 3);
+            this.panel14.Size = new System.Drawing.Size(101, 3);
             this.panel14.TabIndex = 16;
             // 
             // label4
@@ -925,10 +915,10 @@ namespace Hondana_Project_Beta
             // 
             // panel23
             // 
-            this.panel23.BackColor = System.Drawing.Color.DarkOrange;
+            this.panel23.BackColor = System.Drawing.Color.Gold;
             this.panel23.Location = new System.Drawing.Point(14, 86);
             this.panel23.Name = "panel23";
-            this.panel23.Size = new System.Drawing.Size(254, 3);
+            this.panel23.Size = new System.Drawing.Size(109, 3);
             this.panel23.TabIndex = 19;
             // 
             // label61
@@ -1209,10 +1199,10 @@ namespace Hondana_Project_Beta
             // 
             // panel30
             // 
-            this.panel30.BackColor = System.Drawing.Color.DarkOrange;
+            this.panel30.BackColor = System.Drawing.Color.Gold;
             this.panel30.Location = new System.Drawing.Point(14, 196);
             this.panel30.Name = "panel30";
-            this.panel30.Size = new System.Drawing.Size(254, 3);
+            this.panel30.Size = new System.Drawing.Size(108, 3);
             this.panel30.TabIndex = 22;
             // 
             // label33
@@ -1299,7 +1289,6 @@ namespace Hondana_Project_Beta
 
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Button BtnUpdates;
         private System.Windows.Forms.Button BtnAbout;
         private System.Windows.Forms.Button BtnLogout;
