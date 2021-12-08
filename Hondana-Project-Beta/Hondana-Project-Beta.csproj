@@ -52,6 +52,12 @@
     <Compile Include="FormFavorites.Designer.cs">
       <DependentUpon>FormFavorites.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormForums.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormForums.Designer.cs">
+      <DependentUpon>FormForums.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormHome.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,6 +69,12 @@
     </Compile>
     <Compile Include="FormLoginSignup.Designer.cs">
       <DependentUpon>FormLoginSignup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNewsletter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNewsletter.Designer.cs">
+      <DependentUpon>FormNewsletter.cs</DependentUpon>
     </Compile>
     <Compile Include="FormSearch.cs">
       <SubType>Form</SubType>
@@ -81,11 +93,17 @@
     <EmbeddedResource Include="FormFavorites.resx">
       <DependentUpon>FormFavorites.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormForums.resx">
+      <DependentUpon>FormForums.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormHome.resx">
       <DependentUpon>FormHome.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormLoginSignup.resx">
       <DependentUpon>FormLoginSignup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNewsletter.resx">
+      <DependentUpon>FormNewsletter.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormSearch.resx">
       <DependentUpon>FormSearch.cs</DependentUpon>

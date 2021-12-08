@@ -33,5 +33,17 @@ namespace Hondana_Project_Beta
             FormSearch FS = new FormSearch();
             FS.ShowDialog();
         }
+
+        private void BtnForums_Click(object sender, EventArgs e)
+        {
+            FormForums FFO = new FormForums();
+            FFO.ShowDialog();
+        }
+
+        private void BtnNewsletter_Click(object sender, EventArgs e)
+        {
+            FormNewsletter FN = new FormNewsletter();
+            FN.ShowDialog();
+        }
     }
 }

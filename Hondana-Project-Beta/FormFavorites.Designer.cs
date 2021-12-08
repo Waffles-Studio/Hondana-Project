@@ -48,12 +48,12 @@ namespace Hondana_Project_Beta
             this.label2 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -223,7 +223,7 @@ namespace Hondana_Project_Beta
             this.BtnHelp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.BtnHelp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnHelp.Font = new System.Drawing.Font("Segoe UI Variable Text", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnHelp.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.BtnHelp.ForeColor = System.Drawing.Color.LavenderBlush;
             this.BtnHelp.Image = ((System.Drawing.Image)(resources.GetObject("BtnHelp.Image")));
             this.BtnHelp.Location = new System.Drawing.Point(1153, 13);
             this.BtnHelp.Margin = new System.Windows.Forms.Padding(4);
@@ -239,7 +239,7 @@ namespace Hondana_Project_Beta
             this.BtnUserProfile.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.BtnUserProfile.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnUserProfile.Font = new System.Drawing.Font("Segoe UI Variable Text", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnUserProfile.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.BtnUserProfile.ForeColor = System.Drawing.Color.LavenderBlush;
             this.BtnUserProfile.Location = new System.Drawing.Point(1265, 13);
             this.BtnUserProfile.Margin = new System.Windows.Forms.Padding(4);
             this.BtnUserProfile.Name = "BtnUserProfile";
@@ -253,7 +253,7 @@ namespace Hondana_Project_Beta
             this.BtnSettings.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.BtnSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnSettings.Font = new System.Drawing.Font("Segoe UI Variable Text", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnSettings.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.BtnSettings.ForeColor = System.Drawing.Color.LavenderBlush;
             this.BtnSettings.Image = ((System.Drawing.Image)(resources.GetObject("BtnSettings.Image")));
             this.BtnSettings.Location = new System.Drawing.Point(1209, 13);
             this.BtnSettings.Margin = new System.Windows.Forms.Padding(4);
@@ -308,6 +308,37 @@ namespace Hondana_Project_Beta
             this.panel6.Size = new System.Drawing.Size(1260, 558);
             this.panel6.TabIndex = 17;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(500, 267);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(260, 260);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Segoe UI Variable Text", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.label6.Location = new System.Drawing.Point(449, 207);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(374, 27);
+            this.label6.TabIndex = 1;
+            this.label6.Text = "Explore our library and find new favorites.";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(534, 175);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(192, 32);
+            this.label5.TabIndex = 0;
+            this.label5.Text = "No books added";
+            // 
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.Crimson;
@@ -336,37 +367,6 @@ namespace Hondana_Project_Beta
             this.label3.TabIndex = 14;
             this.label3.Text = "Favorites List";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(534, 175);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(192, 32);
-            this.label5.TabIndex = 0;
-            this.label5.Text = "No books added";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Segoe UI Variable Text", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label6.Location = new System.Drawing.Point(449, 207);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(374, 27);
-            this.label6.TabIndex = 1;
-            this.label6.Text = "Explore our library and find new favorites.";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(500, 267);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(260, 260);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
             // 
             // FormFavorites
             // 
