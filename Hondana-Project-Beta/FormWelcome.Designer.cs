@@ -76,7 +76,7 @@ namespace Hondana_Project_Beta
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(506, 36);
             this.label3.TabIndex = 3;
-            this.label3.Text = "We welcome you to the Hondana Project";
+            this.label3.Text = "Welcome to the Hondana Project";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pictureBox2
