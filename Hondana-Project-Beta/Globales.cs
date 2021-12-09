@@ -9,6 +9,16 @@ namespace Hondana_Project_Beta
 {
     class Globales
     {
-        public SqlConnection conexion { get; set; }
+        //public static string conexion { get; set; }
+
+        public static SqlConnection conexion { get; set; }
+
+        public static string UserID { get; set; }
+        public static string UserRole { get; set; }
+        public static string UserName { get; set; }
+        public static string UserEmail { get; set; }
+        public static string UserIcon { get; set; }
+
+
     }
 }

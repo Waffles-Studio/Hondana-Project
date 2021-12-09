@@ -17,7 +17,6 @@ namespace Hondana_Project_Beta
     {
 
         #region Variables
-        Globales Glb = new Globales();
 
         #endregion
 
@@ -26,45 +25,57 @@ namespace Hondana_Project_Beta
         {
             InitializeComponent();
             add();
+
+            cmbserv.Text = "BA-PC\\SQLEXPRESS";
         }
         #endregion
 
         #region Login
         private void BtnLogin_Click(object sender, EventArgs e)
         {
-            Glb.conexion = new SqlConnection("Data Source=" + cmbserv.SelectedItem + ";Initial Catalog=HondanaDB;Integrated Security=True");
+            Globales.conexion =new SqlConnection( "Data Source=" + cmbserv.SelectedItem + ";Initial Catalog=HondanaDB;Integrated Security=True");
+            //SqlConnection conexion = new SqlConnection(Globales.conexion);
+            if (Globales.conexion != null )
+            {
+                Globales.conexion.Open();
+                Globales.conexion.Close();
+                this.Hide();
+                FormLoginSignup FLS = new FormLoginSignup();
+                FLS.ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show("Please connect to your server first", ":(");
+            }/*
             try
             {
-                Glb.conexion.Open();
-                Glb.conexion.Close();
+                Globales.conexion.Open();
+                Globales.conexion.Close();
                 FormLoginSignup FLS = new FormLoginSignup();
                 FLS.ShowDialog();
             }
             catch (Exception)
             {
-                MessageBox.Show("Please connect to your server first", ":(");
-            }
-
-
+                
+            }*/
 
         }
         #endregion
 
-        #region conectarse
+        #region Test
         private void BtnConnect_Click(object sender, EventArgs e)
         {
-            Glb.conexion = new SqlConnection("Data Source=" + cmbserv.SelectedItem + ";Initial Catalog=HondanaDB;Integrated Security=True");
-
+            Globales.conexion = new SqlConnection("Data Source=" + cmbserv.SelectedItem + ";Initial Catalog=HondanaDB;Integrated Security=True");
+            //SqlConnection conexion = new SqlConnection(Globales.conexion);
             try
             {
-                Glb.conexion.Open();
+                Globales.conexion.Open();
                 MessageBox.Show("Established connection", ":)");
-                Glb.conexion.Close();
+                Globales.conexion.Close();
             }
             catch (Exception)
             {
                 MessageBox.Show("Failed to connect. \nCheck your server name", ":(");
-                Glb.conexion.Close();
             }
         }
         #endregion

@@ -85,7 +85,7 @@ namespace Hondana_Project_Beta
             this.label1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.label1.Location = new System.Drawing.Point(46, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(157, 27);
+            this.label1.Size = new System.Drawing.Size(127, 21);
             this.label1.TabIndex = 1;
             this.label1.Text = "Waffles Studio™";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -105,7 +105,7 @@ namespace Hondana_Project_Beta
             this.label3.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(12, 55);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(190, 44);
+            this.label3.Size = new System.Drawing.Size(151, 36);
             this.label3.TabIndex = 13;
             this.label3.Text = "Let\'s log in!";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -115,7 +115,7 @@ namespace Hondana_Project_Beta
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(12, 99);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(275, 44);
+            this.label4.Size = new System.Drawing.Size(223, 38);
             this.label4.TabIndex = 14;
             this.label4.Text = "❖  Log into your account and start\r\ndiscovering new books!";
             // 
@@ -125,7 +125,7 @@ namespace Hondana_Project_Beta
             this.label5.Font = new System.Drawing.Font("Segoe UI Variable Text Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(12, 143);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(96, 22);
+            this.label5.Size = new System.Drawing.Size(80, 19);
             this.label5.TabIndex = 15;
             this.label5.Text = "✉  E-mail:";
             // 
@@ -134,18 +134,21 @@ namespace Hondana_Project_Beta
             this.TxtLoginEmail.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.TxtLoginEmail.Location = new System.Drawing.Point(12, 168);
             this.TxtLoginEmail.Name = "TxtLoginEmail";
-            this.TxtLoginEmail.Size = new System.Drawing.Size(275, 30);
+            this.TxtLoginEmail.Size = new System.Drawing.Size(275, 26);
             this.TxtLoginEmail.TabIndex = 16;
             this.TxtLoginEmail.Text = "someone@example.com";
+            this.TxtLoginEmail.Click += new System.EventHandler(this.TxtLoginEmail_Click);
             // 
             // TxtLoginPassword
             // 
             this.TxtLoginPassword.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.TxtLoginPassword.Location = new System.Drawing.Point(12, 226);
             this.TxtLoginPassword.Name = "TxtLoginPassword";
-            this.TxtLoginPassword.Size = new System.Drawing.Size(275, 30);
+            this.TxtLoginPassword.PasswordChar = '*';
+            this.TxtLoginPassword.Size = new System.Drawing.Size(275, 26);
             this.TxtLoginPassword.TabIndex = 18;
-            this.TxtLoginPassword.Text = "••••••••••";
+            this.TxtLoginPassword.Text = "• •••••••••";
+            this.TxtLoginPassword.Click += new System.EventHandler(this.TxtLoginPassword_Click);
             // 
             // label6
             // 
@@ -153,7 +156,7 @@ namespace Hondana_Project_Beta
             this.label6.Font = new System.Drawing.Font("Segoe UI Variable Text Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(12, 201);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(112, 22);
+            this.label6.Size = new System.Drawing.Size(94, 19);
             this.label6.TabIndex = 17;
             this.label6.Text = "✎  Password:";
             // 
@@ -186,7 +189,7 @@ namespace Hondana_Project_Beta
             this.LblLoginForgot.ForeColor = System.Drawing.Color.DarkOrange;
             this.LblLoginForgot.Location = new System.Drawing.Point(12, 377);
             this.LblLoginForgot.Name = "LblLoginForgot";
-            this.LblLoginForgot.Size = new System.Drawing.Size(254, 22);
+            this.LblLoginForgot.Size = new System.Drawing.Size(211, 19);
             this.LblLoginForgot.TabIndex = 21;
             this.LblLoginForgot.Text = "Did you forget your password?";
             // 
@@ -196,7 +199,7 @@ namespace Hondana_Project_Beta
             this.label9.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(347, 55);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(296, 44);
+            this.label9.Size = new System.Drawing.Size(235, 36);
             this.label9.TabIndex = 22;
             this.label9.Text = "Create an account";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -206,9 +209,10 @@ namespace Hondana_Project_Beta
             this.TxtSignupEmail.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.TxtSignupEmail.Location = new System.Drawing.Point(347, 182);
             this.TxtSignupEmail.Name = "TxtSignupEmail";
-            this.TxtSignupEmail.Size = new System.Drawing.Size(275, 30);
+            this.TxtSignupEmail.Size = new System.Drawing.Size(275, 26);
             this.TxtSignupEmail.TabIndex = 26;
-            this.TxtSignupEmail.Text = "••••••••••";
+            this.TxtSignupEmail.Text = "someone@example.com";
+            this.TxtSignupEmail.Click += new System.EventHandler(this.TxtSignupEmail_Click);
             // 
             // label10
             // 
@@ -216,7 +220,7 @@ namespace Hondana_Project_Beta
             this.label10.Font = new System.Drawing.Font("Segoe UI Variable Text Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(347, 157);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(96, 22);
+            this.label10.Size = new System.Drawing.Size(80, 19);
             this.label10.TabIndex = 25;
             this.label10.Text = "✉  E-mail:";
             // 
@@ -225,9 +229,10 @@ namespace Hondana_Project_Beta
             this.TxtSignupName.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.TxtSignupName.Location = new System.Drawing.Point(347, 124);
             this.TxtSignupName.Name = "TxtSignupName";
-            this.TxtSignupName.Size = new System.Drawing.Size(275, 30);
+            this.TxtSignupName.Size = new System.Drawing.Size(275, 26);
             this.TxtSignupName.TabIndex = 24;
             this.TxtSignupName.Text = "Your name";
+            this.TxtSignupName.Click += new System.EventHandler(this.TxtSignupName_Click);
             // 
             // label11
             // 
@@ -235,7 +240,7 @@ namespace Hondana_Project_Beta
             this.label11.Font = new System.Drawing.Font("Segoe UI Variable Text Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.Location = new System.Drawing.Point(347, 99);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(87, 22);
+            this.label11.Size = new System.Drawing.Size(71, 19);
             this.label11.TabIndex = 23;
             this.label11.Text = "☺  Name:";
             // 
@@ -244,9 +249,11 @@ namespace Hondana_Project_Beta
             this.TxtSignupConfirm.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.TxtSignupConfirm.Location = new System.Drawing.Point(347, 298);
             this.TxtSignupConfirm.Name = "TxtSignupConfirm";
-            this.TxtSignupConfirm.Size = new System.Drawing.Size(275, 30);
+            this.TxtSignupConfirm.PasswordChar = '*';
+            this.TxtSignupConfirm.Size = new System.Drawing.Size(275, 26);
             this.TxtSignupConfirm.TabIndex = 30;
-            this.TxtSignupConfirm.Text = "••••••••••";
+            this.TxtSignupConfirm.Text = "•••";
+            this.TxtSignupConfirm.Click += new System.EventHandler(this.TxtSignupConfirm_Click);
             // 
             // label12
             // 
@@ -254,7 +261,7 @@ namespace Hondana_Project_Beta
             this.label12.Font = new System.Drawing.Font("Segoe UI Variable Text Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.Location = new System.Drawing.Point(347, 273);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(179, 22);
+            this.label12.Size = new System.Drawing.Size(149, 19);
             this.label12.TabIndex = 29;
             this.label12.Text = "✎  Confirm Password:";
             // 
@@ -263,9 +270,11 @@ namespace Hondana_Project_Beta
             this.TxtSignupPassword.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.TxtSignupPassword.Location = new System.Drawing.Point(347, 240);
             this.TxtSignupPassword.Name = "TxtSignupPassword";
-            this.TxtSignupPassword.Size = new System.Drawing.Size(275, 30);
+            this.TxtSignupPassword.PasswordChar = '*';
+            this.TxtSignupPassword.Size = new System.Drawing.Size(275, 26);
             this.TxtSignupPassword.TabIndex = 28;
-            this.TxtSignupPassword.Text = "someone@example.com";
+            this.TxtSignupPassword.Text = "•••";
+            this.TxtSignupPassword.Click += new System.EventHandler(this.TxtSignupPassword_Click);
             // 
             // label13
             // 
@@ -273,7 +282,7 @@ namespace Hondana_Project_Beta
             this.label13.Font = new System.Drawing.Font("Segoe UI Variable Text Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.Location = new System.Drawing.Point(347, 215);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(112, 22);
+            this.label13.Size = new System.Drawing.Size(94, 19);
             this.label13.TabIndex = 27;
             this.label13.Text = "✎  Password:";
             // 
@@ -288,6 +297,7 @@ namespace Hondana_Project_Beta
             this.BtnSignup.TabIndex = 31;
             this.BtnSignup.Text = "Sign up";
             this.BtnSignup.UseVisualStyleBackColor = false;
+            this.BtnSignup.Click += new System.EventHandler(this.BtnSignup_Click);
             // 
             // label14
             // 
@@ -295,13 +305,13 @@ namespace Hondana_Project_Beta
             this.label14.Font = new System.Drawing.Font("Segoe UI Variable Text", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.Location = new System.Drawing.Point(347, 377);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(247, 38);
+            this.label14.Size = new System.Drawing.Size(193, 30);
             this.label14.TabIndex = 32;
             this.label14.Text = "By continuing, you agree to Hondana\'s\r\nTerms of Service";
             // 
             // FormLoginSignup
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 22F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(662, 433);
