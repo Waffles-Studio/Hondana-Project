@@ -16,5 +16,10 @@ namespace Hondana_Project_Beta
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("The program is updated in the latest version! \n  [!]Hondana Project Open Beta 4 (OB4050) \n  [!]4050.rs.open - beta.20211206 - 2006", "Everything is fine ;)", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
     }
 }
