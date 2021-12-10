@@ -18,6 +18,7 @@ namespace Hondana_Project_Beta
         public FormLoginSignup()
         {
             InitializeComponent();
+            Globales.MensajeBienvendia = 0;
         }
         #endregion
 
@@ -27,6 +28,9 @@ namespace Hondana_Project_Beta
             int res = login();
             if (res == 1)
             {
+                NotificacionWaffle.Visible = false;
+
+                Globales.MensajeBienvendia = 1;
                 FormHome FH = new FormHome();
                 this.Hide();
                 FH.ShowDialog();
@@ -36,12 +40,11 @@ namespace Hondana_Project_Beta
             {
                 if (res == 2)
                 {
-                    MessageBox.Show("User is disabled. \nPlease contact an administrator or re - register.", ":(");
+                    NotificacionWaffle.ShowBalloonTip(100, "User is disabled", "Please contact an administrator or re - register.", ToolTipIcon.Warning);
                 }
                 else
                 {
-
-                    MessageBox.Show("Incorrect user or password. \nTry again.", ":(");
+                    NotificacionWaffle.ShowBalloonTip(100, "Incorrect user or password.", "Try again", ToolTipIcon.Warning);
                 }
             }
         }
@@ -229,17 +232,17 @@ namespace Hondana_Project_Beta
                 }
                 catch (Exception b)
                 {
-                    MessageBox.Show("Fail everything that could fail \n"+b, "Ups....");
+                    NotificacionWaffle.ShowBalloonTip(100, "Fail everything that could fail", "check the... sp? or the TextBox :) ", ToolTipIcon.Warning);
                 }
                 finally
                 {
                     if (bien == 1)
                     {
-                        MessageBox.Show("User successfully registered. \nNow you can login", ":)");
+                        NotificacionWaffle.ShowBalloonTip(100, "User successfully registered.", "Now you can login", ToolTipIcon.None);
                     }
                     else
                     {
-                        MessageBox.Show("This email is already used in another account. \nPlease use another or login. ", ":(");
+                        NotificacionWaffle.ShowBalloonTip(100, "Please use another or login.", "This email is already used in another account.", ToolTipIcon.Warning);
                     }
                 }
             }

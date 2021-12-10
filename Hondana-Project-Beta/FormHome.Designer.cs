@@ -29,6 +29,7 @@ namespace Hondana_Project_Beta
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormHome));
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
@@ -93,6 +94,7 @@ namespace Hondana_Project_Beta
             this.button12 = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
+            this.NotifiacionWaffle = new System.Windows.Forms.NotifyIcon(this.components);
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -146,6 +148,7 @@ namespace Hondana_Project_Beta
             this.BtnUpdates.Text = "Updates";
             this.BtnUpdates.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.BtnUpdates.UseVisualStyleBackColor = false;
+            this.BtnUpdates.Click += new System.EventHandler(this.BtnUpdates_Click);
             // 
             // BtnAbout
             // 
@@ -842,6 +845,12 @@ namespace Hondana_Project_Beta
             this.label4.TabIndex = 15;
             this.label4.Text = "Recommended for you";
             // 
+            // NotifiacionWaffle
+            // 
+            this.NotifiacionWaffle.Icon = ((System.Drawing.Icon)(resources.GetObject("NotifiacionWaffle.Icon")));
+            this.NotifiacionWaffle.Text = "Hondana 本棚 Project";
+            this.NotifiacionWaffle.Visible = true;
+            // 
             // FormHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
@@ -949,5 +958,6 @@ namespace Hondana_Project_Beta
         private System.Windows.Forms.Label label31;
         private System.Windows.Forms.Label label32;
         private System.Windows.Forms.Button button18;
+        private System.Windows.Forms.NotifyIcon NotifiacionWaffle;
     }
 }

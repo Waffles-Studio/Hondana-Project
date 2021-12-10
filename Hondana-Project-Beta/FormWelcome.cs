@@ -28,26 +28,13 @@ namespace Hondana_Project_Beta
         #region Login
         private void BtnLogin_Click(object sender, EventArgs e)
         {
-            
-            /*if (Globales.conexion != null )
-            {
-                Globales.conexion.Open();
-                Globales.conexion.Close();
 
-                FormLoginSignup FLS = new FormLoginSignup();
-                this.Hide();
-                FLS.ShowDialog();
-                this.Close();
-            }
-            else
-            {
-                MessageBox.Show("Please connect to your server first", ":(");
-            }*/
             try
             {
                 Globales.conexion = new SqlConnection("Data Source=" + cmbserv.SelectedItem + ";Initial Catalog=HondanaDB;Integrated Security=True");
                 Globales.conexion.Open();
                 Globales.conexion.Close();
+                NotificacionWaffle.Visible = false;
 
                 FormLoginSignup FLS = new FormLoginSignup();
                 this.Hide();
@@ -56,7 +43,7 @@ namespace Hondana_Project_Beta
             }
             catch (Exception b)
             {
-                MessageBox.Show("Fail everything that could fail \n" + b, "Ups....");
+                NotificacionWaffle.ShowBalloonTip(100, "Failed to connect.", "Check your server name", ToolTipIcon.Warning);
             }
 
         }
@@ -69,12 +56,12 @@ namespace Hondana_Project_Beta
             try
             {
                 Globales.conexion.Open();
-                MessageBox.Show("Established connection", ":)");
+                NotificacionWaffle.ShowBalloonTip(100, "The connection was successful", "All went well", ToolTipIcon.None);
                 Globales.conexion.Close();
             }
             catch (Exception)
             {
-                MessageBox.Show("Failed to connect. \nCheck your server name", ":(");
+                NotificacionWaffle.ShowBalloonTip(100, "Failed to connect.", "Check your server name", ToolTipIcon.Warning);
             }
         }
         #endregion
@@ -85,12 +72,11 @@ namespace Hondana_Project_Beta
             StreamWriter agregar = File.AppendText("ConDB.txt");
             agregar.WriteLine(cmbserv.Text);
             agregar.Close();
+            NotificacionWaffle.ShowBalloonTip(100, "Added server", "It is now on your server list", ToolTipIcon.Warning);
 
             add();
         }
-        #endregion
 
-        #region combobox
         private void add()
         {
             cmbserv.Items.Clear();
@@ -106,3 +92,4 @@ namespace Hondana_Project_Beta
         #endregion
     }
 }
+

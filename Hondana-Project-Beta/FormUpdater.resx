@@ -1903,27 +1903,6 @@
         FH8AIb9hacckJFoAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Open beta 4 is a feature-drop update specifically designed to bring several optimizations and improvements for Hondana Project.
-Back before the full release of Hondana Project, we talked about an Open Beta 3 update in Nobember this year. At the time, we
-learned that the update would bring several new features for Windows devices, including a brand new Fluid Design inspired by
-Windows 11, an Experimental Forums screen and more underhood tweaks.
-Now, the fourth Open Beta has gone live for Beta Testers.
-
-➤ User Interface
-• Optimized UI icons with improved textures, by using a design inspired by brand-new Fluid Design from Windows 11 materials
-and uniting lights and layers.
-
-➤ Forums
-• Added an Experimental Forums screen, so you now can send messages to other users in the program.
-
-➤ Database
-• The database has been restructured, adding new tables, triggers and stored procedures that will provide new query functions for
-the final program.
-
-(And more, but i have hungry... maybe other day)
-</value>
-  </data>
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         R0lGODlh8gHyAfcAABsFC4yCdOzCRHxGTMSMNMTDxUQ8ScqjXvznqbyiV7lnYVNWYYJoUMeklaqFTeTE
@@ -13645,6 +13624,27 @@ the final program.
         9Fioqsdx2bB3DuakkzsXDe6hry9yBDN9TEGyllb0eDdQaWOHVHbDEG407wKsCnzAUJi/AUKCH1xD96Na
         vUW+ykJz0m3OWRrNfYNzLMOIGlKG6UQl3tuXnnruWoN9FtENwTWswL0mc0NnN/Ljovt3NOXTkVfRykOg
         fk7eZlRRuEiza0ePdYpDhn0uDeeziHvtzx+4w/IGBAA7
+</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Open beta 4 is a feature-drop update specifically designed to bring several optimizations and improvements for Hondana Project.
+Back before the full release of Hondana Project, we talked about an Open Beta 3 update in Nobember this year. At the time, we
+learned that the update would bring several new features for Windows devices, including a brand new Fluid Design inspired by
+Windows 11, an Experimental Forums screen and more underhood tweaks.
+Now, the fourth Open Beta has gone live for Beta Testers.
+
+➤ User Interface
+• Optimized UI icons with improved textures, by using a design inspired by brand-new Fluid Design from Windows 11 materials
+and uniting lights and layers.
+
+➤ Forums
+• Added an Experimental Forums screen, so you now can send messages to other users in the program.
+
+➤ Database
+• The database has been restructured, adding new tables, triggers and stored procedures that will provide new query functions for
+the final program.
+
+(And more, but i have hungry... maybe other day)
 </value>
   </data>
 </root>

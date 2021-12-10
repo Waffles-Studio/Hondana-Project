@@ -18,6 +18,7 @@ namespace Hondana_Project_Beta
         public static string UserName { get; set; }
         public static string UserEmail { get; set; }
         public static string UserIcon { get; set; }
+        public static int MensajeBienvendia { get; set; }
 
 
     }

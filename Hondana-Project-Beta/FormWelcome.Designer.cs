@@ -29,6 +29,7 @@ namespace Hondana_Project_Beta
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormWelcome));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -42,6 +43,7 @@ namespace Hondana_Project_Beta
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.cmbserv = new System.Windows.Forms.ComboBox();
             this.txtaddserver = new System.Windows.Forms.Button();
+            this.NotificacionWaffle = new System.Windows.Forms.NotifyIcon(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -74,7 +76,7 @@ namespace Hondana_Project_Beta
             this.label3.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(12, 55);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(506, 36);
+            this.label3.Size = new System.Drawing.Size(415, 36);
             this.label3.TabIndex = 3;
             this.label3.Text = "Welcome to the Hondana Project";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -172,6 +174,12 @@ namespace Hondana_Project_Beta
             this.txtaddserver.UseVisualStyleBackColor = true;
             this.txtaddserver.Click += new System.EventHandler(this.txtaddserver_Click);
             // 
+            // NotificacionWaffle
+            // 
+            this.NotificacionWaffle.Icon = ((System.Drawing.Icon)(resources.GetObject("NotificacionWaffle.Icon")));
+            this.NotificacionWaffle.Text = "Hondana 本棚 Project";
+            this.NotificacionWaffle.Visible = true;
+            // 
             // FormWelcome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
@@ -217,6 +225,7 @@ namespace Hondana_Project_Beta
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.ComboBox cmbserv;
         private System.Windows.Forms.Button txtaddserver;
+        private System.Windows.Forms.NotifyIcon NotificacionWaffle;
     }
 }
 
