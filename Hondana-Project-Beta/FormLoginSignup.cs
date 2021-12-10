@@ -27,9 +27,10 @@ namespace Hondana_Project_Beta
             int res = login();
             if (res == 1)
             {
-                this.Hide();
                 FormHome FH = new FormHome();
+                this.Hide();
                 FH.ShowDialog();
+                this.Close();
             }
             else
             {
