@@ -16,5 +16,102 @@ namespace Hondana_Project_Beta
         {
             InitializeComponent();
         }
+        #region Envio de formas
+
+        private void BtnSearch_Click(object sender, EventArgs e)
+        {
+            NotificacionWaffle.Visible = false;
+
+            FormSearch FH = new FormSearch();
+            this.Hide();
+            FH.ShowDialog();
+            this.Close();
+        }
+
+        private void BtnLibrary_Click(object sender, EventArgs e)
+        {
+            NotificacionWaffle.Visible = false;
+
+            FormHome FH = new FormHome();
+            this.Hide();
+            FH.ShowDialog();
+            this.Close();
+        }
+
+        private void BtnFavorites_Click(object sender, EventArgs e)
+        {
+            NotificacionWaffle.Visible = false;
+
+            FormFavorites FH = new FormFavorites();
+            this.Hide();
+            FH.ShowDialog();
+            this.Close();
+        }
+
+        private void BtnForums_Click(object sender, EventArgs e)
+        {
+            NotificacionWaffle.Visible = false;
+
+            FormForums FH = new FormForums();
+            this.Hide();
+            FH.ShowDialog();
+            this.Close();
+        }
+
+        private void BtnNewsletter_Click(object sender, EventArgs e)
+        {
+            this.Refresh();
+        }
+
+        private void BtnUpdates_Click(object sender, EventArgs e)
+        {
+            NotificacionWaffle.Visible = false;
+
+            FormUpdater FH = new FormUpdater();
+            this.Hide();
+            FH.ShowDialog();
+            this.Close();
+        }
+
+        private void BtnAbout_Click(object sender, EventArgs e)
+        {
+            NotificacionWaffle.Visible = false;
+
+            FormAbout FH = new FormAbout();
+            this.Hide();
+            FH.ShowDialog();
+            this.Close();
+        }
+
+        private void BtnLogout_Click(object sender, EventArgs e)
+        {
+            NotificacionWaffle.Visible = false;
+
+            FormWelcome FH = new FormWelcome();
+            this.Hide();
+            FH.ShowDialog();
+            this.Close();
+        }
+
+        private void BtnHelp_Click(object sender, EventArgs e)
+        {
+            NotificacionWaffle.Visible = false;
+
+            FormSupport FH = new FormSupport();
+            this.Hide();
+            FH.ShowDialog();
+            this.Close();
+        }
+
+        private void BtnSettings_Click(object sender, EventArgs e)
+        {
+            NotificacionWaffle.Visible = false;
+
+            FormSettings FH = new FormSettings();
+            this.Hide();
+            FH.ShowDialog();
+            this.Close();
+        }
+        #endregion
     }
 }

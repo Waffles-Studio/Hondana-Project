@@ -201,58 +201,70 @@ namespace Hondana_Project_Beta
         #region Registrarse
         private void BtnSignup_Click(object sender, EventArgs e)
         {
-            if (TxtSignupPassword.Text == TxtSignupConfirm.Text)
+            if (TxtSignupName.Text != "Your name" && TxtSignupEmail.Text != "someone@example.com" && TxtSignupPassword.Text != "•••" && TxtSignupConfirm.Text != "•••")
             {
-                int bien = 0;
-                Globales.conexion.Open();
-                try
+                if (TxtSignupPassword.Text == TxtSignupConfirm.Text)
                 {
-
-                    string sp = "SPABRUsuarios";
-                    using (SqlCommand cmdInserta = new SqlCommand(sp, Globales.conexion))
+                    int bien = 0;
+                    Globales.conexion.Open();
+                    try
                     {
-                        cmdInserta.CommandType = CommandType.StoredProcedure;
-                        cmdInserta.Parameters.Clear();
 
-                        byte[] imagen = new byte[10];
-                        int rol = 2;
-                        cmdInserta.Parameters.AddWithValue("@UserRole", rol);
-                        cmdInserta.Parameters.AddWithValue("@UserName", TxtSignupName.Text);
-                        cmdInserta.Parameters.AddWithValue("@UserEmail", TxtSignupEmail.Text);
-                        cmdInserta.Parameters.AddWithValue("@UserPassword", TxtSignupPassword.Text);
-                        cmdInserta.Parameters.AddWithValue("@UserIcon", imagen);
-                        cmdInserta.Parameters.AddWithValue("@Activo", "True");
-                        cmdInserta.Parameters.AddWithValue("@CRUD", "Alta");
-                        cmdInserta.Parameters.AddWithValue("@Status", SqlDbType.Bit).Direction = ParameterDirection.Output;
+                        string sp = "SPABRUsuarios";
+                        using (SqlCommand cmdInserta = new SqlCommand(sp, Globales.conexion))
+                        {
+                            cmdInserta.CommandType = CommandType.StoredProcedure;
+                            cmdInserta.Parameters.Clear();
 
-                        cmdInserta.ExecuteNonQuery();
-                        bien = Convert.ToInt32(cmdInserta.Parameters["@Status"].Value);
-                        MessageBox.Show(""+bien);
+                            byte[] imagen = new byte[10];
+                            int rol = 2;
+                            cmdInserta.Parameters.AddWithValue("@UserRole", rol);
+                            cmdInserta.Parameters.AddWithValue("@UserName", TxtSignupName.Text);
+                            cmdInserta.Parameters.AddWithValue("@UserEmail", TxtSignupEmail.Text);
+                            cmdInserta.Parameters.AddWithValue("@UserPassword", TxtSignupPassword.Text);
+                            cmdInserta.Parameters.AddWithValue("@UserIcon", imagen);
+                            cmdInserta.Parameters.AddWithValue("@Activo", "True");
+                            cmdInserta.Parameters.AddWithValue("@CRUD", "Alta");
+                            cmdInserta.Parameters.AddWithValue("@Status", SqlDbType.Bit).Direction = ParameterDirection.Output;
+
+                            cmdInserta.ExecuteNonQuery();
+                            bien = Convert.ToInt32(cmdInserta.Parameters["@Status"].Value);
+                            MessageBox.Show("" + bien);
+                        }
+                    }
+                    catch (Exception b)
+                    {
+                        NotificacionWaffle.ShowBalloonTip(100, "Fail everything that could fail", "check the... sp?", ToolTipIcon.Warning);
+                    }
+                    finally
+                    {
+                        if (bien == 1)
+                        {
+                            NotificacionWaffle.ShowBalloonTip(100, "User successfully registered.", "Now you can login", ToolTipIcon.None);
+                        }
+                        else
+                        {
+                            NotificacionWaffle.ShowBalloonTip(100, "Please use another or login.", "This email is already used in another account.", ToolTipIcon.Warning);
+                        }
                     }
                 }
-                catch (Exception b)
+                else
                 {
-                    NotificacionWaffle.ShowBalloonTip(100, "Fail everything that could fail", "check the... sp? or the TextBox :) ", ToolTipIcon.Warning);
-                }
-                finally
-                {
-                    if (bien == 1)
-                    {
-                        NotificacionWaffle.ShowBalloonTip(100, "User successfully registered.", "Now you can login", ToolTipIcon.None);
-                    }
-                    else
-                    {
-                        NotificacionWaffle.ShowBalloonTip(100, "Please use another or login.", "This email is already used in another account.", ToolTipIcon.Warning);
-                    }
+                    NotificacionWaffle.ShowBalloonTip(100, "Your passwords do not match.", "Please correct it", ToolTipIcon.Warning);
                 }
             }
             else
             {
-                MessageBox.Show("Your passwords do not match. \nPlease correct it", ":(");
+                NotificacionWaffle.ShowBalloonTip(100, "Information is missing", "Please fill in all the fields", ToolTipIcon.Warning);
             }
+
             Globales.conexion.Close();
         }
         #endregion
 
+        private void LblLoginForgot_Click(object sender, EventArgs e)
+        {
+            NotificacionWaffle.ShowBalloonTip(100, "Ups", "Coming soon....", ToolTipIcon.Warning);
+        }
     }
 }

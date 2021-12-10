@@ -34,10 +34,12 @@ namespace Hondana_Project_Beta
             FF.ShowDialog();
             this.Close();
         }
+
         private void BtnLibrary_Click(object sender, EventArgs e)
         {
             this.Refresh();
         }
+
         private void BtnFavorites_Click(object sender, EventArgs e)
         {
             NotifiacionWaffle.Visible = false;
@@ -88,8 +90,38 @@ namespace Hondana_Project_Beta
             fw.ShowDialog();
             this.Close();
         }
-        #endregion
 
+        private void BtnAbout_Click(object sender, EventArgs e)
+        {
+            NotifiacionWaffle.Visible = false;
+
+            FormAbout FA = new FormAbout();
+            this.Hide();
+            FA.ShowDialog();
+            this.Close();
+        }
+        private void BtnHelp_Click(object sender, EventArgs e)
+        {
+            NotifiacionWaffle.Visible = false;
+
+            FormSupport FS = new FormSupport();
+            this.Hide();
+            FS.ShowDialog();
+            this.Close();
+        }
+
+        private void BtnSettings_Click(object sender, EventArgs e)
+        {
+            NotifiacionWaffle.Visible = false;
+
+            FormSettings FS = new FormSettings();
+            this.Hide();
+            FS.ShowDialog();
+            this.Close();
+        }
+
+
+        #endregion
 
     }
 }

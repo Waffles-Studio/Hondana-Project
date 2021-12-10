@@ -194,6 +194,7 @@ namespace Hondana_Project_Beta
             this.LblLoginForgot.Size = new System.Drawing.Size(211, 19);
             this.LblLoginForgot.TabIndex = 21;
             this.LblLoginForgot.Text = "Did you forget your password?";
+            this.LblLoginForgot.Click += new System.EventHandler(this.LblLoginForgot_Click);
             // 
             // label9
             // 

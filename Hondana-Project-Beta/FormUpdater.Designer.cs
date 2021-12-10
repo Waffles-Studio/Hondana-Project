@@ -29,6 +29,7 @@ namespace Hondana_Project_Beta
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormUpdater));
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
@@ -58,6 +59,8 @@ namespace Hondana_Project_Beta
             this.panel4 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.NotificacionWaffle = new System.Windows.Forms.NotifyIcon(this.components);
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -106,6 +109,7 @@ namespace Hondana_Project_Beta
             this.BtnUpdates.Text = "Updates";
             this.BtnUpdates.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.BtnUpdates.UseVisualStyleBackColor = false;
+            this.BtnUpdates.Click += new System.EventHandler(this.BtnUpdates_Click);
             // 
             // BtnAbout
             // 
@@ -121,6 +125,7 @@ namespace Hondana_Project_Beta
             this.BtnAbout.Text = "About";
             this.BtnAbout.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.BtnAbout.UseVisualStyleBackColor = false;
+            this.BtnAbout.Click += new System.EventHandler(this.BtnAbout_Click);
             // 
             // BtnLogout
             // 
@@ -136,6 +141,7 @@ namespace Hondana_Project_Beta
             this.BtnLogout.Text = "Log out";
             this.BtnLogout.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.BtnLogout.UseVisualStyleBackColor = false;
+            this.BtnLogout.Click += new System.EventHandler(this.BtnLogout_Click);
             // 
             // BtnNewsletter
             // 
@@ -151,6 +157,7 @@ namespace Hondana_Project_Beta
             this.BtnNewsletter.Text = "News";
             this.BtnNewsletter.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.BtnNewsletter.UseVisualStyleBackColor = false;
+            this.BtnNewsletter.Click += new System.EventHandler(this.BtnNewsletter_Click);
             // 
             // BtnForums
             // 
@@ -166,6 +173,7 @@ namespace Hondana_Project_Beta
             this.BtnForums.Text = "Forums";
             this.BtnForums.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.BtnForums.UseVisualStyleBackColor = false;
+            this.BtnForums.Click += new System.EventHandler(this.BtnForums_Click);
             // 
             // BtnFavorites
             // 
@@ -181,6 +189,7 @@ namespace Hondana_Project_Beta
             this.BtnFavorites.Text = "Favorites";
             this.BtnFavorites.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.BtnFavorites.UseVisualStyleBackColor = false;
+            this.BtnFavorites.Click += new System.EventHandler(this.BtnFavorites_Click);
             // 
             // BtnLibrary
             // 
@@ -196,6 +205,7 @@ namespace Hondana_Project_Beta
             this.BtnLibrary.Text = "Library";
             this.BtnLibrary.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.BtnLibrary.UseVisualStyleBackColor = false;
+            this.BtnLibrary.Click += new System.EventHandler(this.BtnLibrary_Click);
             // 
             // panel2
             // 
@@ -222,6 +232,7 @@ namespace Hondana_Project_Beta
             this.BtnSearch.Text = "Search";
             this.BtnSearch.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.BtnSearch.UseVisualStyleBackColor = false;
+            this.BtnSearch.Click += new System.EventHandler(this.BtnSearch_Click);
             // 
             // BtnHelp
             // 
@@ -237,6 +248,7 @@ namespace Hondana_Project_Beta
             this.BtnHelp.TabIndex = 5;
             this.BtnHelp.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.BtnHelp.UseVisualStyleBackColor = true;
+            this.BtnHelp.Click += new System.EventHandler(this.BtnHelp_Click);
             // 
             // BtnUserProfile
             // 
@@ -267,6 +279,7 @@ namespace Hondana_Project_Beta
             this.BtnSettings.TabIndex = 4;
             this.BtnSettings.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.BtnSettings.UseVisualStyleBackColor = true;
+            this.BtnSettings.Click += new System.EventHandler(this.BtnSettings_Click);
             // 
             // panel3
             // 
@@ -418,6 +431,16 @@ namespace Hondana_Project_Beta
             this.label3.Text = "Updates";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // NotificacionWaffle
+            // 
+            this.NotificacionWaffle.Icon = ((System.Drawing.Icon)(resources.GetObject("NotificacionWaffle.Icon")));
+            this.NotificacionWaffle.Text = "Hondana 本棚 Project";
+            this.NotificacionWaffle.Visible = true;
+            // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // FormUpdater
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
@@ -477,5 +500,7 @@ namespace Hondana_Project_Beta
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.NotifyIcon NotificacionWaffle;
+        private System.Windows.Forms.Timer timer1;
     }
 }

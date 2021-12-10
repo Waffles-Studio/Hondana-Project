@@ -164,6 +164,7 @@ namespace Hondana_Project_Beta
             this.BtnAbout.Text = "About";
             this.BtnAbout.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.BtnAbout.UseVisualStyleBackColor = false;
+            this.BtnAbout.Click += new System.EventHandler(this.BtnAbout_Click);
             // 
             // BtnLogout
             // 
@@ -296,7 +297,7 @@ namespace Hondana_Project_Beta
             this.BtnSettings.TabIndex = 4;
             this.BtnSettings.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.BtnSettings.UseVisualStyleBackColor = true;
-            //this.BtnSettings.Click += new System.EventHandler(this.BtnSettings_Click);
+            this.BtnSettings.Click += new System.EventHandler(this.BtnSettings_Click);
             // 
             // BtnHelp
             // 
@@ -312,7 +313,7 @@ namespace Hondana_Project_Beta
             this.BtnHelp.TabIndex = 5;
             this.BtnHelp.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.BtnHelp.UseVisualStyleBackColor = true;
-            //this.BtnHelp.Click += new System.EventHandler(this.BtnHelp_Click);
+            this.BtnHelp.Click += new System.EventHandler(this.BtnHelp_Click);
             // 
             // label3
             // 
