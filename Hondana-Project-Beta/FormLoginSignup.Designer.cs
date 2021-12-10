@@ -208,7 +208,7 @@ namespace Hondana_Project_Beta
             this.TxtSignupEmail.Name = "TxtSignupEmail";
             this.TxtSignupEmail.Size = new System.Drawing.Size(275, 30);
             this.TxtSignupEmail.TabIndex = 26;
-            this.TxtSignupEmail.Text = "••••••••••";
+            this.TxtSignupEmail.Text = "someone@example.com";
             // 
             // label10
             // 
@@ -265,7 +265,7 @@ namespace Hondana_Project_Beta
             this.TxtSignupPassword.Name = "TxtSignupPassword";
             this.TxtSignupPassword.Size = new System.Drawing.Size(275, 30);
             this.TxtSignupPassword.TabIndex = 28;
-            this.TxtSignupPassword.Text = "someone@example.com";
+            this.TxtSignupPassword.Text = "••••••••••";
             // 
             // label13
             // 
