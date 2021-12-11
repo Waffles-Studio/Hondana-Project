@@ -72,7 +72,7 @@ namespace Hondana_Project_Beta
             StreamWriter agregar = File.AppendText("ConDB.txt");
             agregar.WriteLine(cmbserv.Text);
             agregar.Close();
-            NotificacionWaffle.ShowBalloonTip(100, "Added server", "It is now on your server list", ToolTipIcon.Warning);
+            NotificacionWaffle.ShowBalloonTip(100, "Added server", "It is now on your server list", ToolTipIcon.None);
 
             add();
         }

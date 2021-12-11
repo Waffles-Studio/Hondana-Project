@@ -28,6 +28,7 @@ namespace Hondana_Project_Beta
             int res = login();
             if (res == 1)
             {
+                insertlog();
                 NotificacionWaffle.Visible = false;
 
                 Globales.MensajeBienvendia = 1;
@@ -47,6 +48,22 @@ namespace Hondana_Project_Beta
                     NotificacionWaffle.ShowBalloonTip(100, "Incorrect user or password.", "Try again", ToolTipIcon.Warning);
                 }
             }
+        }
+
+        public void insertlog()
+        {
+            Globales.conexion.Open();
+            string sqlinsert = "INSERT INTO Logs (Who, [what], [where], [when]) VALUES(@who, @what, @where, @when)";
+
+            using (SqlCommand cmdins = new SqlCommand(sqlinsert, Globales.conexion))
+            {
+                cmdins.Parameters.AddWithValue("@who", Globales.UserID);
+                cmdins.Parameters.AddWithValue("@what", "Login");
+                cmdins.Parameters.AddWithValue("@where", "Hondana Project Beta");
+                cmdins.Parameters.AddWithValue("@when", DateTime.Now);
+                cmdins.ExecuteNonQuery();
+            }
+            Globales.conexion.Close();
         }
 
         public int login()
@@ -262,9 +279,11 @@ namespace Hondana_Project_Beta
         }
         #endregion
 
+        #region Proximamente
         private void LblLoginForgot_Click(object sender, EventArgs e)
         {
             NotificacionWaffle.ShowBalloonTip(100, "Ups", "Coming soon....", ToolTipIcon.Warning);
         }
+        #endregion
     }
 }
