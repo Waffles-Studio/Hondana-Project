@@ -49,25 +49,74 @@ namespace Hondana_Project_Beta
             this.label2 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
+            this.pan1 = new System.Windows.Forms.Panel();
+            this.lbl1_3 = new System.Windows.Forms.Label();
+            this.lbl1_2 = new System.Windows.Forms.Label();
+            this.lbl1_1 = new System.Windows.Forms.Label();
+            this.button12 = new System.Windows.Forms.Button();
+            this.fondo3 = new System.Windows.Forms.PictureBox();
+            this.fondo2 = new System.Windows.Forms.Label();
+            this.fondo1 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.NotificacionWaffle = new System.Windows.Forms.NotifyIcon(this.components);
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.button12 = new System.Windows.Forms.Button();
+            this.pan2 = new System.Windows.Forms.Panel();
+            this.lbl2_3 = new System.Windows.Forms.Label();
+            this.lbl2_2 = new System.Windows.Forms.Label();
+            this.lbl2_1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.lbl1_4 = new System.Windows.Forms.Label();
+            this.lbl2_4 = new System.Windows.Forms.Label();
+            this.pan3 = new System.Windows.Forms.Panel();
+            this.lbl3_4 = new System.Windows.Forms.Label();
+            this.lbl3_3 = new System.Windows.Forms.Label();
+            this.lbl3_2 = new System.Windows.Forms.Label();
+            this.lbl3_1 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.pan4 = new System.Windows.Forms.Panel();
+            this.lbl4_4 = new System.Windows.Forms.Label();
+            this.lbl4_3 = new System.Windows.Forms.Label();
+            this.lbl4_2 = new System.Windows.Forms.Label();
+            this.lbl4_1 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
+            this.pan5 = new System.Windows.Forms.Panel();
+            this.lbl5_4 = new System.Windows.Forms.Label();
+            this.lbl5_3 = new System.Windows.Forms.Label();
+            this.lbl5_2 = new System.Windows.Forms.Label();
+            this.lbl5_1 = new System.Windows.Forms.Label();
+            this.button4 = new System.Windows.Forms.Button();
+            this.pan6 = new System.Windows.Forms.Panel();
+            this.lbl6_4 = new System.Windows.Forms.Label();
+            this.lbl6_3 = new System.Windows.Forms.Label();
+            this.lbl6_2 = new System.Windows.Forms.Label();
+            this.lbl6_1 = new System.Windows.Forms.Label();
+            this.button5 = new System.Windows.Forms.Button();
+            this.pan7 = new System.Windows.Forms.Panel();
+            this.lbl7_4 = new System.Windows.Forms.Label();
+            this.lbl7_3 = new System.Windows.Forms.Label();
+            this.lbl7_2 = new System.Windows.Forms.Label();
+            this.lbl7_1 = new System.Windows.Forms.Label();
+            this.button6 = new System.Windows.Forms.Button();
+            this.pan8 = new System.Windows.Forms.Panel();
+            this.lbl8_4 = new System.Windows.Forms.Label();
+            this.lbl8_3 = new System.Windows.Forms.Label();
+            this.lbl8_2 = new System.Windows.Forms.Label();
+            this.lbl8_1 = new System.Windows.Forms.Label();
+            this.button7 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panel7.SuspendLayout();
+            this.pan1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.fondo3)).BeginInit();
+            this.pan2.SuspendLayout();
+            this.pan3.SuspendLayout();
+            this.pan4.SuspendLayout();
+            this.pan5.SuspendLayout();
+            this.pan6.SuspendLayout();
+            this.pan7.SuspendLayout();
+            this.pan8.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -318,45 +367,105 @@ namespace Hondana_Project_Beta
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.LavenderBlush;
-            this.panel6.Controls.Add(this.panel7);
-            this.panel6.Controls.Add(this.pictureBox1);
-            this.panel6.Controls.Add(this.label6);
-            this.panel6.Controls.Add(this.label5);
+            this.panel6.Controls.Add(this.pan8);
+            this.panel6.Controls.Add(this.pan7);
+            this.panel6.Controls.Add(this.pan6);
+            this.panel6.Controls.Add(this.pan5);
+            this.panel6.Controls.Add(this.pan4);
+            this.panel6.Controls.Add(this.pan3);
+            this.panel6.Controls.Add(this.pan2);
+            this.panel6.Controls.Add(this.pan1);
+            this.panel6.Controls.Add(this.fondo3);
+            this.panel6.Controls.Add(this.fondo2);
+            this.panel6.Controls.Add(this.fondo1);
             this.panel6.Location = new System.Drawing.Point(11, 104);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(1260, 558);
             this.panel6.TabIndex = 17;
             // 
-            // pictureBox1
+            // pan1
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(500, 267);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(260, 260);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
+            this.pan1.BackColor = System.Drawing.Color.White;
+            this.pan1.Controls.Add(this.lbl1_4);
+            this.pan1.Controls.Add(this.lbl1_3);
+            this.pan1.Controls.Add(this.lbl1_2);
+            this.pan1.Controls.Add(this.lbl1_1);
+            this.pan1.Controls.Add(this.button12);
+            this.pan1.Location = new System.Drawing.Point(10, 3);
+            this.pan1.Name = "pan1";
+            this.pan1.Size = new System.Drawing.Size(617, 124);
+            this.pan1.TabIndex = 3;
             // 
-            // label6
+            // lbl1_3
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Segoe UI Variable Text", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label6.Location = new System.Drawing.Point(449, 207);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(299, 21);
-            this.label6.TabIndex = 1;
-            this.label6.Text = "Explore our library and find new favorites.";
+            this.lbl1_3.AutoSize = true;
+            this.lbl1_3.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.lbl1_3.Location = new System.Drawing.Point(101, 70);
+            this.lbl1_3.Name = "lbl1_3";
+            this.lbl1_3.Size = new System.Drawing.Size(70, 19);
+            this.lbl1_3.TabIndex = 1;
+            this.lbl1_3.Text = "146 Pages";
             // 
-            // label5
+            // lbl1_2
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(534, 175);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(150, 26);
-            this.label5.TabIndex = 0;
-            this.label5.Text = "No books added";
+            this.lbl1_2.AutoSize = true;
+            this.lbl1_2.BackColor = System.Drawing.Color.White;
+            this.lbl1_2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.lbl1_2.Location = new System.Drawing.Point(101, 48);
+            this.lbl1_2.Name = "lbl1_2";
+            this.lbl1_2.Size = new System.Drawing.Size(90, 19);
+            this.lbl1_2.TabIndex = 1;
+            this.lbl1_2.Text = "Tomoki Izumi";
+            // 
+            // lbl1_1
+            // 
+            this.lbl1_1.AutoSize = true;
+            this.lbl1_1.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl1_1.Location = new System.Drawing.Point(99, 21);
+            this.lbl1_1.Name = "lbl1_1";
+            this.lbl1_1.Size = new System.Drawing.Size(111, 21);
+            this.lbl1_1.TabIndex = 1;
+            this.lbl1_1.Text = "Mieruko-chan";
+            // 
+            // button12
+            // 
+            this.button12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button12.Location = new System.Drawing.Point(3, 3);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(91, 112);
+            this.button12.TabIndex = 1;
+            this.button12.UseVisualStyleBackColor = true;
+            // 
+            // fondo3
+            // 
+            this.fondo3.Image = ((System.Drawing.Image)(resources.GetObject("fondo3.Image")));
+            this.fondo3.Location = new System.Drawing.Point(500, 267);
+            this.fondo3.Name = "fondo3";
+            this.fondo3.Size = new System.Drawing.Size(260, 260);
+            this.fondo3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.fondo3.TabIndex = 2;
+            this.fondo3.TabStop = false;
+            // 
+            // fondo2
+            // 
+            this.fondo2.AutoSize = true;
+            this.fondo2.Font = new System.Drawing.Font("Segoe UI Variable Text", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fondo2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.fondo2.Location = new System.Drawing.Point(449, 207);
+            this.fondo2.Name = "fondo2";
+            this.fondo2.Size = new System.Drawing.Size(299, 21);
+            this.fondo2.TabIndex = 1;
+            this.fondo2.Text = "Explore our library and find new favorites.";
+            // 
+            // fondo1
+            // 
+            this.fondo1.AutoSize = true;
+            this.fondo1.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fondo1.Location = new System.Drawing.Point(534, 175);
+            this.fondo1.Name = "fondo1";
+            this.fondo1.Size = new System.Drawing.Size(150, 26);
+            this.fondo1.TabIndex = 0;
+            this.fondo1.Text = "No books added";
             // 
             // panel4
             // 
@@ -393,69 +502,456 @@ namespace Hondana_Project_Beta
             this.NotificacionWaffle.Text = "Hondana 本棚 Project";
             this.NotificacionWaffle.Visible = true;
             // 
-            // panel7
+            // pan2
             // 
-            this.panel7.BackColor = System.Drawing.Color.White;
-            this.panel7.Controls.Add(this.label8);
-            this.panel7.Controls.Add(this.label7);
-            this.panel7.Controls.Add(this.label9);
-            this.panel7.Controls.Add(this.label10);
-            this.panel7.Controls.Add(this.button12);
-            this.panel7.Location = new System.Drawing.Point(11, 11);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(1239, 124);
-            this.panel7.TabIndex = 3;
+            this.pan2.BackColor = System.Drawing.Color.White;
+            this.pan2.Controls.Add(this.lbl2_4);
+            this.pan2.Controls.Add(this.lbl2_3);
+            this.pan2.Controls.Add(this.lbl2_2);
+            this.pan2.Controls.Add(this.lbl2_1);
+            this.pan2.Controls.Add(this.button1);
+            this.pan2.Location = new System.Drawing.Point(634, 3);
+            this.pan2.Name = "pan2";
+            this.pan2.Size = new System.Drawing.Size(617, 124);
+            this.pan2.TabIndex = 4;
             // 
-            // label8
+            // lbl2_3
             // 
-            this.label8.AutoSize = true;
-            this.label8.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label8.Location = new System.Drawing.Point(101, 92);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(64, 19);
-            this.label8.TabIndex = 2;
-            this.label8.Text = "✩✩✩✩✩";
+            this.lbl2_3.AutoSize = true;
+            this.lbl2_3.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.lbl2_3.Location = new System.Drawing.Point(101, 70);
+            this.lbl2_3.Name = "lbl2_3";
+            this.lbl2_3.Size = new System.Drawing.Size(70, 19);
+            this.lbl2_3.TabIndex = 1;
+            this.lbl2_3.Text = "146 Pages";
             // 
-            // label7
+            // lbl2_2
             // 
-            this.label7.AutoSize = true;
-            this.label7.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label7.Location = new System.Drawing.Point(101, 70);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(70, 19);
-            this.label7.TabIndex = 1;
-            this.label7.Text = "146 Pages";
+            this.lbl2_2.AutoSize = true;
+            this.lbl2_2.BackColor = System.Drawing.Color.White;
+            this.lbl2_2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.lbl2_2.Location = new System.Drawing.Point(101, 48);
+            this.lbl2_2.Name = "lbl2_2";
+            this.lbl2_2.Size = new System.Drawing.Size(90, 19);
+            this.lbl2_2.TabIndex = 1;
+            this.lbl2_2.Text = "Tomoki Izumi";
             // 
-            // label9
+            // lbl2_1
             // 
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.White;
-            this.label9.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label9.Location = new System.Drawing.Point(101, 48);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(90, 19);
-            this.label9.TabIndex = 1;
-            this.label9.Text = "Tomoki Izumi";
+            this.lbl2_1.AutoSize = true;
+            this.lbl2_1.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl2_1.Location = new System.Drawing.Point(100, 21);
+            this.lbl2_1.Name = "lbl2_1";
+            this.lbl2_1.Size = new System.Drawing.Size(111, 21);
+            this.lbl2_1.TabIndex = 1;
+            this.lbl2_1.Text = "Mieruko-chan";
             // 
-            // label10
+            // button1
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(100, 21);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(111, 21);
-            this.label10.TabIndex = 1;
-            this.label10.Text = "Mieruko-chan";
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.Location = new System.Drawing.Point(3, 3);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(91, 112);
+            this.button1.TabIndex = 1;
+            this.button1.UseVisualStyleBackColor = true;
             // 
-            // button12
+            // lbl1_4
             // 
-            this.button12.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button12.BackgroundImage")));
-            this.button12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button12.Location = new System.Drawing.Point(3, 3);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(91, 112);
-            this.button12.TabIndex = 1;
-            this.button12.UseVisualStyleBackColor = true;
+            this.lbl1_4.AutoSize = true;
+            this.lbl1_4.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.lbl1_4.Location = new System.Drawing.Point(101, 89);
+            this.lbl1_4.Name = "lbl1_4";
+            this.lbl1_4.Size = new System.Drawing.Size(30, 19);
+            this.lbl1_4.TabIndex = 3;
+            this.lbl1_4.Text = "0/5";
+            // 
+            // lbl2_4
+            // 
+            this.lbl2_4.AutoSize = true;
+            this.lbl2_4.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.lbl2_4.Location = new System.Drawing.Point(101, 96);
+            this.lbl2_4.Name = "lbl2_4";
+            this.lbl2_4.Size = new System.Drawing.Size(30, 19);
+            this.lbl2_4.TabIndex = 4;
+            this.lbl2_4.Text = "0/5";
+            // 
+            // pan3
+            // 
+            this.pan3.BackColor = System.Drawing.Color.White;
+            this.pan3.Controls.Add(this.lbl3_4);
+            this.pan3.Controls.Add(this.lbl3_3);
+            this.pan3.Controls.Add(this.lbl3_2);
+            this.pan3.Controls.Add(this.lbl3_1);
+            this.pan3.Controls.Add(this.button2);
+            this.pan3.Location = new System.Drawing.Point(10, 133);
+            this.pan3.Name = "pan3";
+            this.pan3.Size = new System.Drawing.Size(617, 124);
+            this.pan3.TabIndex = 4;
+            // 
+            // lbl3_4
+            // 
+            this.lbl3_4.AutoSize = true;
+            this.lbl3_4.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.lbl3_4.Location = new System.Drawing.Point(101, 89);
+            this.lbl3_4.Name = "lbl3_4";
+            this.lbl3_4.Size = new System.Drawing.Size(30, 19);
+            this.lbl3_4.TabIndex = 3;
+            this.lbl3_4.Text = "0/5";
+            // 
+            // lbl3_3
+            // 
+            this.lbl3_3.AutoSize = true;
+            this.lbl3_3.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.lbl3_3.Location = new System.Drawing.Point(101, 70);
+            this.lbl3_3.Name = "lbl3_3";
+            this.lbl3_3.Size = new System.Drawing.Size(70, 19);
+            this.lbl3_3.TabIndex = 1;
+            this.lbl3_3.Text = "146 Pages";
+            // 
+            // lbl3_2
+            // 
+            this.lbl3_2.AutoSize = true;
+            this.lbl3_2.BackColor = System.Drawing.Color.White;
+            this.lbl3_2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.lbl3_2.Location = new System.Drawing.Point(101, 48);
+            this.lbl3_2.Name = "lbl3_2";
+            this.lbl3_2.Size = new System.Drawing.Size(90, 19);
+            this.lbl3_2.TabIndex = 1;
+            this.lbl3_2.Text = "Tomoki Izumi";
+            // 
+            // lbl3_1
+            // 
+            this.lbl3_1.AutoSize = true;
+            this.lbl3_1.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl3_1.Location = new System.Drawing.Point(100, 21);
+            this.lbl3_1.Name = "lbl3_1";
+            this.lbl3_1.Size = new System.Drawing.Size(111, 21);
+            this.lbl3_1.TabIndex = 1;
+            this.lbl3_1.Text = "Mieruko-chan";
+            // 
+            // button2
+            // 
+            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button2.Location = new System.Drawing.Point(3, 3);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(91, 112);
+            this.button2.TabIndex = 1;
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // pan4
+            // 
+            this.pan4.BackColor = System.Drawing.Color.White;
+            this.pan4.Controls.Add(this.lbl4_4);
+            this.pan4.Controls.Add(this.lbl4_3);
+            this.pan4.Controls.Add(this.lbl4_2);
+            this.pan4.Controls.Add(this.lbl4_1);
+            this.pan4.Controls.Add(this.button3);
+            this.pan4.Location = new System.Drawing.Point(634, 133);
+            this.pan4.Name = "pan4";
+            this.pan4.Size = new System.Drawing.Size(617, 124);
+            this.pan4.TabIndex = 5;
+            // 
+            // lbl4_4
+            // 
+            this.lbl4_4.AutoSize = true;
+            this.lbl4_4.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.lbl4_4.Location = new System.Drawing.Point(101, 89);
+            this.lbl4_4.Name = "lbl4_4";
+            this.lbl4_4.Size = new System.Drawing.Size(30, 19);
+            this.lbl4_4.TabIndex = 3;
+            this.lbl4_4.Text = "0/5";
+            // 
+            // lbl4_3
+            // 
+            this.lbl4_3.AutoSize = true;
+            this.lbl4_3.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.lbl4_3.Location = new System.Drawing.Point(101, 70);
+            this.lbl4_3.Name = "lbl4_3";
+            this.lbl4_3.Size = new System.Drawing.Size(70, 19);
+            this.lbl4_3.TabIndex = 1;
+            this.lbl4_3.Text = "146 Pages";
+            // 
+            // lbl4_2
+            // 
+            this.lbl4_2.AutoSize = true;
+            this.lbl4_2.BackColor = System.Drawing.Color.White;
+            this.lbl4_2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.lbl4_2.Location = new System.Drawing.Point(101, 48);
+            this.lbl4_2.Name = "lbl4_2";
+            this.lbl4_2.Size = new System.Drawing.Size(90, 19);
+            this.lbl4_2.TabIndex = 1;
+            this.lbl4_2.Text = "Tomoki Izumi";
+            // 
+            // lbl4_1
+            // 
+            this.lbl4_1.AutoSize = true;
+            this.lbl4_1.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl4_1.Location = new System.Drawing.Point(100, 21);
+            this.lbl4_1.Name = "lbl4_1";
+            this.lbl4_1.Size = new System.Drawing.Size(111, 21);
+            this.lbl4_1.TabIndex = 1;
+            this.lbl4_1.Text = "Mieruko-chan";
+            // 
+            // button3
+            // 
+            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button3.Location = new System.Drawing.Point(3, 3);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(91, 112);
+            this.button3.TabIndex = 1;
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // pan5
+            // 
+            this.pan5.BackColor = System.Drawing.Color.White;
+            this.pan5.Controls.Add(this.lbl5_4);
+            this.pan5.Controls.Add(this.lbl5_3);
+            this.pan5.Controls.Add(this.lbl5_2);
+            this.pan5.Controls.Add(this.lbl5_1);
+            this.pan5.Controls.Add(this.button4);
+            this.pan5.Location = new System.Drawing.Point(10, 263);
+            this.pan5.Name = "pan5";
+            this.pan5.Size = new System.Drawing.Size(617, 124);
+            this.pan5.TabIndex = 6;
+            // 
+            // lbl5_4
+            // 
+            this.lbl5_4.AutoSize = true;
+            this.lbl5_4.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.lbl5_4.Location = new System.Drawing.Point(101, 89);
+            this.lbl5_4.Name = "lbl5_4";
+            this.lbl5_4.Size = new System.Drawing.Size(30, 19);
+            this.lbl5_4.TabIndex = 3;
+            this.lbl5_4.Text = "0/5";
+            // 
+            // lbl5_3
+            // 
+            this.lbl5_3.AutoSize = true;
+            this.lbl5_3.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.lbl5_3.Location = new System.Drawing.Point(101, 70);
+            this.lbl5_3.Name = "lbl5_3";
+            this.lbl5_3.Size = new System.Drawing.Size(70, 19);
+            this.lbl5_3.TabIndex = 1;
+            this.lbl5_3.Text = "146 Pages";
+            // 
+            // lbl5_2
+            // 
+            this.lbl5_2.AutoSize = true;
+            this.lbl5_2.BackColor = System.Drawing.Color.White;
+            this.lbl5_2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.lbl5_2.Location = new System.Drawing.Point(101, 48);
+            this.lbl5_2.Name = "lbl5_2";
+            this.lbl5_2.Size = new System.Drawing.Size(90, 19);
+            this.lbl5_2.TabIndex = 1;
+            this.lbl5_2.Text = "Tomoki Izumi";
+            // 
+            // lbl5_1
+            // 
+            this.lbl5_1.AutoSize = true;
+            this.lbl5_1.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl5_1.Location = new System.Drawing.Point(100, 21);
+            this.lbl5_1.Name = "lbl5_1";
+            this.lbl5_1.Size = new System.Drawing.Size(111, 21);
+            this.lbl5_1.TabIndex = 1;
+            this.lbl5_1.Text = "Mieruko-chan";
+            // 
+            // button4
+            // 
+            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button4.Location = new System.Drawing.Point(3, 3);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(91, 112);
+            this.button4.TabIndex = 1;
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // pan6
+            // 
+            this.pan6.BackColor = System.Drawing.Color.White;
+            this.pan6.Controls.Add(this.lbl6_4);
+            this.pan6.Controls.Add(this.lbl6_3);
+            this.pan6.Controls.Add(this.lbl6_2);
+            this.pan6.Controls.Add(this.lbl6_1);
+            this.pan6.Controls.Add(this.button5);
+            this.pan6.Location = new System.Drawing.Point(634, 263);
+            this.pan6.Name = "pan6";
+            this.pan6.Size = new System.Drawing.Size(617, 124);
+            this.pan6.TabIndex = 7;
+            // 
+            // lbl6_4
+            // 
+            this.lbl6_4.AutoSize = true;
+            this.lbl6_4.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.lbl6_4.Location = new System.Drawing.Point(101, 89);
+            this.lbl6_4.Name = "lbl6_4";
+            this.lbl6_4.Size = new System.Drawing.Size(30, 19);
+            this.lbl6_4.TabIndex = 3;
+            this.lbl6_4.Text = "0/5";
+            // 
+            // lbl6_3
+            // 
+            this.lbl6_3.AutoSize = true;
+            this.lbl6_3.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.lbl6_3.Location = new System.Drawing.Point(101, 70);
+            this.lbl6_3.Name = "lbl6_3";
+            this.lbl6_3.Size = new System.Drawing.Size(70, 19);
+            this.lbl6_3.TabIndex = 1;
+            this.lbl6_3.Text = "146 Pages";
+            // 
+            // lbl6_2
+            // 
+            this.lbl6_2.AutoSize = true;
+            this.lbl6_2.BackColor = System.Drawing.Color.White;
+            this.lbl6_2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.lbl6_2.Location = new System.Drawing.Point(101, 48);
+            this.lbl6_2.Name = "lbl6_2";
+            this.lbl6_2.Size = new System.Drawing.Size(90, 19);
+            this.lbl6_2.TabIndex = 1;
+            this.lbl6_2.Text = "Tomoki Izumi";
+            // 
+            // lbl6_1
+            // 
+            this.lbl6_1.AutoSize = true;
+            this.lbl6_1.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl6_1.Location = new System.Drawing.Point(100, 21);
+            this.lbl6_1.Name = "lbl6_1";
+            this.lbl6_1.Size = new System.Drawing.Size(111, 21);
+            this.lbl6_1.TabIndex = 1;
+            this.lbl6_1.Text = "Mieruko-chan";
+            // 
+            // button5
+            // 
+            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button5.Location = new System.Drawing.Point(3, 3);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(91, 112);
+            this.button5.TabIndex = 1;
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // pan7
+            // 
+            this.pan7.BackColor = System.Drawing.Color.White;
+            this.pan7.Controls.Add(this.lbl7_4);
+            this.pan7.Controls.Add(this.lbl7_3);
+            this.pan7.Controls.Add(this.lbl7_2);
+            this.pan7.Controls.Add(this.lbl7_1);
+            this.pan7.Controls.Add(this.button6);
+            this.pan7.Location = new System.Drawing.Point(10, 393);
+            this.pan7.Name = "pan7";
+            this.pan7.Size = new System.Drawing.Size(617, 124);
+            this.pan7.TabIndex = 8;
+            // 
+            // lbl7_4
+            // 
+            this.lbl7_4.AutoSize = true;
+            this.lbl7_4.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.lbl7_4.Location = new System.Drawing.Point(101, 89);
+            this.lbl7_4.Name = "lbl7_4";
+            this.lbl7_4.Size = new System.Drawing.Size(30, 19);
+            this.lbl7_4.TabIndex = 3;
+            this.lbl7_4.Text = "0/5";
+            // 
+            // lbl7_3
+            // 
+            this.lbl7_3.AutoSize = true;
+            this.lbl7_3.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.lbl7_3.Location = new System.Drawing.Point(101, 70);
+            this.lbl7_3.Name = "lbl7_3";
+            this.lbl7_3.Size = new System.Drawing.Size(70, 19);
+            this.lbl7_3.TabIndex = 1;
+            this.lbl7_3.Text = "146 Pages";
+            // 
+            // lbl7_2
+            // 
+            this.lbl7_2.AutoSize = true;
+            this.lbl7_2.BackColor = System.Drawing.Color.White;
+            this.lbl7_2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.lbl7_2.Location = new System.Drawing.Point(101, 48);
+            this.lbl7_2.Name = "lbl7_2";
+            this.lbl7_2.Size = new System.Drawing.Size(90, 19);
+            this.lbl7_2.TabIndex = 1;
+            this.lbl7_2.Text = "Tomoki Izumi";
+            // 
+            // lbl7_1
+            // 
+            this.lbl7_1.AutoSize = true;
+            this.lbl7_1.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl7_1.Location = new System.Drawing.Point(100, 21);
+            this.lbl7_1.Name = "lbl7_1";
+            this.lbl7_1.Size = new System.Drawing.Size(111, 21);
+            this.lbl7_1.TabIndex = 1;
+            this.lbl7_1.Text = "Mieruko-chan";
+            // 
+            // button6
+            // 
+            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button6.Location = new System.Drawing.Point(3, 3);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(91, 112);
+            this.button6.TabIndex = 1;
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // pan8
+            // 
+            this.pan8.BackColor = System.Drawing.Color.White;
+            this.pan8.Controls.Add(this.lbl8_4);
+            this.pan8.Controls.Add(this.lbl8_3);
+            this.pan8.Controls.Add(this.lbl8_2);
+            this.pan8.Controls.Add(this.lbl8_1);
+            this.pan8.Controls.Add(this.button7);
+            this.pan8.Location = new System.Drawing.Point(633, 393);
+            this.pan8.Name = "pan8";
+            this.pan8.Size = new System.Drawing.Size(617, 124);
+            this.pan8.TabIndex = 9;
+            // 
+            // lbl8_4
+            // 
+            this.lbl8_4.AutoSize = true;
+            this.lbl8_4.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.lbl8_4.Location = new System.Drawing.Point(101, 89);
+            this.lbl8_4.Name = "lbl8_4";
+            this.lbl8_4.Size = new System.Drawing.Size(30, 19);
+            this.lbl8_4.TabIndex = 3;
+            this.lbl8_4.Text = "0/5";
+            // 
+            // lbl8_3
+            // 
+            this.lbl8_3.AutoSize = true;
+            this.lbl8_3.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.lbl8_3.Location = new System.Drawing.Point(101, 70);
+            this.lbl8_3.Name = "lbl8_3";
+            this.lbl8_3.Size = new System.Drawing.Size(70, 19);
+            this.lbl8_3.TabIndex = 1;
+            this.lbl8_3.Text = "146 Pages";
+            // 
+            // lbl8_2
+            // 
+            this.lbl8_2.AutoSize = true;
+            this.lbl8_2.BackColor = System.Drawing.Color.White;
+            this.lbl8_2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.lbl8_2.Location = new System.Drawing.Point(101, 48);
+            this.lbl8_2.Name = "lbl8_2";
+            this.lbl8_2.Size = new System.Drawing.Size(90, 19);
+            this.lbl8_2.TabIndex = 1;
+            this.lbl8_2.Text = "Tomoki Izumi";
+            // 
+            // lbl8_1
+            // 
+            this.lbl8_1.AutoSize = true;
+            this.lbl8_1.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl8_1.Location = new System.Drawing.Point(100, 21);
+            this.lbl8_1.Name = "lbl8_1";
+            this.lbl8_1.Size = new System.Drawing.Size(111, 21);
+            this.lbl8_1.TabIndex = 1;
+            this.lbl8_1.Text = "Mieruko-chan";
+            // 
+            // button7
+            // 
+            this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button7.Location = new System.Drawing.Point(3, 3);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(91, 112);
+            this.button7.TabIndex = 1;
+            this.button7.UseVisualStyleBackColor = true;
             // 
             // FormFavorites
             // 
@@ -482,9 +978,23 @@ namespace Hondana_Project_Beta
             this.panel3.PerformLayout();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panel7.ResumeLayout(false);
-            this.panel7.PerformLayout();
+            this.pan1.ResumeLayout(false);
+            this.pan1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.fondo3)).EndInit();
+            this.pan2.ResumeLayout(false);
+            this.pan2.PerformLayout();
+            this.pan3.ResumeLayout(false);
+            this.pan3.PerformLayout();
+            this.pan4.ResumeLayout(false);
+            this.pan4.PerformLayout();
+            this.pan5.ResumeLayout(false);
+            this.pan5.PerformLayout();
+            this.pan6.ResumeLayout(false);
+            this.pan6.PerformLayout();
+            this.pan7.ResumeLayout(false);
+            this.pan7.PerformLayout();
+            this.pan8.ResumeLayout(false);
+            this.pan8.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -513,15 +1023,57 @@ namespace Hondana_Project_Beta
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.PictureBox fondo3;
+        private System.Windows.Forms.Label fondo2;
+        private System.Windows.Forms.Label fondo1;
         private System.Windows.Forms.NotifyIcon NotificacionWaffle;
-        private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Panel pan1;
+        private System.Windows.Forms.Label lbl1_3;
+        private System.Windows.Forms.Label lbl1_2;
+        private System.Windows.Forms.Label lbl1_1;
         private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Panel pan2;
+        private System.Windows.Forms.Label lbl2_3;
+        private System.Windows.Forms.Label lbl2_2;
+        private System.Windows.Forms.Label lbl2_1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label lbl2_4;
+        private System.Windows.Forms.Label lbl1_4;
+        private System.Windows.Forms.Panel pan8;
+        private System.Windows.Forms.Label lbl8_4;
+        private System.Windows.Forms.Label lbl8_3;
+        private System.Windows.Forms.Label lbl8_2;
+        private System.Windows.Forms.Label lbl8_1;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Panel pan7;
+        private System.Windows.Forms.Label lbl7_4;
+        private System.Windows.Forms.Label lbl7_3;
+        private System.Windows.Forms.Label lbl7_2;
+        private System.Windows.Forms.Label lbl7_1;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Panel pan6;
+        private System.Windows.Forms.Label lbl6_4;
+        private System.Windows.Forms.Label lbl6_3;
+        private System.Windows.Forms.Label lbl6_2;
+        private System.Windows.Forms.Label lbl6_1;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Panel pan5;
+        private System.Windows.Forms.Label lbl5_4;
+        private System.Windows.Forms.Label lbl5_3;
+        private System.Windows.Forms.Label lbl5_2;
+        private System.Windows.Forms.Label lbl5_1;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Panel pan4;
+        private System.Windows.Forms.Label lbl4_4;
+        private System.Windows.Forms.Label lbl4_3;
+        private System.Windows.Forms.Label lbl4_2;
+        private System.Windows.Forms.Label lbl4_1;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Panel pan3;
+        private System.Windows.Forms.Label lbl3_4;
+        private System.Windows.Forms.Label lbl3_3;
+        private System.Windows.Forms.Label lbl3_2;
+        private System.Windows.Forms.Label lbl3_1;
+        private System.Windows.Forms.Button button2;
     }
 }
