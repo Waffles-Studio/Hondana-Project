@@ -13,11 +13,13 @@ namespace Hondana_Project_Beta
 {
     public partial class FormFavorites : Form
     {
+        #region inicio
         public FormFavorites()
         {
             InitializeComponent();
             llenarfav();
         }
+        #endregion
 
         #region Variables
         public DataTable DT = new DataTable();
@@ -115,23 +117,24 @@ namespace Hondana_Project_Beta
         #region Llenar de libros
         public void llenarfav()
         {
-            string sqllibros = "SELECT B.BookTitle, E.EditorialName, B.BookPages, B.BookRating " +
+            string sqllibros = "SELECT B.BookTitle, E.EditorialName, B.BookPages, B.BookRating, B.BookID " +
                 "FROM Favorites AS F " +
                 "INNER JOIN Users AS U ON (F.UserId = U.UserID) " +
                 "INNER JOIN Books AS B ON (F.BookID = B.BookID) " +
                 "INNER JOIN Editorials AS E ON (B.BookEditorial = E.EditorialId) " +
                 "WHERE F.UserId = @user ";
-            Globales.conexion.Open();
 
             using (SqlCommand cmdlib = new SqlCommand(sqllibros, Globales.conexion))
             {
+                Globales.conexion.Open();
                 cmdlib.Parameters.AddWithValue("user", Globales.UserID);
 
                 
                 SqlDataAdapter adapter = new SqlDataAdapter(cmdlib);
                 adapter.Fill(DT);
-
                 int Num = DT.Rows.Count;
+
+                Globales.conexion.Close();
 
                 if (Num != 0)
                 {
@@ -260,17 +263,19 @@ namespace Hondana_Project_Beta
                 }
 
             }
-            Globales.conexion.Close();
+            
         }
 
         public void llenar(int p)
         {
+            Globales.FavoritesPos = new int[p];
             if (p >= 1)
             {
                 lbl1_1.Text = DT.Rows[0][0].ToString();
                 lbl1_2.Text = DT.Rows[0][1].ToString();
                 lbl1_3.Text = DT.Rows[0][2].ToString() + " Pages";
                 lbl1_4.Text = DT.Rows[0][3].ToString() + "/5";
+                Globales.FavoritesPos[0] = Convert.ToInt32(DT.Rows[0][4]);
             }
             if (p >= 2)
             {
@@ -278,6 +283,7 @@ namespace Hondana_Project_Beta
                 lbl2_2.Text = DT.Rows[1][1].ToString();
                 lbl2_3.Text = DT.Rows[1][2].ToString() + " Pages";
                 lbl2_4.Text = DT.Rows[1][3].ToString() + "/5";
+                Globales.FavoritesPos[1] = Convert.ToInt32(DT.Rows[1][4]);
             }
             if (p >= 3)
             {
@@ -285,6 +291,7 @@ namespace Hondana_Project_Beta
                 lbl3_2.Text = DT.Rows[2][1].ToString();
                 lbl3_3.Text = DT.Rows[2][2].ToString() + " Pages";
                 lbl3_4.Text = DT.Rows[2][3].ToString() + "/5";
+                Globales.FavoritesPos[2] = Convert.ToInt32(DT.Rows[2][4]);
             }
             if (p >= 4)
             {
@@ -292,6 +299,7 @@ namespace Hondana_Project_Beta
                 lbl4_2.Text = DT.Rows[3][1].ToString();
                 lbl4_3.Text = DT.Rows[3][2].ToString() + " Pages";
                 lbl4_4.Text = DT.Rows[3][3].ToString() + "/5";
+                Globales.FavoritesPos[3] = Convert.ToInt32(DT.Rows[3][4]);
             }
             if (p >= 5)
             {
@@ -299,6 +307,7 @@ namespace Hondana_Project_Beta
                 lbl5_2.Text = DT.Rows[4][1].ToString();
                 lbl5_3.Text = DT.Rows[4][2].ToString() + " Pages";
                 lbl5_4.Text = DT.Rows[4][3].ToString() + "/5";
+                Globales.FavoritesPos[4] = Convert.ToInt32(DT.Rows[4][4]);
             }
             if (p >= 6)
             {
@@ -306,6 +315,7 @@ namespace Hondana_Project_Beta
                 lbl6_2.Text = DT.Rows[5][1].ToString();
                 lbl6_3.Text = DT.Rows[5][2].ToString() + " Pages";
                 lbl6_4.Text = DT.Rows[5][3].ToString() + "/5";
+                Globales.FavoritesPos[5] = Convert.ToInt32(DT.Rows[5][4]);
             }
             if (p >= 7)
             {
@@ -313,6 +323,7 @@ namespace Hondana_Project_Beta
                 lbl7_2.Text = DT.Rows[6][1].ToString();
                 lbl7_3.Text = DT.Rows[6][2].ToString() + " Pages";
                 lbl7_4.Text = DT.Rows[6][3].ToString() + "/5";
+                Globales.FavoritesPos[6] = Convert.ToInt32(DT.Rows[6][4]);
             }
             if (p >= 8)
             {
@@ -320,7 +331,69 @@ namespace Hondana_Project_Beta
                 lbl8_2.Text = DT.Rows[7][1].ToString();
                 lbl8_3.Text = DT.Rows[7][2].ToString() + " Pages";
                 lbl8_4.Text = DT.Rows[7][3].ToString() + "/5";
+                Globales.FavoritesPos[7] = Convert.ToInt32(DT.Rows[7][4]);
             }
+        }
+
+        #endregion
+
+        #region Envio a vistas
+        private void button12_Click(object sender, EventArgs e)
+        {
+            Globales.LibroLeer = Globales.FavoritesPos[0];
+            mandar();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Globales.LibroLeer = Globales.FavoritesPos[1];
+            mandar();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Globales.LibroLeer = Globales.FavoritesPos[2];
+            mandar();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Globales.LibroLeer = Globales.FavoritesPos[3];
+            mandar();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Globales.LibroLeer = Globales.FavoritesPos[4];
+            mandar();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Globales.LibroLeer = Globales.FavoritesPos[5];
+            mandar();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Globales.LibroLeer = Globales.FavoritesPos[6];
+            mandar();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Globales.LibroLeer = Globales.FavoritesPos[8];
+            mandar();
+        }
+
+        private void mandar()
+        {
+            FormViewer FV = new FormViewer();
+            this.Enabled = false;
+            NotificacionWaffle.Visible = false;
+            FV.ShowDialog();
+            this.Enabled = true;
+            NotificacionWaffle.Visible = true;
         }
         #endregion
     }

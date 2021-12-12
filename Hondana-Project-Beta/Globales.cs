@@ -20,7 +20,9 @@ namespace Hondana_Project_Beta
         public static string UserIcon { get; set; }
         public static int MensajeBienvendia { get; set; }
         public static int GrupoSel { get; set; }
-
+        public static int[] FavoritesPos { get; set; }
+        public static int LibroLeer { get; set; }
+        public static int Cargados { get; set; }
 
     }
 }
