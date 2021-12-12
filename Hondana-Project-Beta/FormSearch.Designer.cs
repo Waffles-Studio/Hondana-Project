@@ -50,77 +50,69 @@ namespace Hondana_Project_Beta
             this.label2 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel22 = new System.Windows.Forms.Panel();
-            this.panel24 = new System.Windows.Forms.Panel();
-            this.radioButton7 = new System.Windows.Forms.RadioButton();
-            this.panel25 = new System.Windows.Forms.Panel();
-            this.radioButton8 = new System.Windows.Forms.RadioButton();
-            this.panel26 = new System.Windows.Forms.Panel();
-            this.radioButton9 = new System.Windows.Forms.RadioButton();
-            this.panel27 = new System.Windows.Forms.Panel();
-            this.radioButton10 = new System.Windows.Forms.RadioButton();
-            this.panel28 = new System.Windows.Forms.Panel();
-            this.radioButton11 = new System.Windows.Forms.RadioButton();
             this.panel29 = new System.Windows.Forms.Panel();
-            this.radioButton12 = new System.Windows.Forms.RadioButton();
+            this.rr7 = new System.Windows.Forms.RadioButton();
+            this.rr6 = new System.Windows.Forms.RadioButton();
+            this.rr5 = new System.Windows.Forms.RadioButton();
+            this.rr4 = new System.Windows.Forms.RadioButton();
+            this.rr3 = new System.Windows.Forms.RadioButton();
+            this.rr2 = new System.Windows.Forms.RadioButton();
+            this.rr1 = new System.Windows.Forms.RadioButton();
             this.panel30 = new System.Windows.Forms.Panel();
             this.label33 = new System.Windows.Forms.Label();
             this.panel15 = new System.Windows.Forms.Panel();
-            this.panel21 = new System.Windows.Forms.Panel();
-            this.radioButton6 = new System.Windows.Forms.RadioButton();
-            this.panel20 = new System.Windows.Forms.Panel();
-            this.radioButton5 = new System.Windows.Forms.RadioButton();
-            this.panel19 = new System.Windows.Forms.Panel();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
-            this.panel18 = new System.Windows.Forms.Panel();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.panel17 = new System.Windows.Forms.Panel();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.panel16 = new System.Windows.Forms.Panel();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.rd7 = new System.Windows.Forms.RadioButton();
+            this.rd6 = new System.Windows.Forms.RadioButton();
+            this.rd5 = new System.Windows.Forms.RadioButton();
+            this.rd4 = new System.Windows.Forms.RadioButton();
+            this.rd3 = new System.Windows.Forms.RadioButton();
+            this.rd2 = new System.Windows.Forms.RadioButton();
+            this.rd1 = new System.Windows.Forms.RadioButton();
             this.panel23 = new System.Windows.Forms.Panel();
             this.label61 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.panel13 = new System.Windows.Forms.Panel();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
+            this.pan6 = new System.Windows.Forms.Panel();
+            this.l6_4 = new System.Windows.Forms.Label();
+            this.l6_3 = new System.Windows.Forms.Label();
+            this.l6_2 = new System.Windows.Forms.Label();
+            this.l6_1 = new System.Windows.Forms.Label();
             this.button18 = new System.Windows.Forms.Button();
-            this.panel12 = new System.Windows.Forms.Panel();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
+            this.pan7 = new System.Windows.Forms.Panel();
+            this.l7_4 = new System.Windows.Forms.Label();
+            this.l7_3 = new System.Windows.Forms.Label();
+            this.l7_2 = new System.Windows.Forms.Label();
+            this.l7_1 = new System.Windows.Forms.Label();
             this.button17 = new System.Windows.Forms.Button();
-            this.panel11 = new System.Windows.Forms.Panel();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
+            this.pan5 = new System.Windows.Forms.Panel();
+            this.l5_4 = new System.Windows.Forms.Label();
+            this.l5_3 = new System.Windows.Forms.Label();
+            this.l5_2 = new System.Windows.Forms.Label();
+            this.l5_1 = new System.Windows.Forms.Label();
             this.button16 = new System.Windows.Forms.Button();
-            this.panel10 = new System.Windows.Forms.Panel();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
+            this.pan4 = new System.Windows.Forms.Panel();
+            this.l4_4 = new System.Windows.Forms.Label();
+            this.l4_3 = new System.Windows.Forms.Label();
+            this.l4_2 = new System.Windows.Forms.Label();
+            this.l4_1 = new System.Windows.Forms.Label();
             this.button15 = new System.Windows.Forms.Button();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
+            this.pan3 = new System.Windows.Forms.Panel();
+            this.l3_4 = new System.Windows.Forms.Label();
+            this.l3_3 = new System.Windows.Forms.Label();
+            this.l3_2 = new System.Windows.Forms.Label();
+            this.l3_1 = new System.Windows.Forms.Label();
             this.button14 = new System.Windows.Forms.Button();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
+            this.pan2 = new System.Windows.Forms.Panel();
+            this.l2_4 = new System.Windows.Forms.Label();
+            this.l2_3 = new System.Windows.Forms.Label();
+            this.l2_2 = new System.Windows.Forms.Label();
+            this.l2_1 = new System.Windows.Forms.Label();
             this.button13 = new System.Windows.Forms.Button();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
+            this.pan1 = new System.Windows.Forms.Panel();
+            this.l1_4 = new System.Windows.Forms.Label();
+            this.l1_3 = new System.Windows.Forms.Label();
+            this.l1_2 = new System.Windows.Forms.Label();
+            this.l1_1 = new System.Windows.Forms.Label();
             this.button12 = new System.Windows.Forms.Button();
             this.panel14 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
@@ -131,27 +123,17 @@ namespace Hondana_Project_Beta
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel22.SuspendLayout();
-            this.panel24.SuspendLayout();
-            this.panel25.SuspendLayout();
-            this.panel26.SuspendLayout();
-            this.panel27.SuspendLayout();
-            this.panel28.SuspendLayout();
             this.panel29.SuspendLayout();
             this.panel15.SuspendLayout();
-            this.panel21.SuspendLayout();
-            this.panel20.SuspendLayout();
-            this.panel19.SuspendLayout();
-            this.panel18.SuspendLayout();
-            this.panel17.SuspendLayout();
             this.panel16.SuspendLayout();
             this.panel6.SuspendLayout();
-            this.panel13.SuspendLayout();
-            this.panel12.SuspendLayout();
-            this.panel11.SuspendLayout();
-            this.panel10.SuspendLayout();
-            this.panel9.SuspendLayout();
-            this.panel8.SuspendLayout();
-            this.panel7.SuspendLayout();
+            this.pan6.SuspendLayout();
+            this.pan7.SuspendLayout();
+            this.pan5.SuspendLayout();
+            this.pan4.SuspendLayout();
+            this.pan3.SuspendLayout();
+            this.pan2.SuspendLayout();
+            this.pan1.SuspendLayout();
             this.SuspendLayout();
             // 
             // textBox1
@@ -162,7 +144,7 @@ namespace Hondana_Project_Beta
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(442, 26);
             this.textBox1.TabIndex = 1;
-            this.textBox1.Text = "Type your Search here...";
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // panel1
             // 
@@ -195,6 +177,7 @@ namespace Hondana_Project_Beta
             this.BtnUpdates.Text = "Updates";
             this.BtnUpdates.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.BtnUpdates.UseVisualStyleBackColor = false;
+            this.BtnUpdates.Click += new System.EventHandler(this.BtnUpdates_Click);
             // 
             // BtnAbout
             // 
@@ -210,6 +193,7 @@ namespace Hondana_Project_Beta
             this.BtnAbout.Text = "About";
             this.BtnAbout.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.BtnAbout.UseVisualStyleBackColor = false;
+            this.BtnAbout.Click += new System.EventHandler(this.BtnAbout_Click);
             // 
             // BtnLogout
             // 
@@ -225,6 +209,7 @@ namespace Hondana_Project_Beta
             this.BtnLogout.Text = "Log out";
             this.BtnLogout.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.BtnLogout.UseVisualStyleBackColor = false;
+            this.BtnLogout.Click += new System.EventHandler(this.BtnLogout_Click);
             // 
             // BtnNewsletter
             // 
@@ -240,6 +225,7 @@ namespace Hondana_Project_Beta
             this.BtnNewsletter.Text = "News";
             this.BtnNewsletter.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.BtnNewsletter.UseVisualStyleBackColor = false;
+            this.BtnNewsletter.Click += new System.EventHandler(this.BtnNewsletter_Click);
             // 
             // BtnForums
             // 
@@ -255,6 +241,7 @@ namespace Hondana_Project_Beta
             this.BtnForums.Text = "Forums";
             this.BtnForums.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.BtnForums.UseVisualStyleBackColor = false;
+            this.BtnForums.Click += new System.EventHandler(this.BtnForums_Click);
             // 
             // BtnFavorites
             // 
@@ -270,6 +257,7 @@ namespace Hondana_Project_Beta
             this.BtnFavorites.Text = "Favorites";
             this.BtnFavorites.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.BtnFavorites.UseVisualStyleBackColor = false;
+            this.BtnFavorites.Click += new System.EventHandler(this.BtnFavorites_Click);
             // 
             // BtnLibrary
             // 
@@ -285,6 +273,7 @@ namespace Hondana_Project_Beta
             this.BtnLibrary.Text = "Library";
             this.BtnLibrary.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.BtnLibrary.UseVisualStyleBackColor = false;
+            this.BtnLibrary.Click += new System.EventHandler(this.BtnLibrary_Click);
             // 
             // panel2
             // 
@@ -338,6 +327,7 @@ namespace Hondana_Project_Beta
             this.BtnHelp.TabIndex = 9;
             this.BtnHelp.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.BtnHelp.UseVisualStyleBackColor = true;
+            this.BtnHelp.Click += new System.EventHandler(this.BtnHelp_Click);
             // 
             // BtnUserProfile
             // 
@@ -368,6 +358,7 @@ namespace Hondana_Project_Beta
             this.BtnSettings.TabIndex = 10;
             this.BtnSettings.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.BtnSettings.UseVisualStyleBackColor = true;
+            this.BtnSettings.Click += new System.EventHandler(this.BtnSettings_Click);
             // 
             // label1
             // 
@@ -412,142 +403,111 @@ namespace Hondana_Project_Beta
             // panel22
             // 
             this.panel22.BackColor = System.Drawing.Color.Ivory;
-            this.panel22.Controls.Add(this.panel24);
-            this.panel22.Controls.Add(this.panel25);
-            this.panel22.Controls.Add(this.panel26);
-            this.panel22.Controls.Add(this.panel27);
-            this.panel22.Controls.Add(this.panel28);
             this.panel22.Controls.Add(this.panel29);
             this.panel22.Location = new System.Drawing.Point(14, 205);
             this.panel22.Name = "panel22";
             this.panel22.Size = new System.Drawing.Size(1260, 58);
             this.panel22.TabIndex = 23;
             // 
-            // panel24
-            // 
-            this.panel24.BackColor = System.Drawing.Color.White;
-            this.panel24.Controls.Add(this.radioButton7);
-            this.panel24.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.panel24.Location = new System.Drawing.Point(1027, 9);
-            this.panel24.Name = "panel24";
-            this.panel24.Size = new System.Drawing.Size(186, 39);
-            this.panel24.TabIndex = 6;
-            // 
-            // radioButton7
-            // 
-            this.radioButton7.AutoSize = true;
-            this.radioButton7.Location = new System.Drawing.Point(8, 3);
-            this.radioButton7.Name = "radioButton7";
-            this.radioButton7.Size = new System.Drawing.Size(41, 23);
-            this.radioButton7.TabIndex = 2;
-            this.radioButton7.TabStop = true;
-            this.radioButton7.Text = "ID";
-            this.radioButton7.UseVisualStyleBackColor = true;
-            // 
-            // panel25
-            // 
-            this.panel25.BackColor = System.Drawing.Color.White;
-            this.panel25.Controls.Add(this.radioButton8);
-            this.panel25.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.panel25.Location = new System.Drawing.Point(829, 9);
-            this.panel25.Name = "panel25";
-            this.panel25.Size = new System.Drawing.Size(186, 39);
-            this.panel25.TabIndex = 5;
-            // 
-            // radioButton8
-            // 
-            this.radioButton8.AutoSize = true;
-            this.radioButton8.Location = new System.Drawing.Point(8, 3);
-            this.radioButton8.Name = "radioButton8";
-            this.radioButton8.Size = new System.Drawing.Size(62, 23);
-            this.radioButton8.TabIndex = 2;
-            this.radioButton8.TabStop = true;
-            this.radioButton8.Text = "Views";
-            this.radioButton8.UseVisualStyleBackColor = true;
-            // 
-            // panel26
-            // 
-            this.panel26.BackColor = System.Drawing.Color.White;
-            this.panel26.Controls.Add(this.radioButton9);
-            this.panel26.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.panel26.Location = new System.Drawing.Point(631, 9);
-            this.panel26.Name = "panel26";
-            this.panel26.Size = new System.Drawing.Size(186, 39);
-            this.panel26.TabIndex = 4;
-            // 
-            // radioButton9
-            // 
-            this.radioButton9.AutoSize = true;
-            this.radioButton9.Location = new System.Drawing.Point(8, 3);
-            this.radioButton9.Name = "radioButton9";
-            this.radioButton9.Size = new System.Drawing.Size(66, 23);
-            this.radioButton9.TabIndex = 2;
-            this.radioButton9.TabStop = true;
-            this.radioButton9.Text = "Rating";
-            this.radioButton9.UseVisualStyleBackColor = true;
-            // 
-            // panel27
-            // 
-            this.panel27.BackColor = System.Drawing.Color.White;
-            this.panel27.Controls.Add(this.radioButton10);
-            this.panel27.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.panel27.Location = new System.Drawing.Point(433, 9);
-            this.panel27.Name = "panel27";
-            this.panel27.Size = new System.Drawing.Size(186, 39);
-            this.panel27.TabIndex = 3;
-            // 
-            // radioButton10
-            // 
-            this.radioButton10.AutoSize = true;
-            this.radioButton10.Location = new System.Drawing.Point(8, 3);
-            this.radioButton10.Name = "radioButton10";
-            this.radioButton10.Size = new System.Drawing.Size(56, 23);
-            this.radioButton10.TabIndex = 2;
-            this.radioButton10.TabStop = true;
-            this.radioButton10.Text = "Date";
-            this.radioButton10.UseVisualStyleBackColor = true;
-            // 
-            // panel28
-            // 
-            this.panel28.BackColor = System.Drawing.Color.White;
-            this.panel28.Controls.Add(this.radioButton11);
-            this.panel28.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.panel28.Location = new System.Drawing.Point(235, 9);
-            this.panel28.Name = "panel28";
-            this.panel28.Size = new System.Drawing.Size(186, 39);
-            this.panel28.TabIndex = 2;
-            // 
-            // radioButton11
-            // 
-            this.radioButton11.AutoSize = true;
-            this.radioButton11.Location = new System.Drawing.Point(8, 3);
-            this.radioButton11.Name = "radioButton11";
-            this.radioButton11.Size = new System.Drawing.Size(63, 23);
-            this.radioButton11.TabIndex = 2;
-            this.radioButton11.TabStop = true;
-            this.radioButton11.Text = "Pages";
-            this.radioButton11.UseVisualStyleBackColor = true;
-            // 
             // panel29
             // 
             this.panel29.BackColor = System.Drawing.Color.White;
-            this.panel29.Controls.Add(this.radioButton12);
+            this.panel29.Controls.Add(this.rr7);
+            this.panel29.Controls.Add(this.rr6);
+            this.panel29.Controls.Add(this.rr5);
+            this.panel29.Controls.Add(this.rr4);
+            this.panel29.Controls.Add(this.rr3);
+            this.panel29.Controls.Add(this.rr2);
+            this.panel29.Controls.Add(this.rr1);
             this.panel29.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.panel29.Location = new System.Drawing.Point(37, 9);
             this.panel29.Name = "panel29";
-            this.panel29.Size = new System.Drawing.Size(186, 39);
+            this.panel29.Size = new System.Drawing.Size(1176, 39);
             this.panel29.TabIndex = 1;
             // 
-            // radioButton12
+            // rr7
             // 
-            this.radioButton12.AutoSize = true;
-            this.radioButton12.Location = new System.Drawing.Point(8, 3);
-            this.radioButton12.Name = "radioButton12";
-            this.radioButton12.Size = new System.Drawing.Size(101, 23);
-            this.radioButton12.TabIndex = 2;
-            this.radioButton12.TabStop = true;
-            this.radioButton12.Text = "Alphabetical";
-            this.radioButton12.UseVisualStyleBackColor = true;
+            this.rr7.AutoSize = true;
+            this.rr7.Location = new System.Drawing.Point(1095, 9);
+            this.rr7.Name = "rr7";
+            this.rr7.Size = new System.Drawing.Size(77, 23);
+            this.rr7.TabIndex = 12;
+            this.rr7.TabStop = true;
+            this.rr7.Text = "Without";
+            this.rr7.UseVisualStyleBackColor = true;
+            this.rr7.CheckedChanged += new System.EventHandler(this.rr7_CheckedChanged);
+            // 
+            // rr6
+            // 
+            this.rr6.AutoSize = true;
+            this.rr6.Location = new System.Drawing.Point(918, 9);
+            this.rr6.Name = "rr6";
+            this.rr6.Size = new System.Drawing.Size(41, 23);
+            this.rr6.TabIndex = 11;
+            this.rr6.TabStop = true;
+            this.rr6.Text = "ID";
+            this.rr6.UseVisualStyleBackColor = true;
+            this.rr6.CheckedChanged += new System.EventHandler(this.rr6_CheckedChanged);
+            // 
+            // rr5
+            // 
+            this.rr5.AutoSize = true;
+            this.rr5.Location = new System.Drawing.Point(736, 9);
+            this.rr5.Name = "rr5";
+            this.rr5.Size = new System.Drawing.Size(62, 23);
+            this.rr5.TabIndex = 10;
+            this.rr5.TabStop = true;
+            this.rr5.Text = "Views";
+            this.rr5.UseVisualStyleBackColor = true;
+            this.rr5.CheckedChanged += new System.EventHandler(this.rr5_CheckedChanged);
+            // 
+            // rr4
+            // 
+            this.rr4.AutoSize = true;
+            this.rr4.Location = new System.Drawing.Point(554, 9);
+            this.rr4.Name = "rr4";
+            this.rr4.Size = new System.Drawing.Size(66, 23);
+            this.rr4.TabIndex = 9;
+            this.rr4.TabStop = true;
+            this.rr4.Text = "Rating";
+            this.rr4.UseVisualStyleBackColor = true;
+            this.rr4.CheckedChanged += new System.EventHandler(this.rr4_CheckedChanged);
+            // 
+            // rr3
+            // 
+            this.rr3.AutoSize = true;
+            this.rr3.Location = new System.Drawing.Point(372, 9);
+            this.rr3.Name = "rr3";
+            this.rr3.Size = new System.Drawing.Size(56, 23);
+            this.rr3.TabIndex = 8;
+            this.rr3.TabStop = true;
+            this.rr3.Text = "Date";
+            this.rr3.UseVisualStyleBackColor = true;
+            this.rr3.CheckedChanged += new System.EventHandler(this.rr3_CheckedChanged);
+            // 
+            // rr2
+            // 
+            this.rr2.AutoSize = true;
+            this.rr2.Location = new System.Drawing.Point(190, 9);
+            this.rr2.Name = "rr2";
+            this.rr2.Size = new System.Drawing.Size(63, 23);
+            this.rr2.TabIndex = 7;
+            this.rr2.TabStop = true;
+            this.rr2.Text = "Pages";
+            this.rr2.UseVisualStyleBackColor = true;
+            this.rr2.CheckedChanged += new System.EventHandler(this.rr2_CheckedChanged);
+            // 
+            // rr1
+            // 
+            this.rr1.AutoSize = true;
+            this.rr1.Location = new System.Drawing.Point(7, 9);
+            this.rr1.Name = "rr1";
+            this.rr1.Size = new System.Drawing.Size(101, 23);
+            this.rr1.TabIndex = 6;
+            this.rr1.TabStop = true;
+            this.rr1.Text = "Alphabetical";
+            this.rr1.UseVisualStyleBackColor = true;
+            this.rr1.CheckedChanged += new System.EventHandler(this.rr1_CheckedChanged);
             // 
             // panel30
             // 
@@ -570,142 +530,111 @@ namespace Hondana_Project_Beta
             // panel15
             // 
             this.panel15.BackColor = System.Drawing.Color.Ivory;
-            this.panel15.Controls.Add(this.panel21);
-            this.panel15.Controls.Add(this.panel20);
-            this.panel15.Controls.Add(this.panel19);
-            this.panel15.Controls.Add(this.panel18);
-            this.panel15.Controls.Add(this.panel17);
             this.panel15.Controls.Add(this.panel16);
             this.panel15.Location = new System.Drawing.Point(14, 95);
             this.panel15.Name = "panel15";
             this.panel15.Size = new System.Drawing.Size(1260, 58);
             this.panel15.TabIndex = 20;
             // 
-            // panel21
-            // 
-            this.panel21.BackColor = System.Drawing.Color.White;
-            this.panel21.Controls.Add(this.radioButton6);
-            this.panel21.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.panel21.Location = new System.Drawing.Point(1027, 9);
-            this.panel21.Name = "panel21";
-            this.panel21.Size = new System.Drawing.Size(186, 39);
-            this.panel21.TabIndex = 6;
-            // 
-            // radioButton6
-            // 
-            this.radioButton6.AutoSize = true;
-            this.radioButton6.Location = new System.Drawing.Point(8, 3);
-            this.radioButton6.Name = "radioButton6";
-            this.radioButton6.Size = new System.Drawing.Size(64, 23);
-            this.radioButton6.TabIndex = 2;
-            this.radioButton6.TabStop = true;
-            this.radioButton6.Text = "Genre";
-            this.radioButton6.UseVisualStyleBackColor = true;
-            // 
-            // panel20
-            // 
-            this.panel20.BackColor = System.Drawing.Color.White;
-            this.panel20.Controls.Add(this.radioButton5);
-            this.panel20.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.panel20.Location = new System.Drawing.Point(829, 9);
-            this.panel20.Name = "panel20";
-            this.panel20.Size = new System.Drawing.Size(186, 39);
-            this.panel20.TabIndex = 5;
-            // 
-            // radioButton5
-            // 
-            this.radioButton5.AutoSize = true;
-            this.radioButton5.Location = new System.Drawing.Point(8, 3);
-            this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(87, 23);
-            this.radioButton5.TabIndex = 2;
-            this.radioButton5.TabStop = true;
-            this.radioButton5.Text = "Language";
-            this.radioButton5.UseVisualStyleBackColor = true;
-            // 
-            // panel19
-            // 
-            this.panel19.BackColor = System.Drawing.Color.White;
-            this.panel19.Controls.Add(this.radioButton4);
-            this.panel19.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.panel19.Location = new System.Drawing.Point(631, 9);
-            this.panel19.Name = "panel19";
-            this.panel19.Size = new System.Drawing.Size(186, 39);
-            this.panel19.TabIndex = 4;
-            // 
-            // radioButton4
-            // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(8, 3);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(76, 23);
-            this.radioButton4.TabIndex = 2;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "Editorial";
-            this.radioButton4.UseVisualStyleBackColor = true;
-            // 
-            // panel18
-            // 
-            this.panel18.BackColor = System.Drawing.Color.White;
-            this.panel18.Controls.Add(this.radioButton3);
-            this.panel18.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.panel18.Location = new System.Drawing.Point(433, 9);
-            this.panel18.Name = "panel18";
-            this.panel18.Size = new System.Drawing.Size(186, 39);
-            this.panel18.TabIndex = 3;
-            // 
-            // radioButton3
-            // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(8, 3);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(70, 23);
-            this.radioButton3.TabIndex = 2;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "Author";
-            this.radioButton3.UseVisualStyleBackColor = true;
-            // 
-            // panel17
-            // 
-            this.panel17.BackColor = System.Drawing.Color.White;
-            this.panel17.Controls.Add(this.radioButton2);
-            this.panel17.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.panel17.Location = new System.Drawing.Point(235, 9);
-            this.panel17.Name = "panel17";
-            this.panel17.Size = new System.Drawing.Size(186, 39);
-            this.panel17.TabIndex = 2;
-            // 
-            // radioButton2
-            // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(8, 3);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(52, 23);
-            this.radioButton2.TabIndex = 2;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Title";
-            this.radioButton2.UseVisualStyleBackColor = true;
-            // 
             // panel16
             // 
             this.panel16.BackColor = System.Drawing.Color.White;
-            this.panel16.Controls.Add(this.radioButton1);
+            this.panel16.Controls.Add(this.rd7);
+            this.panel16.Controls.Add(this.rd6);
+            this.panel16.Controls.Add(this.rd5);
+            this.panel16.Controls.Add(this.rd4);
+            this.panel16.Controls.Add(this.rd3);
+            this.panel16.Controls.Add(this.rd2);
+            this.panel16.Controls.Add(this.rd1);
             this.panel16.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.panel16.Location = new System.Drawing.Point(37, 9);
             this.panel16.Name = "panel16";
-            this.panel16.Size = new System.Drawing.Size(186, 39);
+            this.panel16.Size = new System.Drawing.Size(1176, 39);
             this.panel16.TabIndex = 1;
             // 
-            // radioButton1
+            // rd7
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(8, 3);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(41, 23);
-            this.radioButton1.TabIndex = 2;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "ID";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.rd7.AutoSize = true;
+            this.rd7.Location = new System.Drawing.Point(1095, 9);
+            this.rd7.Name = "rd7";
+            this.rd7.Size = new System.Drawing.Size(42, 23);
+            this.rd7.TabIndex = 6;
+            this.rd7.TabStop = true;
+            this.rd7.Text = "All";
+            this.rd7.UseVisualStyleBackColor = true;
+            this.rd7.CheckedChanged += new System.EventHandler(this.rd7_CheckedChanged);
+            // 
+            // rd6
+            // 
+            this.rd6.AutoSize = true;
+            this.rd6.Location = new System.Drawing.Point(918, 9);
+            this.rd6.Name = "rd6";
+            this.rd6.Size = new System.Drawing.Size(64, 23);
+            this.rd6.TabIndex = 5;
+            this.rd6.TabStop = true;
+            this.rd6.Text = "Genre";
+            this.rd6.UseVisualStyleBackColor = true;
+            this.rd6.CheckedChanged += new System.EventHandler(this.rd6_CheckedChanged);
+            // 
+            // rd5
+            // 
+            this.rd5.AutoSize = true;
+            this.rd5.Location = new System.Drawing.Point(736, 9);
+            this.rd5.Name = "rd5";
+            this.rd5.Size = new System.Drawing.Size(87, 23);
+            this.rd5.TabIndex = 4;
+            this.rd5.TabStop = true;
+            this.rd5.Text = "Language";
+            this.rd5.UseVisualStyleBackColor = true;
+            this.rd5.CheckedChanged += new System.EventHandler(this.rd5_CheckedChanged);
+            // 
+            // rd4
+            // 
+            this.rd4.AutoSize = true;
+            this.rd4.Location = new System.Drawing.Point(554, 9);
+            this.rd4.Name = "rd4";
+            this.rd4.Size = new System.Drawing.Size(76, 23);
+            this.rd4.TabIndex = 3;
+            this.rd4.TabStop = true;
+            this.rd4.Text = "Editorial";
+            this.rd4.UseVisualStyleBackColor = true;
+            this.rd4.CheckedChanged += new System.EventHandler(this.rd4_CheckedChanged);
+            // 
+            // rd3
+            // 
+            this.rd3.AutoSize = true;
+            this.rd3.Location = new System.Drawing.Point(372, 9);
+            this.rd3.Name = "rd3";
+            this.rd3.Size = new System.Drawing.Size(53, 23);
+            this.rd3.TabIndex = 2;
+            this.rd3.TabStop = true;
+            this.rd3.Text = "Tags";
+            this.rd3.UseVisualStyleBackColor = true;
+            this.rd3.CheckedChanged += new System.EventHandler(this.rd3_CheckedChanged);
+            // 
+            // rd2
+            // 
+            this.rd2.AutoSize = true;
+            this.rd2.Location = new System.Drawing.Point(190, 9);
+            this.rd2.Name = "rd2";
+            this.rd2.Size = new System.Drawing.Size(52, 23);
+            this.rd2.TabIndex = 1;
+            this.rd2.TabStop = true;
+            this.rd2.Text = "Title";
+            this.rd2.UseVisualStyleBackColor = true;
+            this.rd2.CheckedChanged += new System.EventHandler(this.rd2_CheckedChanged);
+            // 
+            // rd1
+            // 
+            this.rd1.AutoSize = true;
+            this.rd1.Location = new System.Drawing.Point(7, 9);
+            this.rd1.Name = "rd1";
+            this.rd1.Size = new System.Drawing.Size(41, 23);
+            this.rd1.TabIndex = 0;
+            this.rd1.TabStop = true;
+            this.rd1.Text = "ID";
+            this.rd1.UseVisualStyleBackColor = true;
+            this.rd1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
             // panel23
             // 
@@ -728,465 +657,465 @@ namespace Hondana_Project_Beta
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.Ivory;
-            this.panel6.Controls.Add(this.panel13);
-            this.panel6.Controls.Add(this.panel12);
-            this.panel6.Controls.Add(this.panel11);
-            this.panel6.Controls.Add(this.panel10);
-            this.panel6.Controls.Add(this.panel9);
-            this.panel6.Controls.Add(this.panel8);
-            this.panel6.Controls.Add(this.panel7);
+            this.panel6.Controls.Add(this.pan6);
+            this.panel6.Controls.Add(this.pan7);
+            this.panel6.Controls.Add(this.pan5);
+            this.panel6.Controls.Add(this.pan4);
+            this.panel6.Controls.Add(this.pan3);
+            this.panel6.Controls.Add(this.pan2);
+            this.panel6.Controls.Add(this.pan1);
             this.panel6.Location = new System.Drawing.Point(19, 315);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(1260, 773);
             this.panel6.TabIndex = 17;
             // 
-            // panel13
+            // pan6
             // 
-            this.panel13.BackColor = System.Drawing.Color.White;
-            this.panel13.Controls.Add(this.label29);
-            this.panel13.Controls.Add(this.label30);
-            this.panel13.Controls.Add(this.label31);
-            this.panel13.Controls.Add(this.label32);
-            this.panel13.Controls.Add(this.button18);
-            this.panel13.Location = new System.Drawing.Point(1027, 12);
-            this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(186, 356);
-            this.panel13.TabIndex = 6;
+            this.pan6.BackColor = System.Drawing.Color.White;
+            this.pan6.Controls.Add(this.l6_4);
+            this.pan6.Controls.Add(this.l6_3);
+            this.pan6.Controls.Add(this.l6_2);
+            this.pan6.Controls.Add(this.l6_1);
+            this.pan6.Controls.Add(this.button18);
+            this.pan6.Location = new System.Drawing.Point(1027, 12);
+            this.pan6.Name = "pan6";
+            this.pan6.Size = new System.Drawing.Size(186, 356);
+            this.pan6.TabIndex = 6;
             // 
-            // label29
+            // l6_4
             // 
-            this.label29.AutoSize = true;
-            this.label29.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label29.Location = new System.Drawing.Point(4, 327);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(64, 19);
-            this.label29.TabIndex = 2;
-            this.label29.Text = "✩✩✩✩✩";
+            this.l6_4.AutoSize = true;
+            this.l6_4.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.l6_4.Location = new System.Drawing.Point(3, 327);
+            this.l6_4.Name = "l6_4";
+            this.l6_4.Size = new System.Drawing.Size(30, 19);
+            this.l6_4.TabIndex = 3;
+            this.l6_4.Text = "5/5";
             // 
-            // label30
+            // l6_3
             // 
-            this.label30.AutoSize = true;
-            this.label30.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label30.Location = new System.Drawing.Point(4, 305);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(70, 19);
-            this.label30.TabIndex = 1;
-            this.label30.Text = "541 Pages";
+            this.l6_3.AutoSize = true;
+            this.l6_3.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.l6_3.Location = new System.Drawing.Point(4, 305);
+            this.l6_3.Name = "l6_3";
+            this.l6_3.Size = new System.Drawing.Size(70, 19);
+            this.l6_3.TabIndex = 1;
+            this.l6_3.Text = "541 Pages";
             // 
-            // label31
+            // l6_2
             // 
-            this.label31.AutoSize = true;
-            this.label31.BackColor = System.Drawing.Color.White;
-            this.label31.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label31.Location = new System.Drawing.Point(4, 283);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(129, 19);
-            this.label31.TabIndex = 1;
-            this.label31.Text = "Brandon Sanderson";
+            this.l6_2.AutoSize = true;
+            this.l6_2.BackColor = System.Drawing.Color.White;
+            this.l6_2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.l6_2.Location = new System.Drawing.Point(4, 283);
+            this.l6_2.Name = "l6_2";
+            this.l6_2.Size = new System.Drawing.Size(129, 19);
+            this.l6_2.TabIndex = 1;
+            this.l6_2.Text = "Brandon Sanderson";
             // 
-            // label32
+            // l6_1
             // 
-            this.label32.AutoSize = true;
-            this.label32.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.Location = new System.Drawing.Point(3, 256);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(149, 21);
-            this.label32.TabIndex = 1;
-            this.label32.Text = "The Final Empire: ...";
+            this.l6_1.AutoSize = true;
+            this.l6_1.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l6_1.Location = new System.Drawing.Point(3, 256);
+            this.l6_1.Name = "l6_1";
+            this.l6_1.Size = new System.Drawing.Size(149, 21);
+            this.l6_1.TabIndex = 1;
+            this.l6_1.Text = "The Final Empire: ...";
             // 
             // button18
             // 
-            this.button18.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button18.BackgroundImage")));
             this.button18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button18.Location = new System.Drawing.Point(3, 3);
             this.button18.Name = "button18";
             this.button18.Size = new System.Drawing.Size(180, 250);
             this.button18.TabIndex = 1;
             this.button18.UseVisualStyleBackColor = true;
+            this.button18.Click += new System.EventHandler(this.button18_Click);
             // 
-            // panel12
+            // pan7
             // 
-            this.panel12.BackColor = System.Drawing.Color.White;
-            this.panel12.Controls.Add(this.label25);
-            this.panel12.Controls.Add(this.label26);
-            this.panel12.Controls.Add(this.label27);
-            this.panel12.Controls.Add(this.label28);
-            this.panel12.Controls.Add(this.button17);
-            this.panel12.Location = new System.Drawing.Point(37, 377);
-            this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(186, 356);
-            this.panel12.TabIndex = 5;
+            this.pan7.BackColor = System.Drawing.Color.White;
+            this.pan7.Controls.Add(this.l7_4);
+            this.pan7.Controls.Add(this.l7_3);
+            this.pan7.Controls.Add(this.l7_2);
+            this.pan7.Controls.Add(this.l7_1);
+            this.pan7.Controls.Add(this.button17);
+            this.pan7.Location = new System.Drawing.Point(37, 377);
+            this.pan7.Name = "pan7";
+            this.pan7.Size = new System.Drawing.Size(186, 356);
+            this.pan7.TabIndex = 5;
             // 
-            // label25
+            // l7_4
             // 
-            this.label25.AutoSize = true;
-            this.label25.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label25.Location = new System.Drawing.Point(4, 327);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(64, 19);
-            this.label25.TabIndex = 2;
-            this.label25.Text = "✩✩✩✩✩";
+            this.l7_4.AutoSize = true;
+            this.l7_4.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.l7_4.Location = new System.Drawing.Point(3, 327);
+            this.l7_4.Name = "l7_4";
+            this.l7_4.Size = new System.Drawing.Size(30, 19);
+            this.l7_4.TabIndex = 3;
+            this.l7_4.Text = "5/5";
             // 
-            // label26
+            // l7_3
             // 
-            this.label26.AutoSize = true;
-            this.label26.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label26.Location = new System.Drawing.Point(4, 305);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(70, 19);
-            this.label26.TabIndex = 1;
-            this.label26.Text = "160 Pages";
+            this.l7_3.AutoSize = true;
+            this.l7_3.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.l7_3.Location = new System.Drawing.Point(4, 305);
+            this.l7_3.Name = "l7_3";
+            this.l7_3.Size = new System.Drawing.Size(70, 19);
+            this.l7_3.TabIndex = 1;
+            this.l7_3.Text = "160 Pages";
             // 
-            // label27
+            // l7_2
             // 
-            this.label27.AutoSize = true;
-            this.label27.BackColor = System.Drawing.Color.White;
-            this.label27.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label27.Location = new System.Drawing.Point(4, 283);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(80, 19);
-            this.label27.TabIndex = 1;
-            this.label27.Text = "Kenji Saitou";
+            this.l7_2.AutoSize = true;
+            this.l7_2.BackColor = System.Drawing.Color.White;
+            this.l7_2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.l7_2.Location = new System.Drawing.Point(4, 283);
+            this.l7_2.Name = "l7_2";
+            this.l7_2.Size = new System.Drawing.Size(80, 19);
+            this.l7_2.TabIndex = 1;
+            this.l7_2.Text = "Kenji Saitou";
             // 
-            // label28
+            // l7_1
             // 
-            this.label28.AutoSize = true;
-            this.label28.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.Location = new System.Drawing.Point(3, 256);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(104, 21);
-            this.label28.TabIndex = 1;
-            this.label28.Text = "Trinity Seven";
+            this.l7_1.AutoSize = true;
+            this.l7_1.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l7_1.Location = new System.Drawing.Point(3, 256);
+            this.l7_1.Name = "l7_1";
+            this.l7_1.Size = new System.Drawing.Size(104, 21);
+            this.l7_1.TabIndex = 1;
+            this.l7_1.Text = "Trinity Seven";
             // 
             // button17
             // 
-            this.button17.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button17.BackgroundImage")));
             this.button17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button17.Location = new System.Drawing.Point(3, 3);
             this.button17.Name = "button17";
             this.button17.Size = new System.Drawing.Size(180, 250);
             this.button17.TabIndex = 1;
             this.button17.UseVisualStyleBackColor = true;
+            this.button17.Click += new System.EventHandler(this.button17_Click);
             // 
-            // panel11
+            // pan5
             // 
-            this.panel11.BackColor = System.Drawing.Color.White;
-            this.panel11.Controls.Add(this.label21);
-            this.panel11.Controls.Add(this.label22);
-            this.panel11.Controls.Add(this.label23);
-            this.panel11.Controls.Add(this.label24);
-            this.panel11.Controls.Add(this.button16);
-            this.panel11.Location = new System.Drawing.Point(829, 12);
-            this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(186, 356);
-            this.panel11.TabIndex = 4;
+            this.pan5.BackColor = System.Drawing.Color.White;
+            this.pan5.Controls.Add(this.l5_4);
+            this.pan5.Controls.Add(this.l5_3);
+            this.pan5.Controls.Add(this.l5_2);
+            this.pan5.Controls.Add(this.l5_1);
+            this.pan5.Controls.Add(this.button16);
+            this.pan5.Location = new System.Drawing.Point(829, 12);
+            this.pan5.Name = "pan5";
+            this.pan5.Size = new System.Drawing.Size(186, 356);
+            this.pan5.TabIndex = 4;
             // 
-            // label21
+            // l5_4
             // 
-            this.label21.AutoSize = true;
-            this.label21.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label21.Location = new System.Drawing.Point(4, 327);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(64, 19);
-            this.label21.TabIndex = 2;
-            this.label21.Text = "✩✩✩✩✩";
+            this.l5_4.AutoSize = true;
+            this.l5_4.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.l5_4.Location = new System.Drawing.Point(3, 327);
+            this.l5_4.Name = "l5_4";
+            this.l5_4.Size = new System.Drawing.Size(30, 19);
+            this.l5_4.TabIndex = 3;
+            this.l5_4.Text = "5/5";
             // 
-            // label22
+            // l5_3
             // 
-            this.label22.AutoSize = true;
-            this.label22.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label22.Location = new System.Drawing.Point(4, 305);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(70, 19);
-            this.label22.TabIndex = 1;
-            this.label22.Text = "192 Pages";
+            this.l5_3.AutoSize = true;
+            this.l5_3.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.l5_3.Location = new System.Drawing.Point(4, 305);
+            this.l5_3.Name = "l5_3";
+            this.l5_3.Size = new System.Drawing.Size(70, 19);
+            this.l5_3.TabIndex = 1;
+            this.l5_3.Text = "192 Pages";
             // 
-            // label23
+            // l5_2
             // 
-            this.label23.AutoSize = true;
-            this.label23.BackColor = System.Drawing.Color.White;
-            this.label23.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label23.Location = new System.Drawing.Point(4, 283);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(96, 19);
-            this.label23.TabIndex = 1;
-            this.label23.Text = "Gege Akutami";
+            this.l5_2.AutoSize = true;
+            this.l5_2.BackColor = System.Drawing.Color.White;
+            this.l5_2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.l5_2.Location = new System.Drawing.Point(4, 283);
+            this.l5_2.Name = "l5_2";
+            this.l5_2.Size = new System.Drawing.Size(96, 19);
+            this.l5_2.TabIndex = 1;
+            this.l5_2.Text = "Gege Akutami";
             // 
-            // label24
+            // l5_1
             // 
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(3, 256);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(112, 21);
-            this.label24.TabIndex = 1;
-            this.label24.Text = "Jujutsu Kaisen";
+            this.l5_1.AutoSize = true;
+            this.l5_1.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l5_1.Location = new System.Drawing.Point(3, 256);
+            this.l5_1.Name = "l5_1";
+            this.l5_1.Size = new System.Drawing.Size(112, 21);
+            this.l5_1.TabIndex = 1;
+            this.l5_1.Text = "Jujutsu Kaisen";
             // 
             // button16
             // 
-            this.button16.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button16.BackgroundImage")));
             this.button16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button16.Location = new System.Drawing.Point(3, 3);
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(180, 250);
             this.button16.TabIndex = 1;
             this.button16.UseVisualStyleBackColor = true;
+            this.button16.Click += new System.EventHandler(this.button16_Click);
             // 
-            // panel10
+            // pan4
             // 
-            this.panel10.BackColor = System.Drawing.Color.White;
-            this.panel10.Controls.Add(this.label17);
-            this.panel10.Controls.Add(this.label18);
-            this.panel10.Controls.Add(this.label19);
-            this.panel10.Controls.Add(this.label20);
-            this.panel10.Controls.Add(this.button15);
-            this.panel10.Location = new System.Drawing.Point(631, 12);
-            this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(186, 356);
-            this.panel10.TabIndex = 3;
+            this.pan4.BackColor = System.Drawing.Color.White;
+            this.pan4.Controls.Add(this.l4_4);
+            this.pan4.Controls.Add(this.l4_3);
+            this.pan4.Controls.Add(this.l4_2);
+            this.pan4.Controls.Add(this.l4_1);
+            this.pan4.Controls.Add(this.button15);
+            this.pan4.Location = new System.Drawing.Point(631, 12);
+            this.pan4.Name = "pan4";
+            this.pan4.Size = new System.Drawing.Size(186, 356);
+            this.pan4.TabIndex = 3;
             // 
-            // label17
+            // l4_4
             // 
-            this.label17.AutoSize = true;
-            this.label17.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label17.Location = new System.Drawing.Point(4, 327);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(64, 19);
-            this.label17.TabIndex = 2;
-            this.label17.Text = "✩✩✩✩✩";
+            this.l4_4.AutoSize = true;
+            this.l4_4.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.l4_4.Location = new System.Drawing.Point(3, 327);
+            this.l4_4.Name = "l4_4";
+            this.l4_4.Size = new System.Drawing.Size(30, 19);
+            this.l4_4.TabIndex = 3;
+            this.l4_4.Text = "5/5";
             // 
-            // label18
+            // l4_3
             // 
-            this.label18.AutoSize = true;
-            this.label18.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label18.Location = new System.Drawing.Point(4, 305);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(73, 19);
-            this.label18.TabIndex = 1;
-            this.label18.Text = "200 Pages";
+            this.l4_3.AutoSize = true;
+            this.l4_3.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.l4_3.Location = new System.Drawing.Point(4, 305);
+            this.l4_3.Name = "l4_3";
+            this.l4_3.Size = new System.Drawing.Size(73, 19);
+            this.l4_3.TabIndex = 1;
+            this.l4_3.Text = "200 Pages";
             // 
-            // label19
+            // l4_2
             // 
-            this.label19.AutoSize = true;
-            this.label19.BackColor = System.Drawing.Color.White;
-            this.label19.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label19.Location = new System.Drawing.Point(4, 283);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(35, 19);
-            this.label19.TabIndex = 1;
-            this.label19.Text = "One";
+            this.l4_2.AutoSize = true;
+            this.l4_2.BackColor = System.Drawing.Color.White;
+            this.l4_2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.l4_2.Location = new System.Drawing.Point(4, 283);
+            this.l4_2.Name = "l4_2";
+            this.l4_2.Size = new System.Drawing.Size(35, 19);
+            this.l4_2.TabIndex = 1;
+            this.l4_2.Text = "One";
             // 
-            // label20
+            // l4_1
             // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(3, 256);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(124, 21);
-            this.label20.TabIndex = 1;
-            this.label20.Text = "One Punch Man";
+            this.l4_1.AutoSize = true;
+            this.l4_1.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l4_1.Location = new System.Drawing.Point(3, 256);
+            this.l4_1.Name = "l4_1";
+            this.l4_1.Size = new System.Drawing.Size(124, 21);
+            this.l4_1.TabIndex = 1;
+            this.l4_1.Text = "One Punch Man";
             // 
             // button15
             // 
-            this.button15.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button15.BackgroundImage")));
             this.button15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button15.Location = new System.Drawing.Point(3, 3);
             this.button15.Name = "button15";
             this.button15.Size = new System.Drawing.Size(180, 250);
             this.button15.TabIndex = 1;
             this.button15.UseVisualStyleBackColor = true;
+            this.button15.Click += new System.EventHandler(this.button15_Click);
             // 
-            // panel9
+            // pan3
             // 
-            this.panel9.BackColor = System.Drawing.Color.White;
-            this.panel9.Controls.Add(this.label13);
-            this.panel9.Controls.Add(this.label14);
-            this.panel9.Controls.Add(this.label15);
-            this.panel9.Controls.Add(this.label16);
-            this.panel9.Controls.Add(this.button14);
-            this.panel9.Location = new System.Drawing.Point(433, 12);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(186, 356);
-            this.panel9.TabIndex = 2;
+            this.pan3.BackColor = System.Drawing.Color.White;
+            this.pan3.Controls.Add(this.l3_4);
+            this.pan3.Controls.Add(this.l3_3);
+            this.pan3.Controls.Add(this.l3_2);
+            this.pan3.Controls.Add(this.l3_1);
+            this.pan3.Controls.Add(this.button14);
+            this.pan3.Location = new System.Drawing.Point(433, 12);
+            this.pan3.Name = "pan3";
+            this.pan3.Size = new System.Drawing.Size(186, 356);
+            this.pan3.TabIndex = 2;
             // 
-            // label13
+            // l3_4
             // 
-            this.label13.AutoSize = true;
-            this.label13.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label13.Location = new System.Drawing.Point(4, 327);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(64, 19);
-            this.label13.TabIndex = 2;
-            this.label13.Text = "✩✩✩✩✩";
+            this.l3_4.AutoSize = true;
+            this.l3_4.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.l3_4.Location = new System.Drawing.Point(3, 327);
+            this.l3_4.Name = "l3_4";
+            this.l3_4.Size = new System.Drawing.Size(30, 19);
+            this.l3_4.TabIndex = 3;
+            this.l3_4.Text = "5/5";
             // 
-            // label14
+            // l3_3
             // 
-            this.label14.AutoSize = true;
-            this.label14.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label14.Location = new System.Drawing.Point(4, 305);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(70, 19);
-            this.label14.TabIndex = 1;
-            this.label14.Text = "194 Pages";
+            this.l3_3.AutoSize = true;
+            this.l3_3.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.l3_3.Location = new System.Drawing.Point(4, 305);
+            this.l3_3.Name = "l3_3";
+            this.l3_3.Size = new System.Drawing.Size(70, 19);
+            this.l3_3.TabIndex = 1;
+            this.l3_3.Text = "194 Pages";
             // 
-            // label15
+            // l3_2
             // 
-            this.label15.AutoSize = true;
-            this.label15.BackColor = System.Drawing.Color.White;
-            this.label15.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label15.Location = new System.Drawing.Point(4, 283);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(86, 19);
-            this.label15.TabIndex = 1;
-            this.label15.Text = "Negi Haruba";
+            this.l3_2.AutoSize = true;
+            this.l3_2.BackColor = System.Drawing.Color.White;
+            this.l3_2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.l3_2.Location = new System.Drawing.Point(4, 283);
+            this.l3_2.Name = "l3_2";
+            this.l3_2.Size = new System.Drawing.Size(86, 19);
+            this.l3_2.TabIndex = 1;
+            this.l3_2.Text = "Negi Haruba";
             // 
-            // label16
+            // l3_1
             // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(3, 256);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(154, 21);
-            this.label16.TabIndex = 1;
-            this.label16.Text = "5-toubun no Hana...";
+            this.l3_1.AutoSize = true;
+            this.l3_1.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l3_1.Location = new System.Drawing.Point(3, 256);
+            this.l3_1.Name = "l3_1";
+            this.l3_1.Size = new System.Drawing.Size(154, 21);
+            this.l3_1.TabIndex = 1;
+            this.l3_1.Text = "5-toubun no Hana...";
             // 
             // button14
             // 
-            this.button14.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button14.BackgroundImage")));
             this.button14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button14.Location = new System.Drawing.Point(3, 3);
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(180, 250);
             this.button14.TabIndex = 1;
             this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
             // 
-            // panel8
+            // pan2
             // 
-            this.panel8.BackColor = System.Drawing.Color.White;
-            this.panel8.Controls.Add(this.label9);
-            this.panel8.Controls.Add(this.label10);
-            this.panel8.Controls.Add(this.label11);
-            this.panel8.Controls.Add(this.label12);
-            this.panel8.Controls.Add(this.button13);
-            this.panel8.Location = new System.Drawing.Point(235, 9);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(186, 356);
-            this.panel8.TabIndex = 1;
+            this.pan2.BackColor = System.Drawing.Color.White;
+            this.pan2.Controls.Add(this.l2_4);
+            this.pan2.Controls.Add(this.l2_3);
+            this.pan2.Controls.Add(this.l2_2);
+            this.pan2.Controls.Add(this.l2_1);
+            this.pan2.Controls.Add(this.button13);
+            this.pan2.Location = new System.Drawing.Point(235, 9);
+            this.pan2.Name = "pan2";
+            this.pan2.Size = new System.Drawing.Size(186, 356);
+            this.pan2.TabIndex = 1;
             // 
-            // label9
+            // l2_4
             // 
-            this.label9.AutoSize = true;
-            this.label9.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label9.Location = new System.Drawing.Point(4, 327);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(64, 19);
-            this.label9.TabIndex = 2;
-            this.label9.Text = "✩✩✩✩✩";
+            this.l2_4.AutoSize = true;
+            this.l2_4.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.l2_4.Location = new System.Drawing.Point(3, 327);
+            this.l2_4.Name = "l2_4";
+            this.l2_4.Size = new System.Drawing.Size(30, 19);
+            this.l2_4.TabIndex = 3;
+            this.l2_4.Text = "5/5";
             // 
-            // label10
+            // l2_3
             // 
-            this.label10.AutoSize = true;
-            this.label10.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label10.Location = new System.Drawing.Point(4, 305);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(70, 19);
-            this.label10.TabIndex = 1;
-            this.label10.Text = "192 Pages";
+            this.l2_3.AutoSize = true;
+            this.l2_3.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.l2_3.Location = new System.Drawing.Point(4, 305);
+            this.l2_3.Name = "l2_3";
+            this.l2_3.Size = new System.Drawing.Size(70, 19);
+            this.l2_3.TabIndex = 1;
+            this.l2_3.Text = "192 Pages";
             // 
-            // label11
+            // l2_2
             // 
-            this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.Color.White;
-            this.label11.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label11.Location = new System.Drawing.Point(4, 283);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(97, 19);
-            this.label11.TabIndex = 1;
-            this.label11.Text = "Tomohito Oda";
+            this.l2_2.AutoSize = true;
+            this.l2_2.BackColor = System.Drawing.Color.White;
+            this.l2_2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.l2_2.Location = new System.Drawing.Point(4, 283);
+            this.l2_2.Name = "l2_2";
+            this.l2_2.Size = new System.Drawing.Size(97, 19);
+            this.l2_2.TabIndex = 1;
+            this.l2_2.Text = "Tomohito Oda";
             // 
-            // label12
+            // l2_1
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(3, 256);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(140, 21);
-            this.label12.TabIndex = 1;
-            this.label12.Text = "Komi Can\'t Com...";
+            this.l2_1.AutoSize = true;
+            this.l2_1.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l2_1.Location = new System.Drawing.Point(3, 256);
+            this.l2_1.Name = "l2_1";
+            this.l2_1.Size = new System.Drawing.Size(140, 21);
+            this.l2_1.TabIndex = 1;
+            this.l2_1.Text = "Komi Can\'t Com...";
             // 
             // button13
             // 
-            this.button13.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button13.BackgroundImage")));
             this.button13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button13.Location = new System.Drawing.Point(3, 3);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(180, 250);
             this.button13.TabIndex = 1;
             this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
-            // panel7
+            // pan1
             // 
-            this.panel7.BackColor = System.Drawing.Color.White;
-            this.panel7.Controls.Add(this.label8);
-            this.panel7.Controls.Add(this.label7);
-            this.panel7.Controls.Add(this.label6);
-            this.panel7.Controls.Add(this.label5);
-            this.panel7.Controls.Add(this.button12);
-            this.panel7.Location = new System.Drawing.Point(37, 9);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(186, 356);
-            this.panel7.TabIndex = 0;
+            this.pan1.BackColor = System.Drawing.Color.White;
+            this.pan1.Controls.Add(this.l1_4);
+            this.pan1.Controls.Add(this.l1_3);
+            this.pan1.Controls.Add(this.l1_2);
+            this.pan1.Controls.Add(this.l1_1);
+            this.pan1.Controls.Add(this.button12);
+            this.pan1.Location = new System.Drawing.Point(37, 9);
+            this.pan1.Name = "pan1";
+            this.pan1.Size = new System.Drawing.Size(186, 356);
+            this.pan1.TabIndex = 0;
             // 
-            // label8
+            // l1_4
             // 
-            this.label8.AutoSize = true;
-            this.label8.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label8.Location = new System.Drawing.Point(4, 327);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(64, 19);
-            this.label8.TabIndex = 2;
-            this.label8.Text = "✩✩✩✩✩";
+            this.l1_4.AutoSize = true;
+            this.l1_4.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.l1_4.Location = new System.Drawing.Point(3, 327);
+            this.l1_4.Name = "l1_4";
+            this.l1_4.Size = new System.Drawing.Size(30, 19);
+            this.l1_4.TabIndex = 2;
+            this.l1_4.Text = "5/5";
             // 
-            // label7
+            // l1_3
             // 
-            this.label7.AutoSize = true;
-            this.label7.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label7.Location = new System.Drawing.Point(4, 305);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(70, 19);
-            this.label7.TabIndex = 1;
-            this.label7.Text = "146 Pages";
+            this.l1_3.AutoSize = true;
+            this.l1_3.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.l1_3.Location = new System.Drawing.Point(4, 305);
+            this.l1_3.Name = "l1_3";
+            this.l1_3.Size = new System.Drawing.Size(70, 19);
+            this.l1_3.TabIndex = 1;
+            this.l1_3.Text = "146 Pages";
             // 
-            // label6
+            // l1_2
             // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.White;
-            this.label6.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label6.Location = new System.Drawing.Point(4, 283);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(90, 19);
-            this.label6.TabIndex = 1;
-            this.label6.Text = "Tomoki Izumi";
+            this.l1_2.AutoSize = true;
+            this.l1_2.BackColor = System.Drawing.Color.White;
+            this.l1_2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.l1_2.Location = new System.Drawing.Point(4, 283);
+            this.l1_2.Name = "l1_2";
+            this.l1_2.Size = new System.Drawing.Size(90, 19);
+            this.l1_2.TabIndex = 1;
+            this.l1_2.Text = "Tomoki Izumi";
             // 
-            // label5
+            // l1_1
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(3, 256);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(111, 21);
-            this.label5.TabIndex = 1;
-            this.label5.Text = "Mieruko-chan";
+            this.l1_1.AutoSize = true;
+            this.l1_1.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l1_1.Location = new System.Drawing.Point(3, 256);
+            this.l1_1.Name = "l1_1";
+            this.l1_1.Size = new System.Drawing.Size(111, 21);
+            this.l1_1.TabIndex = 1;
+            this.l1_1.Text = "Mieruko-chan";
             // 
             // button12
             // 
-            this.button12.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button12.BackgroundImage")));
             this.button12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button12.Location = new System.Drawing.Point(3, 3);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(180, 250);
             this.button12.TabIndex = 1;
             this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
             // panel14
             // 
@@ -1249,46 +1178,26 @@ namespace Hondana_Project_Beta
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             this.panel22.ResumeLayout(false);
-            this.panel24.ResumeLayout(false);
-            this.panel24.PerformLayout();
-            this.panel25.ResumeLayout(false);
-            this.panel25.PerformLayout();
-            this.panel26.ResumeLayout(false);
-            this.panel26.PerformLayout();
-            this.panel27.ResumeLayout(false);
-            this.panel27.PerformLayout();
-            this.panel28.ResumeLayout(false);
-            this.panel28.PerformLayout();
             this.panel29.ResumeLayout(false);
             this.panel29.PerformLayout();
             this.panel15.ResumeLayout(false);
-            this.panel21.ResumeLayout(false);
-            this.panel21.PerformLayout();
-            this.panel20.ResumeLayout(false);
-            this.panel20.PerformLayout();
-            this.panel19.ResumeLayout(false);
-            this.panel19.PerformLayout();
-            this.panel18.ResumeLayout(false);
-            this.panel18.PerformLayout();
-            this.panel17.ResumeLayout(false);
-            this.panel17.PerformLayout();
             this.panel16.ResumeLayout(false);
             this.panel16.PerformLayout();
             this.panel6.ResumeLayout(false);
-            this.panel13.ResumeLayout(false);
-            this.panel13.PerformLayout();
-            this.panel12.ResumeLayout(false);
-            this.panel12.PerformLayout();
-            this.panel11.ResumeLayout(false);
-            this.panel11.PerformLayout();
-            this.panel10.ResumeLayout(false);
-            this.panel10.PerformLayout();
-            this.panel9.ResumeLayout(false);
-            this.panel9.PerformLayout();
-            this.panel8.ResumeLayout(false);
-            this.panel8.PerformLayout();
-            this.panel7.ResumeLayout(false);
-            this.panel7.PerformLayout();
+            this.pan6.ResumeLayout(false);
+            this.pan6.PerformLayout();
+            this.pan7.ResumeLayout(false);
+            this.pan7.PerformLayout();
+            this.pan5.ResumeLayout(false);
+            this.pan5.PerformLayout();
+            this.pan4.ResumeLayout(false);
+            this.pan4.PerformLayout();
+            this.pan3.ResumeLayout(false);
+            this.pan3.PerformLayout();
+            this.pan2.ResumeLayout(false);
+            this.pan2.PerformLayout();
+            this.pan1.ResumeLayout(false);
+            this.pan1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1315,81 +1224,73 @@ namespace Hondana_Project_Beta
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel22;
-        private System.Windows.Forms.Panel panel24;
-        private System.Windows.Forms.RadioButton radioButton7;
-        private System.Windows.Forms.Panel panel25;
-        private System.Windows.Forms.RadioButton radioButton8;
-        private System.Windows.Forms.Panel panel26;
-        private System.Windows.Forms.RadioButton radioButton9;
-        private System.Windows.Forms.Panel panel27;
-        private System.Windows.Forms.RadioButton radioButton10;
-        private System.Windows.Forms.Panel panel28;
-        private System.Windows.Forms.RadioButton radioButton11;
         private System.Windows.Forms.Panel panel29;
-        private System.Windows.Forms.RadioButton radioButton12;
         private System.Windows.Forms.Panel panel30;
         private System.Windows.Forms.Label label33;
         private System.Windows.Forms.Panel panel15;
-        private System.Windows.Forms.Panel panel21;
-        private System.Windows.Forms.RadioButton radioButton6;
-        private System.Windows.Forms.Panel panel20;
-        private System.Windows.Forms.RadioButton radioButton5;
-        private System.Windows.Forms.Panel panel19;
-        private System.Windows.Forms.RadioButton radioButton4;
-        private System.Windows.Forms.Panel panel18;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.Panel panel17;
-        private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.Panel panel16;
-        private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.Panel panel23;
         private System.Windows.Forms.Label label61;
         private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.Panel panel13;
-        private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.Label label32;
+        private System.Windows.Forms.Panel pan6;
+        private System.Windows.Forms.Label l6_3;
+        private System.Windows.Forms.Label l6_2;
+        private System.Windows.Forms.Label l6_1;
         private System.Windows.Forms.Button button18;
-        private System.Windows.Forms.Panel panel12;
-        private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Panel pan7;
+        private System.Windows.Forms.Label l7_3;
+        private System.Windows.Forms.Label l7_2;
+        private System.Windows.Forms.Label l7_1;
         private System.Windows.Forms.Button button17;
-        private System.Windows.Forms.Panel panel11;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Panel pan5;
+        private System.Windows.Forms.Label l5_3;
+        private System.Windows.Forms.Label l5_2;
+        private System.Windows.Forms.Label l5_1;
         private System.Windows.Forms.Button button16;
-        private System.Windows.Forms.Panel panel10;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Panel pan4;
+        private System.Windows.Forms.Label l4_3;
+        private System.Windows.Forms.Label l4_2;
+        private System.Windows.Forms.Label l4_1;
         private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Panel panel9;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Panel pan3;
+        private System.Windows.Forms.Label l3_3;
+        private System.Windows.Forms.Label l3_2;
+        private System.Windows.Forms.Label l3_1;
         private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Panel pan2;
+        private System.Windows.Forms.Label l2_3;
+        private System.Windows.Forms.Label l2_2;
+        private System.Windows.Forms.Label l2_1;
         private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Panel pan1;
+        private System.Windows.Forms.Label l1_3;
+        private System.Windows.Forms.Label l1_2;
+        private System.Windows.Forms.Label l1_1;
         private System.Windows.Forms.Button button12;
         private System.Windows.Forms.Panel panel14;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.NotifyIcon NotificacionWaffle;
+        private System.Windows.Forms.Label l6_4;
+        private System.Windows.Forms.Label l7_4;
+        private System.Windows.Forms.Label l5_4;
+        private System.Windows.Forms.Label l4_4;
+        private System.Windows.Forms.Label l3_4;
+        private System.Windows.Forms.Label l2_4;
+        private System.Windows.Forms.Label l1_4;
+        private System.Windows.Forms.RadioButton rd6;
+        private System.Windows.Forms.RadioButton rd5;
+        private System.Windows.Forms.RadioButton rd4;
+        private System.Windows.Forms.RadioButton rd3;
+        private System.Windows.Forms.RadioButton rd2;
+        private System.Windows.Forms.RadioButton rd1;
+        private System.Windows.Forms.RadioButton rr6;
+        private System.Windows.Forms.RadioButton rr5;
+        private System.Windows.Forms.RadioButton rr4;
+        private System.Windows.Forms.RadioButton rr3;
+        private System.Windows.Forms.RadioButton rr2;
+        private System.Windows.Forms.RadioButton rr1;
+        private System.Windows.Forms.RadioButton rr7;
+        private System.Windows.Forms.RadioButton rd7;
     }
 }

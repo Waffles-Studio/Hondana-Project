@@ -41,7 +41,7 @@ namespace Hondana_Project_Beta
                 FLS.ShowDialog();
                 this.Close();
             }
-            catch (Exception b)
+            catch (Exception )
             {
                 NotificacionWaffle.ShowBalloonTip(100, "Failed to connect.", "Check your server name", ToolTipIcon.Warning);
             }

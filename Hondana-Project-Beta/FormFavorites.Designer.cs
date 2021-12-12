@@ -282,6 +282,7 @@ namespace Hondana_Project_Beta
             this.BtnSearch.Text = "Search";
             this.BtnSearch.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.BtnSearch.UseVisualStyleBackColor = false;
+            this.BtnSearch.Click += new System.EventHandler(this.BtnSearch_Click);
             // 
             // BtnHelp
             // 

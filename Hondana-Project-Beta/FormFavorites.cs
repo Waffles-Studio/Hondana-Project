@@ -27,6 +27,15 @@ namespace Hondana_Project_Beta
         #endregion
 
         #region Envio de formas
+        private void BtnSearch_Click(object sender, EventArgs e)
+        {
+            NotificacionWaffle.Visible = false;
+
+            FormSearch FH = new FormSearch();
+            this.Hide();
+            FH.ShowDialog();
+            this.Close();
+        }
         private void BtnLibrary_Click(object sender, EventArgs e)
         {
             NotificacionWaffle.Visible = false;
@@ -396,5 +405,7 @@ namespace Hondana_Project_Beta
             NotificacionWaffle.Visible = true;
         }
         #endregion
+
+
     }
 }

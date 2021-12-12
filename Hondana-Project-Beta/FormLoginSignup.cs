@@ -249,7 +249,7 @@ namespace Hondana_Project_Beta
                             MessageBox.Show("" + bien);
                         }
                     }
-                    catch (Exception b)
+                    catch (Exception )
                     {
                         NotificacionWaffle.ShowBalloonTip(100, "Fail everything that could fail", "check the... sp?", ToolTipIcon.Warning);
                     }
