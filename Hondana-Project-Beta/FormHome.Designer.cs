@@ -29,6 +29,7 @@ namespace Hondana_Project_Beta
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormHome));
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
@@ -50,49 +51,50 @@ namespace Hondana_Project_Beta
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
             this.panel13 = new System.Windows.Forms.Panel();
-            this.label29 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
             this.button18 = new System.Windows.Forms.Button();
             this.panel12 = new System.Windows.Forms.Panel();
-            this.label25 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
             this.button17 = new System.Windows.Forms.Button();
             this.panel11 = new System.Windows.Forms.Panel();
-            this.label21 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
             this.button16 = new System.Windows.Forms.Button();
             this.panel10 = new System.Windows.Forms.Panel();
-            this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.button15 = new System.Windows.Forms.Button();
             this.panel9 = new System.Windows.Forms.Panel();
-            this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.button14 = new System.Windows.Forms.Button();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.button13 = new System.Windows.Forms.Button();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.button12 = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
+            this.NotifiacionWaffle = new System.Windows.Forms.NotifyIcon(this.components);
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -146,6 +148,7 @@ namespace Hondana_Project_Beta
             this.BtnUpdates.Text = "Updates";
             this.BtnUpdates.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.BtnUpdates.UseVisualStyleBackColor = false;
+            this.BtnUpdates.Click += new System.EventHandler(this.BtnUpdates_Click);
             // 
             // BtnAbout
             // 
@@ -161,6 +164,7 @@ namespace Hondana_Project_Beta
             this.BtnAbout.Text = "About";
             this.BtnAbout.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.BtnAbout.UseVisualStyleBackColor = false;
+            this.BtnAbout.Click += new System.EventHandler(this.BtnAbout_Click);
             // 
             // BtnLogout
             // 
@@ -293,6 +297,7 @@ namespace Hondana_Project_Beta
             this.BtnSettings.TabIndex = 4;
             this.BtnSettings.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.BtnSettings.UseVisualStyleBackColor = true;
+            this.BtnSettings.Click += new System.EventHandler(this.BtnSettings_Click);
             // 
             // BtnHelp
             // 
@@ -308,6 +313,7 @@ namespace Hondana_Project_Beta
             this.BtnHelp.TabIndex = 5;
             this.BtnHelp.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.BtnHelp.UseVisualStyleBackColor = true;
+            this.BtnHelp.Click += new System.EventHandler(this.BtnHelp_Click);
             // 
             // label3
             // 
@@ -377,7 +383,7 @@ namespace Hondana_Project_Beta
             // panel13
             // 
             this.panel13.BackColor = System.Drawing.Color.White;
-            this.panel13.Controls.Add(this.label29);
+            this.panel13.Controls.Add(this.label33);
             this.panel13.Controls.Add(this.label30);
             this.panel13.Controls.Add(this.label31);
             this.panel13.Controls.Add(this.label32);
@@ -387,6 +393,7 @@ namespace Hondana_Project_Beta
             this.panel13.Size = new System.Drawing.Size(186, 356);
             this.panel13.TabIndex = 6;
             // 
+            /*ERROR CODIGO GIT
             // label29
             // 
             this.label29.AutoSize = true;
@@ -397,6 +404,7 @@ namespace Hondana_Project_Beta
             this.label29.TabIndex = 2;
             this.label29.Text = "✩✩✩✩✩";
             // 
+            */
             // label30
             // 
             this.label30.AutoSize = true;
@@ -446,11 +454,12 @@ namespace Hondana_Project_Beta
             this.panel12.Controls.Add(this.label27);
             this.panel12.Controls.Add(this.label28);
             this.panel12.Controls.Add(this.button17);
-            this.panel12.Location = new System.Drawing.Point(37, 377);
+            this.panel12.Location = new System.Drawing.Point(37, 371);
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(186, 356);
             this.panel12.TabIndex = 5;
             // 
+            /*ERROR CODIGO GIT
             // label25
             // 
             this.label25.AutoSize = true;
@@ -461,6 +470,7 @@ namespace Hondana_Project_Beta
             this.label25.TabIndex = 2;
             this.label25.Text = "✩✩✩✩✩";
             // 
+            */
             // label26
             // 
             this.label26.AutoSize = true;
@@ -515,6 +525,7 @@ namespace Hondana_Project_Beta
             this.panel11.Size = new System.Drawing.Size(186, 356);
             this.panel11.TabIndex = 4;
             // 
+            /*ERROR CODIGO GIT
             // label21
             // 
             this.label21.AutoSize = true;
@@ -525,6 +536,7 @@ namespace Hondana_Project_Beta
             this.label21.TabIndex = 2;
             this.label21.Text = "✩✩✩✩✩";
             // 
+            */
             // label22
             // 
             this.label22.AutoSize = true;
@@ -579,6 +591,7 @@ namespace Hondana_Project_Beta
             this.panel10.Size = new System.Drawing.Size(186, 356);
             this.panel10.TabIndex = 3;
             // 
+            /*
             // label17
             // 
             this.label17.AutoSize = true;
@@ -589,6 +602,7 @@ namespace Hondana_Project_Beta
             this.label17.TabIndex = 2;
             this.label17.Text = "✩✩✩✩✩";
             // 
+            */
             // label18
             // 
             this.label18.AutoSize = true;
@@ -643,6 +657,8 @@ namespace Hondana_Project_Beta
             this.panel9.Size = new System.Drawing.Size(186, 356);
             this.panel9.TabIndex = 2;
             // 
+
+            /*ERROR CODIGO GIT
             // label13
             // 
             this.label13.AutoSize = true;
@@ -653,6 +669,8 @@ namespace Hondana_Project_Beta
             this.label13.TabIndex = 2;
             this.label13.Text = "✩✩✩✩✩";
             // 
+          */
+
             // label14
             // 
             this.label14.AutoSize = true;
@@ -707,6 +725,8 @@ namespace Hondana_Project_Beta
             this.panel8.Size = new System.Drawing.Size(186, 356);
             this.panel8.TabIndex = 1;
             // 
+
+            /*ERROR CODIGO GIT
             // label9
             // 
             this.label9.AutoSize = true;
@@ -717,6 +737,7 @@ namespace Hondana_Project_Beta
             this.label9.TabIndex = 2;
             this.label9.Text = "✩✩✩✩✩";
             // 
+            */
             // label10
             // 
             this.label10.AutoSize = true;
@@ -771,6 +792,7 @@ namespace Hondana_Project_Beta
             this.panel7.Size = new System.Drawing.Size(186, 356);
             this.panel7.TabIndex = 0;
             // 
+            /*ERROR CODIGO GIT
             // label8
             // 
             this.label8.AutoSize = true;
@@ -781,6 +803,7 @@ namespace Hondana_Project_Beta
             this.label8.TabIndex = 2;
             this.label8.Text = "✩✩✩✩✩";
             // 
+            */
             // label7
             // 
             this.label7.AutoSize = true;
@@ -841,6 +864,82 @@ namespace Hondana_Project_Beta
             this.label4.TabIndex = 15;
             this.label4.Text = "Recommended for you";
             // 
+            // NotifiacionWaffle
+            // 
+            this.NotifiacionWaffle.Icon = ((System.Drawing.Icon)(resources.GetObject("NotifiacionWaffle.Icon")));
+            this.NotifiacionWaffle.Text = "Hondana 本棚 Project";
+            this.NotifiacionWaffle.Visible = true;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.label8.Location = new System.Drawing.Point(4, 327);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(30, 19);
+            this.label8.TabIndex = 2;
+            this.label8.Text = "0/5";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.label9.Location = new System.Drawing.Point(4, 327);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(30, 19);
+            this.label9.TabIndex = 3;
+            this.label9.Text = "0/5";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.label13.Location = new System.Drawing.Point(4, 327);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(30, 19);
+            this.label13.TabIndex = 3;
+            this.label13.Text = "0/5";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.label17.Location = new System.Drawing.Point(4, 327);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(30, 19);
+            this.label17.TabIndex = 3;
+            this.label17.Text = "0/5";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.label21.Location = new System.Drawing.Point(4, 327);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(30, 19);
+            this.label21.TabIndex = 3;
+            this.label21.Text = "0/5";
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.label33.Location = new System.Drawing.Point(4, 327);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(30, 19);
+            this.label33.TabIndex = 3;
+            this.label33.Text = "0/5";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.label25.Location = new System.Drawing.Point(4, 327);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(30, 19);
+            this.label25.TabIndex = 3;
+            this.label25.Text = "0/5";
+            // 
             // FormHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 22F);
@@ -854,6 +953,7 @@ namespace Hondana_Project_Beta
             this.Controls.Add(this.panel3);
             this.Font = new System.Drawing.Font("Segoe UI Variable Text", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "FormHome";
@@ -907,46 +1007,47 @@ namespace Hondana_Project_Beta
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button button12;
         private System.Windows.Forms.Panel panel12;
-        private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.Button button17;
         private System.Windows.Forms.Panel panel11;
-        private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.Button button16;
         private System.Windows.Forms.Panel panel10;
-        private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Button button15;
         private System.Windows.Forms.Panel panel9;
-        private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Button button14;
         private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Button button13;
         private System.Windows.Forms.Panel panel13;
-        private System.Windows.Forms.Label label29;
         private System.Windows.Forms.Label label30;
         private System.Windows.Forms.Label label31;
         private System.Windows.Forms.Label label32;
         private System.Windows.Forms.Button button18;
+        private System.Windows.Forms.NotifyIcon NotifiacionWaffle;
+        private System.Windows.Forms.Label label33;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label8;
     }
 }

@@ -29,6 +29,7 @@ namespace Hondana_Project_Beta
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormLoginSignup));
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -54,6 +55,7 @@ namespace Hondana_Project_Beta
             this.label13 = new System.Windows.Forms.Label();
             this.BtnSignup = new System.Windows.Forms.Button();
             this.label14 = new System.Windows.Forms.Label();
+            this.NotificacionWaffle = new System.Windows.Forms.NotifyIcon(this.components);
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -192,6 +194,7 @@ namespace Hondana_Project_Beta
             this.LblLoginForgot.Size = new System.Drawing.Size(211, 19);
             this.LblLoginForgot.TabIndex = 21;
             this.LblLoginForgot.Text = "Did you forget your password?";
+            this.LblLoginForgot.Click += new System.EventHandler(this.LblLoginForgot_Click);
             // 
             // label9
             // 
@@ -309,6 +312,12 @@ namespace Hondana_Project_Beta
             this.label14.TabIndex = 32;
             this.label14.Text = "By continuing, you agree to Hondana\'s\r\nTerms of Service";
             // 
+            // NotificacionWaffle
+            // 
+            this.NotificacionWaffle.Icon = ((System.Drawing.Icon)(resources.GetObject("NotificacionWaffle.Icon")));
+            this.NotificacionWaffle.Text = "Hondana 本棚 Project";
+            this.NotificacionWaffle.Visible = true;
+            // 
             // FormLoginSignup
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
@@ -339,6 +348,7 @@ namespace Hondana_Project_Beta
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Segoe UI Variable Text", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.MaximizeBox = false;
             this.Name = "FormLoginSignup";
@@ -378,5 +388,6 @@ namespace Hondana_Project_Beta
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Button BtnSignup;
         private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.NotifyIcon NotificacionWaffle;
     }
 }
