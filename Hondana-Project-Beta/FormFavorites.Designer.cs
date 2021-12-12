@@ -29,6 +29,7 @@ namespace Hondana_Project_Beta
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormFavorites));
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
@@ -54,11 +55,19 @@ namespace Hondana_Project_Beta
             this.panel4 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.NotificacionWaffle = new System.Windows.Forms.NotifyIcon(this.components);
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.button12 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel7.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -101,6 +110,7 @@ namespace Hondana_Project_Beta
             this.BtnUpdates.Text = "Updates";
             this.BtnUpdates.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.BtnUpdates.UseVisualStyleBackColor = false;
+            this.BtnUpdates.Click += new System.EventHandler(this.BtnUpdates_Click);
             // 
             // BtnAbout
             // 
@@ -116,7 +126,7 @@ namespace Hondana_Project_Beta
             this.BtnAbout.Text = "About";
             this.BtnAbout.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.BtnAbout.UseVisualStyleBackColor = false;
-            //this.BtnAbout.Click += new System.EventHandler(this.BtnAbout_Click);
+            this.BtnAbout.Click += new System.EventHandler(this.BtnAbout_Click);
             // 
             // BtnLogout
             // 
@@ -132,6 +142,7 @@ namespace Hondana_Project_Beta
             this.BtnLogout.Text = "Log out";
             this.BtnLogout.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.BtnLogout.UseVisualStyleBackColor = false;
+            this.BtnLogout.Click += new System.EventHandler(this.BtnLogout_Click);
             // 
             // BtnNewsletter
             // 
@@ -147,6 +158,7 @@ namespace Hondana_Project_Beta
             this.BtnNewsletter.Text = "News";
             this.BtnNewsletter.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.BtnNewsletter.UseVisualStyleBackColor = false;
+            this.BtnNewsletter.Click += new System.EventHandler(this.BtnNewsletter_Click);
             // 
             // BtnForums
             // 
@@ -162,6 +174,7 @@ namespace Hondana_Project_Beta
             this.BtnForums.Text = "Forums";
             this.BtnForums.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.BtnForums.UseVisualStyleBackColor = false;
+            this.BtnForums.Click += new System.EventHandler(this.BtnForums_Click);
             // 
             // BtnFavorites
             // 
@@ -177,6 +190,7 @@ namespace Hondana_Project_Beta
             this.BtnFavorites.Text = "Favorites";
             this.BtnFavorites.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.BtnFavorites.UseVisualStyleBackColor = false;
+            this.BtnFavorites.Click += new System.EventHandler(this.BtnFavorites_Click);
             // 
             // BtnLibrary
             // 
@@ -192,6 +206,7 @@ namespace Hondana_Project_Beta
             this.BtnLibrary.Text = "Library";
             this.BtnLibrary.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.BtnLibrary.UseVisualStyleBackColor = false;
+            this.BtnLibrary.Click += new System.EventHandler(this.BtnLibrary_Click);
             // 
             // panel2
             // 
@@ -233,6 +248,7 @@ namespace Hondana_Project_Beta
             this.BtnHelp.TabIndex = 5;
             this.BtnHelp.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.BtnHelp.UseVisualStyleBackColor = true;
+            this.BtnHelp.Click += new System.EventHandler(this.BtnHelp_Click);
             // 
             // BtnUserProfile
             // 
@@ -263,6 +279,7 @@ namespace Hondana_Project_Beta
             this.BtnSettings.TabIndex = 4;
             this.BtnSettings.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.BtnSettings.UseVisualStyleBackColor = true;
+            this.BtnSettings.Click += new System.EventHandler(this.BtnSettings_Click);
             // 
             // label1
             // 
@@ -271,7 +288,7 @@ namespace Hondana_Project_Beta
             this.label1.Location = new System.Drawing.Point(977, 722);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(432, 22);
+            this.label1.Size = new System.Drawing.Size(358, 19);
             this.label1.TabIndex = 18;
             this.label1.Text = "Evaluation copy. Build 4050.rs.open-beta.20211206-2006";
             // 
@@ -282,7 +299,7 @@ namespace Hondana_Project_Beta
             this.label2.Location = new System.Drawing.Point(1114, 700);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(295, 22);
+            this.label2.Size = new System.Drawing.Size(237, 19);
             this.label2.TabIndex = 19;
             this.label2.Text = "Hondana Project Open Beta Program";
             // 
@@ -301,6 +318,7 @@ namespace Hondana_Project_Beta
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.LavenderBlush;
+            this.panel6.Controls.Add(this.panel7);
             this.panel6.Controls.Add(this.pictureBox1);
             this.panel6.Controls.Add(this.label6);
             this.panel6.Controls.Add(this.label5);
@@ -326,7 +344,7 @@ namespace Hondana_Project_Beta
             this.label6.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.label6.Location = new System.Drawing.Point(449, 207);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(374, 27);
+            this.label6.Size = new System.Drawing.Size(299, 21);
             this.label6.TabIndex = 1;
             this.label6.Text = "Explore our library and find new favorites.";
             // 
@@ -336,7 +354,7 @@ namespace Hondana_Project_Beta
             this.label5.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(534, 175);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(192, 32);
+            this.label5.Size = new System.Drawing.Size(150, 26);
             this.label5.TabIndex = 0;
             this.label5.Text = "No books added";
             // 
@@ -354,7 +372,7 @@ namespace Hondana_Project_Beta
             this.label4.Font = new System.Drawing.Font("Segoe UI Variable Text", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(5, 55);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(179, 32);
+            this.label4.Size = new System.Drawing.Size(140, 26);
             this.label4.TabIndex = 15;
             this.label4.Text = "Recently added";
             // 
@@ -364,14 +382,84 @@ namespace Hondana_Project_Beta
             this.label3.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(3, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(216, 44);
+            this.label3.Size = new System.Drawing.Size(172, 36);
             this.label3.TabIndex = 14;
             this.label3.Text = "Favorites List";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // NotificacionWaffle
+            // 
+            this.NotificacionWaffle.Icon = ((System.Drawing.Icon)(resources.GetObject("NotificacionWaffle.Icon")));
+            this.NotificacionWaffle.Text = "Hondana 本棚 Project";
+            this.NotificacionWaffle.Visible = true;
+            // 
+            // panel7
+            // 
+            this.panel7.BackColor = System.Drawing.Color.White;
+            this.panel7.Controls.Add(this.label8);
+            this.panel7.Controls.Add(this.label7);
+            this.panel7.Controls.Add(this.label9);
+            this.panel7.Controls.Add(this.label10);
+            this.panel7.Controls.Add(this.button12);
+            this.panel7.Location = new System.Drawing.Point(11, 11);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(1239, 124);
+            this.panel7.TabIndex = 3;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.label8.Location = new System.Drawing.Point(101, 92);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(64, 19);
+            this.label8.TabIndex = 2;
+            this.label8.Text = "✩✩✩✩✩";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.label7.Location = new System.Drawing.Point(101, 70);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(70, 19);
+            this.label7.TabIndex = 1;
+            this.label7.Text = "146 Pages";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.White;
+            this.label9.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.label9.Location = new System.Drawing.Point(101, 48);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(90, 19);
+            this.label9.TabIndex = 1;
+            this.label9.Text = "Tomoki Izumi";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(100, 21);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(111, 21);
+            this.label10.TabIndex = 1;
+            this.label10.Text = "Mieruko-chan";
+            // 
+            // button12
+            // 
+            this.button12.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button12.BackgroundImage")));
+            this.button12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button12.Location = new System.Drawing.Point(3, 3);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(91, 112);
+            this.button12.TabIndex = 1;
+            this.button12.UseVisualStyleBackColor = true;
+            // 
             // FormFavorites
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 22F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LavenderBlush;
             this.ClientSize = new System.Drawing.Size(1422, 753);
@@ -382,6 +470,7 @@ namespace Hondana_Project_Beta
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Segoe UI Variable Text", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MaximizeBox = false;
             this.Name = "FormFavorites";
@@ -394,6 +483,8 @@ namespace Hondana_Project_Beta
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel7.ResumeLayout(false);
+            this.panel7.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -425,5 +516,12 @@ namespace Hondana_Project_Beta
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.NotifyIcon NotificacionWaffle;
+        private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Button button12;
     }
 }
