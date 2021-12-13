@@ -285,6 +285,7 @@ namespace Hondana_Project_Beta
                 lbl1_3.Text = DT.Rows[0][2].ToString() + " Pages";
                 lbl1_4.Text = DT.Rows[0][3].ToString() + "/5";
                 Globales.FavoritesPos[0] = Convert.ToInt32(DT.Rows[0][4]);
+                button12.BackgroundImage = Image.FromFile("CoverPage\\" + Globales.FavoritesPos[0] + ".jpg");
             }
             if (p >= 2)
             {
@@ -293,6 +294,7 @@ namespace Hondana_Project_Beta
                 lbl2_3.Text = DT.Rows[1][2].ToString() + " Pages";
                 lbl2_4.Text = DT.Rows[1][3].ToString() + "/5";
                 Globales.FavoritesPos[1] = Convert.ToInt32(DT.Rows[1][4]);
+                button1.BackgroundImage = Image.FromFile("CoverPage\\" + Globales.FavoritesPos[1] + ".jpg");
             }
             if (p >= 3)
             {
@@ -301,6 +303,7 @@ namespace Hondana_Project_Beta
                 lbl3_3.Text = DT.Rows[2][2].ToString() + " Pages";
                 lbl3_4.Text = DT.Rows[2][3].ToString() + "/5";
                 Globales.FavoritesPos[2] = Convert.ToInt32(DT.Rows[2][4]);
+                button2.BackgroundImage = Image.FromFile("CoverPage\\" + Globales.FavoritesPos[2] + ".jpg");
             }
             if (p >= 4)
             {
@@ -309,6 +312,7 @@ namespace Hondana_Project_Beta
                 lbl4_3.Text = DT.Rows[3][2].ToString() + " Pages";
                 lbl4_4.Text = DT.Rows[3][3].ToString() + "/5";
                 Globales.FavoritesPos[3] = Convert.ToInt32(DT.Rows[3][4]);
+                button3.BackgroundImage = Image.FromFile("CoverPage\\" + Globales.FavoritesPos[3] + ".jpg");
             }
             if (p >= 5)
             {
@@ -317,6 +321,7 @@ namespace Hondana_Project_Beta
                 lbl5_3.Text = DT.Rows[4][2].ToString() + " Pages";
                 lbl5_4.Text = DT.Rows[4][3].ToString() + "/5";
                 Globales.FavoritesPos[4] = Convert.ToInt32(DT.Rows[4][4]);
+                button4.BackgroundImage = Image.FromFile("CoverPage\\" + Globales.FavoritesPos[4] + ".jpg");
             }
             if (p >= 6)
             {
@@ -325,6 +330,7 @@ namespace Hondana_Project_Beta
                 lbl6_3.Text = DT.Rows[5][2].ToString() + " Pages";
                 lbl6_4.Text = DT.Rows[5][3].ToString() + "/5";
                 Globales.FavoritesPos[5] = Convert.ToInt32(DT.Rows[5][4]);
+                button5.BackgroundImage = Image.FromFile("CoverPage\\" + Globales.FavoritesPos[5] + ".jpg");
             }
             if (p >= 7)
             {
@@ -333,6 +339,7 @@ namespace Hondana_Project_Beta
                 lbl7_3.Text = DT.Rows[6][2].ToString() + " Pages";
                 lbl7_4.Text = DT.Rows[6][3].ToString() + "/5";
                 Globales.FavoritesPos[6] = Convert.ToInt32(DT.Rows[6][4]);
+                button6.BackgroundImage = Image.FromFile("CoverPage\\" + Globales.FavoritesPos[6] + ".jpg");
             }
             if (p >= 8)
             {
@@ -341,6 +348,7 @@ namespace Hondana_Project_Beta
                 lbl8_3.Text = DT.Rows[7][2].ToString() + " Pages";
                 lbl8_4.Text = DT.Rows[7][3].ToString() + "/5";
                 Globales.FavoritesPos[7] = Convert.ToInt32(DT.Rows[7][4]);
+                button7.BackgroundImage = Image.FromFile("CoverPage\\" + Globales.FavoritesPos[7] + ".jpg");
             }
         }
 

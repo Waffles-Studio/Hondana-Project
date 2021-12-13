@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using System.IO;
 
 namespace Hondana_Project_Beta
 {
@@ -21,6 +22,7 @@ namespace Hondana_Project_Beta
             existe();
             iniciar();
             radiollenar();
+            Images();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -33,9 +35,12 @@ namespace Hondana_Project_Beta
         #region Mostrar datos
         private void iniciar()
         {
-            string sqlcon = "SELECT BookTitle, EditorialName, BookPages, BookISBN, BookLanguage, BookTags, BookRating " +
-                "FROM Books INNER JOIN Editorials ON (Books.BookEditorial = Editorials.EditorialId) " +
-                "WHERE BookID = @libro";
+            string sqlcon = "SELECT B.BookTitle, E.EditorialName, B.BookPages, B.BookISBN, B.BookLanguage, B.BookTags, B.BookRating, W.WriterName " +
+                "FROM Books AS B " +
+                "INNER JOIN Editorials AS E ON (B.BookEditorial = E.EditorialId) " +
+                "INNER JOIN BookWriter AS BW ON (B.BookID = BW.BookID) " +
+                "INNER JOIN Writers AS W ON (BW.WriterID = W.WriterID) " +
+                "WHERE B.BookID = @libro";
             using (SqlCommand cmdLibro = new SqlCommand(sqlcon, Globales.conexion))
             {
                 Globales.conexion.Open();
@@ -45,13 +50,14 @@ namespace Hondana_Project_Beta
                 DataTable DT = new DataTable();
                 adapter.Fill(DT);
 
-                lbl1.Text = DT.Rows[0][0].ToString();
+                label5.Text = DT.Rows[0][0].ToString();
                 lbl2.Text = DT.Rows[0][1].ToString();
                 lbl3.Text = DT.Rows[0][2].ToString() + " Pages";
                 lbl4.Text = DT.Rows[0][3].ToString();
                 lbl5.Text = DT.Rows[0][4].ToString();
                 lbl6.Text = DT.Rows[0][5].ToString();
                 lbl7.Text = DT.Rows[0][6].ToString() + "/5";
+                lbl1.Text = DT.Rows[0][7].ToString();
                 Globales.conexion.Close();
             }
         }
@@ -89,7 +95,6 @@ namespace Hondana_Project_Beta
                     cmdexiste2.Parameters.AddWithValue("@usuario", Globales.UserID);
                     cmdexiste2.ExecuteNonQuery();
                     Globales.conexion.Close();
-                    MessageBox.Show("si entra al insert");
                 }
             }
         }
@@ -255,6 +260,40 @@ namespace Hondana_Project_Beta
         }
         #endregion
 
+        #region Cargar Imagenes
+        private void Images()
+        {
+            if (Globales.LibroLeer == 1)
+            {
+                pictureBox1.Image = Image.FromFile("CoverPage\\1.jpg");
+                pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            }
+            if (Globales.LibroLeer == 2)
+            {
+                pictureBox1.Image = Image.FromFile("CoverPage\\2.jpg");
+            }
+            if (Globales.LibroLeer == 3)
+            {
+                pictureBox1.Image = Image.FromFile("CoverPage\\3.jpg");
+            }
+            if (Globales.LibroLeer == 4)
+            {
+                pictureBox1.Image = Image.FromFile("CoverPage\\4.jpg");
+            }
+            if (Globales.LibroLeer == 5)
+            {
+                pictureBox1.Image = Image.FromFile("CoverPage\\5.jpg");
+            }
+            if (Globales.LibroLeer == 6)
+            {
+                pictureBox1.Image = Image.FromFile("CoverPage\\6.jpg");
+            }
+            if (Globales.LibroLeer == 7)
+            {
+                pictureBox1.Image = Image.FromFile("CoverPage\\7.jpg");
+            }
+        }
+        #endregion
 
     }
 }
