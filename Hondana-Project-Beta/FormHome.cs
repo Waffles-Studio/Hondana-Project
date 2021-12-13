@@ -123,5 +123,57 @@ namespace Hondana_Project_Beta
 
         #endregion
 
+        #region Vista Libro
+        private void button12_Click(object sender, EventArgs e)
+        {
+            Globales.LibroLeer = 1;
+            mandar();
+        }        
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            Globales.LibroLeer = 2;
+            mandar();
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            Globales.LibroLeer = 3;
+            mandar();
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            Globales.LibroLeer = 4;
+            mandar();
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            Globales.LibroLeer = 5;
+            mandar();
+        }
+
+        private void button18_Click(object sender, EventArgs e)
+        {
+            Globales.LibroLeer = 6;
+            mandar();
+        }
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+            Globales.LibroLeer = 7;
+            mandar();
+        }
+        private void mandar()
+        {
+            FormViewer FV = new FormViewer();
+            this.Enabled = false;
+            NotifiacionWaffle.Visible = false;
+            FV.ShowDialog();
+            this.Enabled = true;
+            NotifiacionWaffle.Visible = true;
+        }
+        #endregion
     }
 }

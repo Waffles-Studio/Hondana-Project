@@ -88,13 +88,6 @@ namespace Hondana_Project_Beta
             this.panel4 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.NotifiacionWaffle = new System.Windows.Forms.NotifyIcon(this.components);
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label33 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -253,7 +246,7 @@ namespace Hondana_Project_Beta
             this.label1.Location = new System.Drawing.Point(977, 722);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(432, 22);
+            this.label1.Size = new System.Drawing.Size(358, 19);
             this.label1.TabIndex = 1;
             this.label1.Text = "Evaluation copy. Build 4050.rs.open-beta.20211206-2006";
             // 
@@ -264,7 +257,7 @@ namespace Hondana_Project_Beta
             this.label2.Location = new System.Drawing.Point(1114, 700);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(295, 22);
+            this.label2.Size = new System.Drawing.Size(237, 19);
             this.label2.TabIndex = 2;
             this.label2.Text = "Hondana Project Open Beta Program";
             // 
@@ -321,7 +314,7 @@ namespace Hondana_Project_Beta
             this.label3.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(3, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(325, 44);
+            this.label3.Size = new System.Drawing.Size(259, 36);
             this.label3.TabIndex = 14;
             this.label3.Text = "Good Morning, User";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -383,7 +376,6 @@ namespace Hondana_Project_Beta
             // panel13
             // 
             this.panel13.BackColor = System.Drawing.Color.White;
-            this.panel13.Controls.Add(this.label33);
             this.panel13.Controls.Add(this.label30);
             this.panel13.Controls.Add(this.label31);
             this.panel13.Controls.Add(this.label32);
@@ -393,25 +385,13 @@ namespace Hondana_Project_Beta
             this.panel13.Size = new System.Drawing.Size(186, 356);
             this.panel13.TabIndex = 6;
             // 
-            /*ERROR CODIGO GIT
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label29.Location = new System.Drawing.Point(4, 327);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(75, 22);
-            this.label29.TabIndex = 2;
-            this.label29.Text = "✩✩✩✩✩";
-            // 
-            */
             // label30
             // 
             this.label30.AutoSize = true;
             this.label30.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.label30.Location = new System.Drawing.Point(4, 305);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(83, 22);
+            this.label30.Size = new System.Drawing.Size(70, 19);
             this.label30.TabIndex = 1;
             this.label30.Text = "541 Pages";
             // 
@@ -422,7 +402,7 @@ namespace Hondana_Project_Beta
             this.label31.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.label31.Location = new System.Drawing.Point(4, 283);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(160, 22);
+            this.label31.Size = new System.Drawing.Size(129, 19);
             this.label31.TabIndex = 1;
             this.label31.Text = "Brandon Sanderson";
             // 
@@ -432,7 +412,7 @@ namespace Hondana_Project_Beta
             this.label32.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label32.Location = new System.Drawing.Point(3, 256);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(185, 27);
+            this.label32.Size = new System.Drawing.Size(149, 21);
             this.label32.TabIndex = 1;
             this.label32.Text = "The Final Empire: ...";
             // 
@@ -445,11 +425,11 @@ namespace Hondana_Project_Beta
             this.button18.Size = new System.Drawing.Size(180, 250);
             this.button18.TabIndex = 1;
             this.button18.UseVisualStyleBackColor = true;
+            this.button18.Click += new System.EventHandler(this.button18_Click);
             // 
             // panel12
             // 
             this.panel12.BackColor = System.Drawing.Color.White;
-            this.panel12.Controls.Add(this.label25);
             this.panel12.Controls.Add(this.label26);
             this.panel12.Controls.Add(this.label27);
             this.panel12.Controls.Add(this.label28);
@@ -459,25 +439,13 @@ namespace Hondana_Project_Beta
             this.panel12.Size = new System.Drawing.Size(186, 356);
             this.panel12.TabIndex = 5;
             // 
-            /*ERROR CODIGO GIT
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label25.Location = new System.Drawing.Point(4, 327);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(75, 22);
-            this.label25.TabIndex = 2;
-            this.label25.Text = "✩✩✩✩✩";
-            // 
-            */
             // label26
             // 
             this.label26.AutoSize = true;
             this.label26.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.label26.Location = new System.Drawing.Point(4, 305);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(83, 22);
+            this.label26.Size = new System.Drawing.Size(70, 19);
             this.label26.TabIndex = 1;
             this.label26.Text = "160 Pages";
             // 
@@ -488,7 +456,7 @@ namespace Hondana_Project_Beta
             this.label27.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.label27.Location = new System.Drawing.Point(4, 283);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(100, 22);
+            this.label27.Size = new System.Drawing.Size(80, 19);
             this.label27.TabIndex = 1;
             this.label27.Text = "Kenji Saitou";
             // 
@@ -498,7 +466,7 @@ namespace Hondana_Project_Beta
             this.label28.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label28.Location = new System.Drawing.Point(3, 256);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(129, 27);
+            this.label28.Size = new System.Drawing.Size(104, 21);
             this.label28.TabIndex = 1;
             this.label28.Text = "Trinity Seven";
             // 
@@ -511,11 +479,11 @@ namespace Hondana_Project_Beta
             this.button17.Size = new System.Drawing.Size(180, 250);
             this.button17.TabIndex = 1;
             this.button17.UseVisualStyleBackColor = true;
+            this.button17.Click += new System.EventHandler(this.button17_Click);
             // 
             // panel11
             // 
             this.panel11.BackColor = System.Drawing.Color.White;
-            this.panel11.Controls.Add(this.label21);
             this.panel11.Controls.Add(this.label22);
             this.panel11.Controls.Add(this.label23);
             this.panel11.Controls.Add(this.label24);
@@ -525,25 +493,13 @@ namespace Hondana_Project_Beta
             this.panel11.Size = new System.Drawing.Size(186, 356);
             this.panel11.TabIndex = 4;
             // 
-            /*ERROR CODIGO GIT
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label21.Location = new System.Drawing.Point(4, 327);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(75, 22);
-            this.label21.TabIndex = 2;
-            this.label21.Text = "✩✩✩✩✩";
-            // 
-            */
             // label22
             // 
             this.label22.AutoSize = true;
             this.label22.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.label22.Location = new System.Drawing.Point(4, 305);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(83, 22);
+            this.label22.Size = new System.Drawing.Size(70, 19);
             this.label22.TabIndex = 1;
             this.label22.Text = "192 Pages";
             // 
@@ -554,7 +510,7 @@ namespace Hondana_Project_Beta
             this.label23.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.label23.Location = new System.Drawing.Point(4, 283);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(118, 22);
+            this.label23.Size = new System.Drawing.Size(96, 19);
             this.label23.TabIndex = 1;
             this.label23.Text = "Gege Akutami";
             // 
@@ -564,7 +520,7 @@ namespace Hondana_Project_Beta
             this.label24.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label24.Location = new System.Drawing.Point(3, 256);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(139, 27);
+            this.label24.Size = new System.Drawing.Size(112, 21);
             this.label24.TabIndex = 1;
             this.label24.Text = "Jujutsu Kaisen";
             // 
@@ -577,11 +533,11 @@ namespace Hondana_Project_Beta
             this.button16.Size = new System.Drawing.Size(180, 250);
             this.button16.TabIndex = 1;
             this.button16.UseVisualStyleBackColor = true;
+            this.button16.Click += new System.EventHandler(this.button16_Click);
             // 
             // panel10
             // 
             this.panel10.BackColor = System.Drawing.Color.White;
-            this.panel10.Controls.Add(this.label17);
             this.panel10.Controls.Add(this.label18);
             this.panel10.Controls.Add(this.label19);
             this.panel10.Controls.Add(this.label20);
@@ -591,25 +547,13 @@ namespace Hondana_Project_Beta
             this.panel10.Size = new System.Drawing.Size(186, 356);
             this.panel10.TabIndex = 3;
             // 
-            /*
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label17.Location = new System.Drawing.Point(4, 327);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(75, 22);
-            this.label17.TabIndex = 2;
-            this.label17.Text = "✩✩✩✩✩";
-            // 
-            */
             // label18
             // 
             this.label18.AutoSize = true;
             this.label18.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.label18.Location = new System.Drawing.Point(4, 305);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(86, 22);
+            this.label18.Size = new System.Drawing.Size(73, 19);
             this.label18.TabIndex = 1;
             this.label18.Text = "200 Pages";
             // 
@@ -620,7 +564,7 @@ namespace Hondana_Project_Beta
             this.label19.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.label19.Location = new System.Drawing.Point(4, 283);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(42, 22);
+            this.label19.Size = new System.Drawing.Size(35, 19);
             this.label19.TabIndex = 1;
             this.label19.Text = "One";
             // 
@@ -630,7 +574,7 @@ namespace Hondana_Project_Beta
             this.label20.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label20.Location = new System.Drawing.Point(3, 256);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(153, 27);
+            this.label20.Size = new System.Drawing.Size(124, 21);
             this.label20.TabIndex = 1;
             this.label20.Text = "One Punch Man";
             // 
@@ -643,11 +587,11 @@ namespace Hondana_Project_Beta
             this.button15.Size = new System.Drawing.Size(180, 250);
             this.button15.TabIndex = 1;
             this.button15.UseVisualStyleBackColor = true;
+            this.button15.Click += new System.EventHandler(this.button15_Click);
             // 
             // panel9
             // 
             this.panel9.BackColor = System.Drawing.Color.White;
-            this.panel9.Controls.Add(this.label13);
             this.panel9.Controls.Add(this.label14);
             this.panel9.Controls.Add(this.label15);
             this.panel9.Controls.Add(this.label16);
@@ -657,27 +601,13 @@ namespace Hondana_Project_Beta
             this.panel9.Size = new System.Drawing.Size(186, 356);
             this.panel9.TabIndex = 2;
             // 
-
-            /*ERROR CODIGO GIT
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label13.Location = new System.Drawing.Point(4, 327);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(75, 22);
-            this.label13.TabIndex = 2;
-            this.label13.Text = "✩✩✩✩✩";
-            // 
-          */
-
             // label14
             // 
             this.label14.AutoSize = true;
             this.label14.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.label14.Location = new System.Drawing.Point(4, 305);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(83, 22);
+            this.label14.Size = new System.Drawing.Size(70, 19);
             this.label14.TabIndex = 1;
             this.label14.Text = "194 Pages";
             // 
@@ -688,7 +618,7 @@ namespace Hondana_Project_Beta
             this.label15.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.label15.Location = new System.Drawing.Point(4, 283);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(107, 22);
+            this.label15.Size = new System.Drawing.Size(86, 19);
             this.label15.TabIndex = 1;
             this.label15.Text = "Negi Haruba";
             // 
@@ -698,7 +628,7 @@ namespace Hondana_Project_Beta
             this.label16.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.Location = new System.Drawing.Point(3, 256);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(190, 27);
+            this.label16.Size = new System.Drawing.Size(154, 21);
             this.label16.TabIndex = 1;
             this.label16.Text = "5-toubun no Hana...";
             // 
@@ -711,11 +641,11 @@ namespace Hondana_Project_Beta
             this.button14.Size = new System.Drawing.Size(180, 250);
             this.button14.TabIndex = 1;
             this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
             // 
             // panel8
             // 
             this.panel8.BackColor = System.Drawing.Color.White;
-            this.panel8.Controls.Add(this.label9);
             this.panel8.Controls.Add(this.label10);
             this.panel8.Controls.Add(this.label11);
             this.panel8.Controls.Add(this.label12);
@@ -725,26 +655,13 @@ namespace Hondana_Project_Beta
             this.panel8.Size = new System.Drawing.Size(186, 356);
             this.panel8.TabIndex = 1;
             // 
-
-            /*ERROR CODIGO GIT
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label9.Location = new System.Drawing.Point(4, 327);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(75, 22);
-            this.label9.TabIndex = 2;
-            this.label9.Text = "✩✩✩✩✩";
-            // 
-            */
             // label10
             // 
             this.label10.AutoSize = true;
             this.label10.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.label10.Location = new System.Drawing.Point(4, 305);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(83, 22);
+            this.label10.Size = new System.Drawing.Size(70, 19);
             this.label10.TabIndex = 1;
             this.label10.Text = "192 Pages";
             // 
@@ -755,7 +672,7 @@ namespace Hondana_Project_Beta
             this.label11.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.label11.Location = new System.Drawing.Point(4, 283);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(119, 22);
+            this.label11.Size = new System.Drawing.Size(97, 19);
             this.label11.TabIndex = 1;
             this.label11.Text = "Tomohito Oda";
             // 
@@ -765,7 +682,7 @@ namespace Hondana_Project_Beta
             this.label12.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.Location = new System.Drawing.Point(3, 256);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(175, 27);
+            this.label12.Size = new System.Drawing.Size(140, 21);
             this.label12.TabIndex = 1;
             this.label12.Text = "Komi Can\'t Com...";
             // 
@@ -778,11 +695,11 @@ namespace Hondana_Project_Beta
             this.button13.Size = new System.Drawing.Size(180, 250);
             this.button13.TabIndex = 1;
             this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
             // panel7
             // 
             this.panel7.BackColor = System.Drawing.Color.White;
-            this.panel7.Controls.Add(this.label8);
             this.panel7.Controls.Add(this.label7);
             this.panel7.Controls.Add(this.label6);
             this.panel7.Controls.Add(this.label5);
@@ -792,25 +709,13 @@ namespace Hondana_Project_Beta
             this.panel7.Size = new System.Drawing.Size(186, 356);
             this.panel7.TabIndex = 0;
             // 
-            /*ERROR CODIGO GIT
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label8.Location = new System.Drawing.Point(4, 327);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(75, 22);
-            this.label8.TabIndex = 2;
-            this.label8.Text = "✩✩✩✩✩";
-            // 
-            */
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.label7.Location = new System.Drawing.Point(4, 305);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(83, 22);
+            this.label7.Size = new System.Drawing.Size(70, 19);
             this.label7.TabIndex = 1;
             this.label7.Text = "146 Pages";
             // 
@@ -821,7 +726,7 @@ namespace Hondana_Project_Beta
             this.label6.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.label6.Location = new System.Drawing.Point(4, 283);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(111, 22);
+            this.label6.Size = new System.Drawing.Size(90, 19);
             this.label6.TabIndex = 1;
             this.label6.Text = "Tomoki Izumi";
             // 
@@ -831,7 +736,7 @@ namespace Hondana_Project_Beta
             this.label5.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(3, 256);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(139, 27);
+            this.label5.Size = new System.Drawing.Size(111, 21);
             this.label5.TabIndex = 1;
             this.label5.Text = "Mieruko-chan";
             // 
@@ -844,7 +749,7 @@ namespace Hondana_Project_Beta
             this.button12.Size = new System.Drawing.Size(180, 250);
             this.button12.TabIndex = 1;
             this.button12.UseVisualStyleBackColor = true;
-            //this.button12.Click += new System.EventHandler(this.button12_Click);
+            this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
             // panel4
             // 
@@ -860,7 +765,7 @@ namespace Hondana_Project_Beta
             this.label4.Font = new System.Drawing.Font("Segoe UI Variable Text", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(5, 55);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(260, 32);
+            this.label4.Size = new System.Drawing.Size(202, 26);
             this.label4.TabIndex = 15;
             this.label4.Text = "Recommended for you";
             // 
@@ -870,79 +775,9 @@ namespace Hondana_Project_Beta
             this.NotifiacionWaffle.Text = "Hondana 本棚 Project";
             this.NotifiacionWaffle.Visible = true;
             // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label8.Location = new System.Drawing.Point(4, 327);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(30, 19);
-            this.label8.TabIndex = 2;
-            this.label8.Text = "0/5";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label9.Location = new System.Drawing.Point(4, 327);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(30, 19);
-            this.label9.TabIndex = 3;
-            this.label9.Text = "0/5";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label13.Location = new System.Drawing.Point(4, 327);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(30, 19);
-            this.label13.TabIndex = 3;
-            this.label13.Text = "0/5";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label17.Location = new System.Drawing.Point(4, 327);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(30, 19);
-            this.label17.TabIndex = 3;
-            this.label17.Text = "0/5";
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label21.Location = new System.Drawing.Point(4, 327);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(30, 19);
-            this.label21.TabIndex = 3;
-            this.label21.Text = "0/5";
-            // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label33.Location = new System.Drawing.Point(4, 327);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(30, 19);
-            this.label33.TabIndex = 3;
-            this.label33.Text = "0/5";
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label25.Location = new System.Drawing.Point(4, 327);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(30, 19);
-            this.label25.TabIndex = 3;
-            this.label25.Text = "0/5";
-            // 
             // FormHome
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 22F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SeaShell;
             this.ClientSize = new System.Drawing.Size(1422, 753);
@@ -1042,12 +877,5 @@ namespace Hondana_Project_Beta
         private System.Windows.Forms.Label label32;
         private System.Windows.Forms.Button button18;
         private System.Windows.Forms.NotifyIcon NotifiacionWaffle;
-        private System.Windows.Forms.Label label33;
-        private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label8;
     }
 }
