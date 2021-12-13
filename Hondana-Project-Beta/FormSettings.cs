@@ -202,6 +202,82 @@ namespace Hondana_Project_Beta
                 //XML
             }
         }
+
+        #endregion
+
+        #region ModificarUsuarioPropio
+        private void button2_Click(object sender, EventArgs e)
+        {
+            textBox3.Visible = true;
+            button17.Visible = true;
+        }
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+
+            textBox3.Visible = false;
+            button17.Visible = false;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            textBox4.Visible = true;
+            button18.Visible = true;
+        }
+
+        private void button18_Click(object sender, EventArgs e)
+        {
+            textBox4.Visible = false;
+            button18.Visible = false;
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Desactivar blablabla...", "Titulo", MessageBoxButtons.OKCancel, MessageBoxIcon.Exclamation);
+        }
+        #endregion
+
+        #region ModificarOtroUsuario
+        private void button11_Click(object sender, EventArgs e)
+        {
+            comboBox1.Visible = true;
+            button16.Visible = true;
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            comboBox1.Visible = false;
+            button16.Visible = false;
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            textBox1.Visible = true;
+            button15.Visible = true;
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            textBox1.Visible = false;
+            button15.Visible = false;
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            textBox2.Visible = true;
+            button14.Visible = true;
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            textBox2.Visible = false;
+            button14.Visible = false;
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Desactivar blablabla...", "Titulo", MessageBoxButtons.OKCancel, MessageBoxIcon.Exclamation);
+        }
         #endregion
     }
 }
