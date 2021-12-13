@@ -277,11 +277,11 @@ namespace Hondana_Project_Beta
             this.lbl6.AutoSize = true;
             this.lbl6.BackColor = System.Drawing.Color.Transparent;
             this.lbl6.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.lbl6.Location = new System.Drawing.Point(478, 157);
+            this.lbl6.Location = new System.Drawing.Point(478, 168);
             this.lbl6.Name = "lbl6";
-            this.lbl6.Size = new System.Drawing.Size(161, 38);
+            this.lbl6.Size = new System.Drawing.Size(33, 19);
             this.lbl6.TabIndex = 24;
-            this.lbl6.Text = "Comedy, Horror,\r\nSlice of Life, Supernatural";
+            this.lbl6.Text = "----";
             this.lbl6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // button2

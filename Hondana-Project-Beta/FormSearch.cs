@@ -302,7 +302,7 @@ namespace Hondana_Project_Beta
             }
             if (filtro == 6)
             {
-                wher = " WHERE G.GenreName = '" + LibroCon + "'";
+                wher = " WHERE B.BookPlace = '" + LibroCon + "'";
             }
             if (filtro == 7)
             {
@@ -330,7 +330,7 @@ namespace Hondana_Project_Beta
             }
             if (orden == 5)
             {
-                MessageBox.Show("Necesito la nueva tabla de chris");
+                order = " ORDER BY B.UsuariosCalificaron";
             }
             if (orden == 6)
             {
@@ -346,8 +346,6 @@ namespace Hondana_Project_Beta
             string sqlLibros = "SELECT B.BookTitle, E.EditorialName, B.BookPages, B.BookRating, B.BookID " +
             "FROM Books AS B " +
             "INNER JOIN Editorials AS E ON (B.BookEditorial = E.EditorialId) " +
-            "INNER JOIN BookGenres AS BG ON (B.BookID = BG.BookID) " +
-            "INNER JOIN Genres AS G ON (BG.GenresID = G.GenresID) " +
             wher + " " + order;
 
             using (SqlCommand cmdBuscar = new SqlCommand(sqlLibros, Globales.conexion))
@@ -366,7 +364,8 @@ namespace Hondana_Project_Beta
         {
             //7 LIBROS MAXIMOS
             int NumL = DT.Rows.Count;
-            Globales.FavoritesPos = new int[NumL];
+            Globales.FavoritesPos = new int[NumL + 1];
+
             if (NumL == 0)
             {
                 pan1.Visible = false;
@@ -509,6 +508,7 @@ namespace Hondana_Project_Beta
 
         private void button12_Click(object sender, EventArgs e)
         {
+            MessageBox.Show(""+Globales.FavoritesPos[0]);
             Globales.LibroLeer = Globales.FavoritesPos[0];
             mandar();
         }

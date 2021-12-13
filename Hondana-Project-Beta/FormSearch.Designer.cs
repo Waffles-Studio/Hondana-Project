@@ -569,10 +569,10 @@ namespace Hondana_Project_Beta
             this.rd6.AutoSize = true;
             this.rd6.Location = new System.Drawing.Point(918, 9);
             this.rd6.Name = "rd6";
-            this.rd6.Size = new System.Drawing.Size(64, 23);
+            this.rd6.Size = new System.Drawing.Size(58, 23);
             this.rd6.TabIndex = 5;
             this.rd6.TabStop = true;
-            this.rd6.Text = "Genre";
+            this.rd6.Text = "Place";
             this.rd6.UseVisualStyleBackColor = true;
             this.rd6.CheckedChanged += new System.EventHandler(this.rd6_CheckedChanged);
             // 

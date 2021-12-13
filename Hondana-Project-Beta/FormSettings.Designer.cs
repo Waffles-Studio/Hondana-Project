@@ -46,16 +46,12 @@ namespace Hondana_Project_Beta
             this.BtnSettings = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.button13 = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.button12 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.button11 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
@@ -63,7 +59,6 @@ namespace Hondana_Project_Beta
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
@@ -82,6 +77,16 @@ namespace Hondana_Project_Beta
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.NotificacionWaffle = new System.Windows.Forms.NotifyIcon(this.components);
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.button15 = new System.Windows.Forms.Button();
+            this.button14 = new System.Windows.Forms.Button();
+            this.button16 = new System.Windows.Forms.Button();
+            this.button17 = new System.Windows.Forms.Button();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.button18 = new System.Windows.Forms.Button();
+            this.textBox4 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -123,6 +128,7 @@ namespace Hondana_Project_Beta
             this.BtnUpdates.Text = "Updates";
             this.BtnUpdates.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.BtnUpdates.UseVisualStyleBackColor = false;
+            this.BtnUpdates.Click += new System.EventHandler(this.BtnUpdates_Click);
             // 
             // BtnAbout
             // 
@@ -138,6 +144,7 @@ namespace Hondana_Project_Beta
             this.BtnAbout.Text = "About";
             this.BtnAbout.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.BtnAbout.UseVisualStyleBackColor = false;
+            this.BtnAbout.Click += new System.EventHandler(this.BtnAbout_Click);
             // 
             // BtnLogout
             // 
@@ -153,6 +160,7 @@ namespace Hondana_Project_Beta
             this.BtnLogout.Text = "Log out";
             this.BtnLogout.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.BtnLogout.UseVisualStyleBackColor = false;
+            this.BtnLogout.Click += new System.EventHandler(this.BtnLogout_Click);
             // 
             // BtnNewsletter
             // 
@@ -168,6 +176,7 @@ namespace Hondana_Project_Beta
             this.BtnNewsletter.Text = "News";
             this.BtnNewsletter.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.BtnNewsletter.UseVisualStyleBackColor = false;
+            this.BtnNewsletter.Click += new System.EventHandler(this.BtnNewsletter_Click);
             // 
             // BtnForums
             // 
@@ -183,6 +192,7 @@ namespace Hondana_Project_Beta
             this.BtnForums.Text = "Forums";
             this.BtnForums.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.BtnForums.UseVisualStyleBackColor = false;
+            this.BtnForums.Click += new System.EventHandler(this.BtnForums_Click);
             // 
             // BtnFavorites
             // 
@@ -198,6 +208,7 @@ namespace Hondana_Project_Beta
             this.BtnFavorites.Text = "Favorites";
             this.BtnFavorites.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.BtnFavorites.UseVisualStyleBackColor = false;
+            this.BtnFavorites.Click += new System.EventHandler(this.BtnFavorites_Click);
             // 
             // BtnLibrary
             // 
@@ -213,6 +224,7 @@ namespace Hondana_Project_Beta
             this.BtnLibrary.Text = "Library";
             this.BtnLibrary.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.BtnLibrary.UseVisualStyleBackColor = false;
+            this.BtnLibrary.Click += new System.EventHandler(this.BtnLibrary_Click);
             // 
             // panel2
             // 
@@ -239,6 +251,7 @@ namespace Hondana_Project_Beta
             this.BtnSearch.Text = "Search";
             this.BtnSearch.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.BtnSearch.UseVisualStyleBackColor = false;
+            this.BtnSearch.Click += new System.EventHandler(this.BtnSearch_Click);
             // 
             // BtnHelp
             // 
@@ -254,6 +267,7 @@ namespace Hondana_Project_Beta
             this.BtnHelp.TabIndex = 5;
             this.BtnHelp.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.BtnHelp.UseVisualStyleBackColor = true;
+            this.BtnHelp.Click += new System.EventHandler(this.BtnHelp_Click);
             // 
             // BtnUserProfile
             // 
@@ -284,6 +298,7 @@ namespace Hondana_Project_Beta
             this.BtnSettings.TabIndex = 4;
             this.BtnSettings.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.BtnSettings.UseVisualStyleBackColor = true;
+            this.BtnSettings.Click += new System.EventHandler(this.BtnSettings_Click);
             // 
             // panel3
             // 
@@ -303,6 +318,13 @@ namespace Hondana_Project_Beta
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.panel5.Controls.Add(this.button16);
+            this.panel5.Controls.Add(this.button14);
+            this.panel5.Controls.Add(this.button15);
+            this.panel5.Controls.Add(this.comboBox1);
+            this.panel5.Controls.Add(this.textBox2);
+            this.panel5.Controls.Add(this.textBox1);
+            this.panel5.Controls.Add(this.button13);
             this.panel5.Controls.Add(this.label10);
             this.panel5.Controls.Add(this.radioButton2);
             this.panel5.Controls.Add(this.radioButton1);
@@ -315,7 +337,6 @@ namespace Hondana_Project_Beta
             this.panel5.Controls.Add(this.button6);
             this.panel5.Controls.Add(this.button7);
             this.panel5.Controls.Add(this.button8);
-            this.panel5.Controls.Add(this.label2);
             this.panel5.Controls.Add(this.pictureBox2);
             this.panel5.Controls.Add(this.label7);
             this.panel5.Controls.Add(this.label8);
@@ -324,12 +345,24 @@ namespace Hondana_Project_Beta
             this.panel5.Size = new System.Drawing.Size(1260, 781);
             this.panel5.TabIndex = 20;
             // 
+            // button13
+            // 
+            this.button13.Enabled = false;
+            this.button13.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button13.Location = new System.Drawing.Point(930, 22);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(283, 31);
+            this.button13.TabIndex = 16;
+            this.button13.Text = " EXPORT✍";
+            this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
+            // 
             // label10
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Segoe UI Variable Text", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label10.Location = new System.Drawing.Point(249, 437);
+            this.label10.Location = new System.Drawing.Point(250, 407);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(106, 21);
             this.label10.TabIndex = 15;
@@ -338,20 +371,23 @@ namespace Hondana_Project_Beta
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
+            this.radioButton2.Enabled = false;
             this.radioButton2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.radioButton2.Location = new System.Drawing.Point(1030, 32);
+            this.radioButton2.Location = new System.Drawing.Point(1095, 52);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(60, 23);
+            this.radioButton2.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.radioButton2.Size = new System.Drawing.Size(55, 23);
             this.radioButton2.TabIndex = 14;
             this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "JSON";
+            this.radioButton2.Text = "XML";
             this.radioButton2.UseVisualStyleBackColor = true;
             // 
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
+            this.radioButton1.Enabled = false;
             this.radioButton1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.radioButton1.Location = new System.Drawing.Point(943, 32);
+            this.radioButton1.Location = new System.Drawing.Point(1008, 52);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(56, 23);
             this.radioButton1.TabIndex = 13;
@@ -366,18 +402,13 @@ namespace Hondana_Project_Beta
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(283, 42);
             this.button12.TabIndex = 12;
-            this.button12.Text = "⌛ Load Database";
+            this.button12.Text = "❀ Show Users";
             this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
-            this.Column2,
-            this.Column3,
-            this.Column4,
-            this.Column5});
             this.dataGridView1.Location = new System.Drawing.Point(63, 81);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
@@ -385,45 +416,10 @@ namespace Hondana_Project_Beta
             this.dataGridView1.Size = new System.Drawing.Size(1150, 246);
             this.dataGridView1.TabIndex = 11;
             // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "UserID";
-            this.Column1.MinimumWidth = 6;
-            this.Column1.Name = "Column1";
-            this.Column1.Width = 125;
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "UserName";
-            this.Column2.MinimumWidth = 6;
-            this.Column2.Name = "Column2";
-            this.Column2.Width = 125;
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "UserEmail";
-            this.Column3.MinimumWidth = 6;
-            this.Column3.Name = "Column3";
-            this.Column3.Width = 125;
-            // 
-            // Column4
-            // 
-            this.Column4.HeaderText = "UserPassword";
-            this.Column4.MinimumWidth = 6;
-            this.Column4.Name = "Column4";
-            this.Column4.Width = 125;
-            // 
-            // Column5
-            // 
-            this.Column5.HeaderText = "UserType";
-            this.Column5.MinimumWidth = 6;
-            this.Column5.Name = "Column5";
-            this.Column5.Width = 125;
-            // 
             // button11
             // 
             this.button11.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button11.Location = new System.Drawing.Point(63, 585);
+            this.button11.Location = new System.Drawing.Point(63, 537);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(283, 42);
             this.button11.TabIndex = 10;
@@ -437,8 +433,9 @@ namespace Hondana_Project_Beta
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(283, 42);
             this.button10.TabIndex = 9;
-            this.button10.Text = "✈ Export Database";
+            this.button10.Text = "◫ Show Books";
             this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // button9
             // 
@@ -449,6 +446,7 @@ namespace Hondana_Project_Beta
             this.button9.TabIndex = 8;
             this.button9.Text = "✒ Show Logs";
             this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button5
             // 
@@ -457,7 +455,7 @@ namespace Hondana_Project_Beta
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(283, 42);
             this.button5.TabIndex = 7;
-            this.button5.Text = "☠ Delete Account";
+            this.button5.Text = "☠ Sleeping user";
             this.button5.UseVisualStyleBackColor = true;
             // 
             // button6
@@ -482,24 +480,14 @@ namespace Hondana_Project_Beta
             // 
             // button8
             // 
+            this.button8.Enabled = false;
             this.button8.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.Location = new System.Drawing.Point(63, 537);
+            this.button8.Location = new System.Drawing.Point(930, 585);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(283, 42);
+            this.button8.Size = new System.Drawing.Size(283, 29);
             this.button8.TabIndex = 4;
             this.button8.Text = "✎ Change Profile Picture";
             this.button8.UseVisualStyleBackColor = true;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI Variable Text", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label2.Location = new System.Drawing.Point(249, 410);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(76, 21);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Password";
             // 
             // pictureBox2
             // 
@@ -553,6 +541,10 @@ namespace Hondana_Project_Beta
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.panel6.Controls.Add(this.button18);
+            this.panel6.Controls.Add(this.textBox4);
+            this.panel6.Controls.Add(this.button17);
+            this.panel6.Controls.Add(this.textBox3);
             this.panel6.Controls.Add(this.button4);
             this.panel6.Controls.Add(this.button3);
             this.panel6.Controls.Add(this.button2);
@@ -573,7 +565,7 @@ namespace Hondana_Project_Beta
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(283, 42);
             this.button4.TabIndex = 7;
-            this.button4.Text = "☠ Delete Account";
+            this.button4.Text = "☠ Deactivate Account";
             this.button4.UseVisualStyleBackColor = true;
             // 
             // button3
@@ -598,6 +590,7 @@ namespace Hondana_Project_Beta
             // 
             // button1
             // 
+            this.button1.Enabled = false;
             this.button1.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(63, 204);
             this.button1.Name = "button1";
@@ -683,6 +676,102 @@ namespace Hondana_Project_Beta
             this.NotificacionWaffle.Text = "Hondana 本棚 Project";
             this.NotificacionWaffle.Visible = true;
             // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Segoe UI Variable Text", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(364, 585);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(239, 29);
+            this.textBox1.TabIndex = 17;
+            this.textBox1.Visible = false;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Font = new System.Drawing.Font("Segoe UI Variable Text", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Location = new System.Drawing.Point(650, 585);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(239, 29);
+            this.textBox2.TabIndex = 18;
+            this.textBox2.Visible = false;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.Font = new System.Drawing.Font("Segoe UI Variable Text", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(72, 585);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(239, 29);
+            this.comboBox1.TabIndex = 19;
+            this.comboBox1.Visible = false;
+            // 
+            // button15
+            // 
+            this.button15.Location = new System.Drawing.Point(605, 585);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(29, 29);
+            this.button15.TabIndex = 21;
+            this.button15.Text = "✔";
+            this.button15.UseVisualStyleBackColor = true;
+            this.button15.Visible = false;
+            // 
+            // button14
+            // 
+            this.button14.Location = new System.Drawing.Point(891, 585);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(29, 29);
+            this.button14.TabIndex = 22;
+            this.button14.Text = "✔";
+            this.button14.UseVisualStyleBackColor = true;
+            this.button14.Visible = false;
+            // 
+            // button16
+            // 
+            this.button16.Location = new System.Drawing.Point(315, 585);
+            this.button16.Name = "button16";
+            this.button16.Size = new System.Drawing.Size(29, 29);
+            this.button16.TabIndex = 23;
+            this.button16.Text = "✔";
+            this.button16.UseVisualStyleBackColor = true;
+            this.button16.Visible = false;
+            // 
+            // button17
+            // 
+            this.button17.Location = new System.Drawing.Point(600, 169);
+            this.button17.Name = "button17";
+            this.button17.Size = new System.Drawing.Size(29, 29);
+            this.button17.TabIndex = 23;
+            this.button17.Text = "✔";
+            this.button17.UseVisualStyleBackColor = true;
+            this.button17.Visible = false;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Font = new System.Drawing.Font("Segoe UI Variable Text", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox3.Location = new System.Drawing.Point(358, 169);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(239, 29);
+            this.textBox3.TabIndex = 22;
+            this.textBox3.Visible = false;
+            // 
+            // button18
+            // 
+            this.button18.Location = new System.Drawing.Point(892, 169);
+            this.button18.Name = "button18";
+            this.button18.Size = new System.Drawing.Size(29, 29);
+            this.button18.TabIndex = 25;
+            this.button18.Text = "✔";
+            this.button18.UseVisualStyleBackColor = true;
+            this.button18.Visible = false;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Font = new System.Drawing.Font("Segoe UI Variable Text", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox4.Location = new System.Drawing.Point(650, 169);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(239, 29);
+            this.textBox4.TabIndex = 24;
+            this.textBox4.Visible = false;
+            // 
             // FormSettings
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
@@ -744,11 +833,6 @@ namespace Hondana_Project_Beta
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.Button button12;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button button9;
@@ -756,7 +840,6 @@ namespace Hondana_Project_Beta
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
@@ -768,5 +851,16 @@ namespace Hondana_Project_Beta
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.NotifyIcon NotificacionWaffle;
+        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Button button16;
+        private System.Windows.Forms.Button button14;
+        private System.Windows.Forms.Button button15;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button button18;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.Button button17;
+        private System.Windows.Forms.TextBox textBox3;
     }
 }

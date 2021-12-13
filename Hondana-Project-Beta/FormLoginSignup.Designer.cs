@@ -138,7 +138,7 @@ namespace Hondana_Project_Beta
             this.TxtLoginEmail.Name = "TxtLoginEmail";
             this.TxtLoginEmail.Size = new System.Drawing.Size(275, 26);
             this.TxtLoginEmail.TabIndex = 16;
-            this.TxtLoginEmail.Text = "someone@example.com";
+            this.TxtLoginEmail.Text = "182310497@itslerdo.edu.com";
             this.TxtLoginEmail.Click += new System.EventHandler(this.TxtLoginEmail_Click);
             // 
             // TxtLoginPassword
@@ -149,7 +149,7 @@ namespace Hondana_Project_Beta
             this.TxtLoginPassword.PasswordChar = '*';
             this.TxtLoginPassword.Size = new System.Drawing.Size(275, 26);
             this.TxtLoginPassword.TabIndex = 18;
-            this.TxtLoginPassword.Text = "• •••••••••";
+            this.TxtLoginPassword.Text = "0323";
             this.TxtLoginPassword.Click += new System.EventHandler(this.TxtLoginPassword_Click);
             // 
             // label6

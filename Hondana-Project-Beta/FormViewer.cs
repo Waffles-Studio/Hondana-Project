@@ -83,11 +83,13 @@ namespace Hondana_Project_Beta
                 string sql2 = "INSERT INTO Favorites (BookID, UserId, FavoriteReader, FavoriteRating) VALUES (@libro, @usuario, 0, 0)";
                 using (SqlCommand cmdexiste2 = new SqlCommand(sql2, Globales.conexion))
                 {
+                    
                     Globales.conexion.Open();
-                    cmdexiste2.Parameters.AddWithValue("@libro", Globales.UserID);
-                    cmdexiste2.Parameters.AddWithValue("@usuario", Globales.LibroLeer);
+                    cmdexiste2.Parameters.AddWithValue("@libro", Globales.LibroLeer);
+                    cmdexiste2.Parameters.AddWithValue("@usuario", Globales.UserID);
                     cmdexiste2.ExecuteNonQuery();
                     Globales.conexion.Close();
+                    MessageBox.Show("si entra al insert");
                 }
             }
         }
