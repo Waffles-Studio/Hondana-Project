@@ -8,6 +8,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+//Libraries needed to Export
+using System.IO;
+using System.Xml;
+using Newtonsoft.Json;
 
 namespace Hondana_Project_Beta
 {
@@ -195,11 +199,71 @@ namespace Hondana_Project_Beta
         {
             if (radioButton1.Checked == true) 
             {
-                //EXCEL
+                //JSON
+                string path = @"D:\users-backup.json";
+                try
+                {
+                    StringBuilder SB = new StringBuilder();
+                    StringWriter SW = new StringWriter(SB);
+                    string Query = "SELECT * FROM Users";
+                    Globales.conexion.Open();
+                    SqlCommand command = new SqlCommand(Query, Globales.conexion);
+                    SqlDataReader reader = command.ExecuteReader();
+                    using (JsonWriter jsonWriter = new JsonTextWriter(SW))
+                    {
+                        jsonWriter.Formatting = Newtonsoft.Json.Formatting.Indented;
+                        jsonWriter.WriteStartArray();
+                        while (reader.Read())
+                        {
+                            jsonWriter.WriteStartObject();
+                            int fields = reader.FieldCount;
+                            for (int i = 0; i < fields; i++)
+                            {
+                                jsonWriter.WritePropertyName(reader.GetName(i));
+                                jsonWriter.WriteValue(reader[i]);
+                            }
+                            jsonWriter.WriteEndObject();
+                        }
+                        jsonWriter.WriteEndArray();
+                        using (StreamWriter streamWriter = new StreamWriter(path))
+                        {
+                            streamWriter.Write(SB.ToString());
+                        }
+                    }
+                    MessageBox.Show("[!] The JSON file was successfully generated, File path: " + path);
+                }
+                catch (Exception ex4)
+                {
+                    MessageBox.Show("[!] An error occurred during the generation of the file.");
+                }
             }
             if (radioButton2.Checked == true)
             {
                 //XML
+                string path = @"D:\users-backup.xml";
+                try
+                {
+                    XmlWriterSettings settings = new XmlWriterSettings();
+                    settings.Indent = true;
+                    using (XmlWriter xmlWriter = XmlWriter.Create(path, settings))
+                    {
+                        for (int i = 0; i < dataGridView1.Columns.Count; i++)
+                        {
+                            xmlWriter.WriteElementString(dataGridView1.Columns[i].Name, dataGridView1.SelectedRows[0].Cells[i].Value.ToString());
+                        }
+                        xmlWriter.WriteEndElement();
+                        xmlWriter.Flush();
+                    }
+                    MessageBox.Show("[!] The XML file was successfully generated, File path: " + path);
+                }
+                catch (Exception ex5)
+                {
+                    MessageBox.Show("[!] An error occurred during the generation of the file.");
+                }
+            }
+            else
+            {
+                MessageBox.Show("[!] Please select a format. JSON and XML available.");
             }
         }
 
