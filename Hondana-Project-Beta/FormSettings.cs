@@ -41,6 +41,7 @@ namespace Hondana_Project_Beta
         int seleccion = 0;
         private DataTable DT = new DataTable();
         int iduser=0;
+        string consulta = "";
         #endregion
 
         #region Envio de formas
@@ -147,6 +148,7 @@ namespace Hondana_Project_Beta
             seleccion = 0;
             string cons = "select U.UserName, L.what as What, L.[where] as [Where], CONVERT(varchar, L.[when], 0) AS [When]  " +
                 "from Logs AS L INNER JOIN Users AS U ON (L.Who = U.UserID) ";
+            consulta = cons;
             llenarGrid(cons);
         }
         private void button12_Click(object sender, EventArgs e)
@@ -156,6 +158,7 @@ namespace Hondana_Project_Beta
             string cons = "Select R.RoleDescription, U.UserName, U.UserEmail, CONVERT(VARCHAR, ENCRYPTBYPASSPHRASE('CoviLAB', U.UserPassword)) AS [Password],  " +
                 "'No icon' AS Icon, U.Activo " +
                 "FROM Users AS U INNER JOIN Roles AS R ON (U.UserRole = R.RoleID)";
+            consulta = cons;
             llenarGrid(cons);
         }
         private void button10_Click(object sender, EventArgs e)
@@ -163,6 +166,7 @@ namespace Hondana_Project_Beta
             seleccion = 0;
             string cons = "select B.BookTitle, E.EditorialName, B.BookPages, b.BookPages, B.BookISBN, B.BookLanguage, B.BookRating  " +
                 "from Books AS B INNER JOIN Editorials AS E ON (B.BookEditorial = E.EditorialId)";
+            consulta = cons;
             llenarGrid(cons);
         }
 
@@ -200,95 +204,96 @@ namespace Hondana_Project_Beta
         {
             if (radioButton1.Checked == true) 
             {
-                //JSON
-                string path = @"D:\users-backup.json";
-                try
+                SaveFileDialog sfd = new SaveFileDialog();
+                sfd.Filter = "JSON|*.json";
+
+                if (sfd.ShowDialog() == DialogResult.OK)
                 {
-                    StringBuilder SB = new StringBuilder();
-                    StringWriter SW = new StringWriter(SB);
-                    string Query = "SELECT * FROM Users";
-                    Globales.conexion.Open();
-                    SqlCommand command = new SqlCommand(Query, Globales.conexion);
-                    SqlDataReader reader = command.ExecuteReader();
-                    using (JsonWriter jsonWriter = new JsonTextWriter(SW))
+                    try
                     {
-                        jsonWriter.Formatting = Newtonsoft.Json.Formatting.Indented;
-                        jsonWriter.WriteStartArray();
-                        while (reader.Read())
+                        StringBuilder SB = new StringBuilder();
+                        StringWriter SW = new StringWriter(SB);
+
+                        string Query = consulta;
+
+                        Globales.conexion.Open();
+                        SqlCommand command = new SqlCommand(Query, Globales.conexion);
+                        SqlDataReader reader = command.ExecuteReader();
+                        
+
+                        using (JsonWriter jsonWriter = new JsonTextWriter(SW))
                         {
-                            jsonWriter.WriteStartObject();
-                            int fields = reader.FieldCount;
-                            for (int i = 0; i < fields; i++)
+                            jsonWriter.Formatting = Newtonsoft.Json.Formatting.Indented;
+                            jsonWriter.WriteStartArray();
+                            while (reader.Read())
                             {
-                                jsonWriter.WritePropertyName(reader.GetName(i));
-                                jsonWriter.WriteValue(reader[i]);
+                                jsonWriter.WriteStartObject();
+                                int fields = reader.FieldCount;
+                                for (int i = 0; i < fields; i++)
+                                {
+                                    jsonWriter.WritePropertyName(reader.GetName(i));
+                                    jsonWriter.WriteValue(reader[i]);
+                                }
+                                jsonWriter.WriteEndObject();
                             }
-                            jsonWriter.WriteEndObject();
+                            jsonWriter.WriteEndArray();
+                            using (StreamWriter streamWriter = new StreamWriter(sfd.FileName))
+                            {
+                                streamWriter.Write(SB.ToString());
+                            }
                         }
-                        jsonWriter.WriteEndArray();
-                        using (StreamWriter streamWriter = new StreamWriter(path))
-                        {
-                            streamWriter.Write(SB.ToString());
-                        }
+                        Globales.conexion.Close();
+                        NotificacionWaffle.ShowBalloonTip(100, "Finished", "Json file generated correctly", ToolTipIcon.None);
                     }
-                    MessageBox.Show("[!] The JSON file was successfully generated, File path: " + path);
+                    catch (Exception)
+                    {
+                        NotificacionWaffle.ShowBalloonTip(100, "Sorry", "An error occurred during the generation of the file.", ToolTipIcon.Warning);
+                    }
                 }
-                catch (Exception ex4)
-                {
-                    MessageBox.Show("[!] An error occurred during the generation of the file.");
-                }
+
             }
             if (radioButton2.Checked == true)
             {
-                try
+                SaveFileDialog sfd = new SaveFileDialog();
+                sfd.Filter = "XML|*.xml";
+
+                if (sfd.ShowDialog() == DialogResult.OK)
                 {
-                    int j = 0;
-                    var dt = new DataTable();
-                    foreach (DataGridViewColumn column in dataGridView1.Columns)
+                    try
                     {
-                        if (column.Visible)
+                        int j = 0;
+                        var dt = new DataTable();
+                        foreach (DataGridViewColumn column in dataGridView1.Columns)
                         {
-                            dt.Columns.Add(dataGridView1.Columns[j].Name);
-                            j++;
+                            if (column.Visible)
+                            {
+                                dt.Columns.Add(dataGridView1.Columns[j].Name);
+                                j++;
+                            }
                         }
-                    }
-                    j = 0;
-                    object[] cellValues = new object[dataGridView1.Columns.Count];
-                    foreach (DataGridViewRow row in dataGridView1.Rows)
-                    {
-                        for (int i = 0; i < row.Cells.Count; i++)
+                        j = 0;
+                        object[] cellValues = new object[dataGridView1.Columns.Count];
+                        foreach (DataGridViewRow row in dataGridView1.Rows)
                         {
-                            cellValues[i] = row.Cells[i].Value;
+                            for (int i = 0; i < row.Cells.Count; i++)
+                            {
+                                cellValues[i] = row.Cells[i].Value;
+                            }
+                            dt.Rows.Add(cellValues);
                         }
-                        dt.Rows.Add(cellValues);
-                    }
 
-                    DataSet dS = new DataSet();
-                    dS.Tables.Add(dt);
-                    SaveFileDialog sfd = new SaveFileDialog();
-                    sfd.Filter = "XML|*.xml";
+                        DataSet dS = new DataSet();
+                        dS.Tables.Add(dt);
+                        dS.WriteXml(sfd.FileName);
+                        NotificacionWaffle.ShowBalloonTip(100, "Finished", "Xml file generated correctly", ToolTipIcon.None);
 
-                    if (sfd.ShowDialog() == DialogResult.OK)
+                    }
+                    catch (Exception)
                     {
-                        try
-                        {
-                            dS.WriteXml(sfd.FileName);
-                        }
-                        catch (Exception ex)
-                        {
-                            Console.WriteLine(ex);
-                        }
+                        NotificacionWaffle.ShowBalloonTip(100, "Sorry", "An error occurred during the generation of the file.", ToolTipIcon.Warning);
                     }
                 }
-                catch (Exception)
-                {
-                    throw;
-                }
-            }
-            else
-            {
-                MessageBox.Show("[!] Please select a format. JSON and XML available.");
-            }
+            }   
         }
 
         #endregion
