@@ -153,9 +153,7 @@ namespace Hondana_Project_Beta
         }
         private void button12_Click(object sender, EventArgs e)
         {
-            string cons = "Select R.RoleDescription, U.UserName, U.UserEmail, CONVERT(VARCHAR, ENCRYPTBYPASSPHRASE('CoviLAB', U.UserPassword)) AS [Password],  " +
-                "'No icon' AS Icon, U.Activo " +
-                "FROM Users AS U INNER JOIN Roles AS R ON (U.UserRole = R.RoleID)";
+            string cons = "SELECT UserID, UserName, UserEmail, UserPassword, Activo FROM Users";
             llenarGrid(cons);
         }
         private void button10_Click(object sender, EventArgs e)
@@ -239,26 +237,49 @@ namespace Hondana_Project_Beta
             }
             if (radioButton2.Checked == true)
             {
-                //XML
-                string path = @"D:\users-backup.xml";
                 try
                 {
-                    XmlWriterSettings settings = new XmlWriterSettings();
-                    settings.Indent = true;
-                    using (XmlWriter xmlWriter = XmlWriter.Create(path, settings))
+                    int j = 0;
+                    var dt = new DataTable();
+                    foreach (DataGridViewColumn column in dataGridView1.Columns)
                     {
-                        for (int i = 0; i < dataGridView1.Columns.Count; i++)
+                        if (column.Visible)
                         {
-                            xmlWriter.WriteElementString(dataGridView1.Columns[i].Name, dataGridView1.SelectedRows[0].Cells[i].Value.ToString());
+                            dt.Columns.Add(dataGridView1.Columns[j].Name);
+                            j++;
                         }
-                        xmlWriter.WriteEndElement();
-                        xmlWriter.Flush();
                     }
-                    MessageBox.Show("[!] The XML file was successfully generated, File path: " + path);
+                    j = 0;
+                    object[] cellValues = new object[dataGridView1.Columns.Count];
+                    foreach (DataGridViewRow row in dataGridView1.Rows)
+                    {
+                        for (int i = 0; i < row.Cells.Count; i++)
+                        {
+                            cellValues[i] = row.Cells[i].Value;
+                        }
+                        dt.Rows.Add(cellValues);
+                    }
+
+                    DataSet dS = new DataSet();
+                    dS.Tables.Add(dt);
+                    SaveFileDialog sfd = new SaveFileDialog();
+                    sfd.Filter = "XML|*.xml";
+
+                    if (sfd.ShowDialog() == DialogResult.OK)
+                    {
+                        try
+                        {
+                            dS.WriteXml(sfd.FileName);
+                        }
+                        catch (Exception ex)
+                        {
+                            Console.WriteLine(ex);
+                        }
+                    }
                 }
-                catch (Exception ex5)
+                catch (Exception)
                 {
-                    MessageBox.Show("[!] An error occurred during the generation of the file.");
+                    throw;
                 }
             }
             else
