@@ -295,5 +295,40 @@ namespace Hondana_Project_Beta
         }
         #endregion
 
+        #region Abrir libros
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string link = "https://www.pacmangratis.net/";
+            if (Globales.LibroLeer == 1)
+            {
+                link = "https://drive.google.com/file/d/1Pzu-Opvq9J75toN8UYGFCRjBjkFAYXwH/view?usp=sharing";
+            }
+            if (Globales.LibroLeer == 2)
+            {
+                link = "https://drive.google.com/file/d/1miw3Bh9frghRn9t7J8gDH8Am6zIRuDDU/view?usp=sharing";
+            }
+            if (Globales.LibroLeer == 3)
+            {
+                link = "https://drive.google.com/file/d/19uqiXztPkuK58X_SxnIpSwiLZo-ZtpZw/view?usp=sharing";
+            }
+            if (Globales.LibroLeer == 4)
+            {
+                link = "https://drive.google.com/file/d/1u-mBmGFeJ07ccWUb3QN7UTHngXfC5ytE/view?usp=sharing";
+            }
+            if (Globales.LibroLeer == 5)
+            {
+                link = "https://drive.google.com/file/d/1B-Oc2IGx-m9xbDpOplnG5Hb3rQJ87l74/view?usp=sharing";
+            }
+            if (Globales.LibroLeer == 6)
+            {
+                link = "https://drive.google.com/file/d/1fNmKYfsNkgoNUnyaFD2Cc8Q03XXLMKFo/view?usp=sharing";
+            }
+            if (Globales.LibroLeer == 7)
+            {
+                link = "https://drive.google.com/file/d/1Azf87H166GBbj1Mk1H17zoghjprye-Hh/view?usp=sharing";
+            }
+            System.Diagnostics.Process.Start(link);
+        }
+        #endregion
     }
 }
