@@ -8,6 +8,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+//Libraries needed to Export
+using System.IO;
+using System.Xml;
+using Newtonsoft.Json;
 
 namespace Hondana_Project_Beta
 {
@@ -147,6 +151,7 @@ namespace Hondana_Project_Beta
         }
         private void button12_Click(object sender, EventArgs e)
         {
+            //string cons = "SELECT UserID, UserName, UserEmail, UserPassword, Activo FROM Users";
             seleccion = 1;
             string cons = "Select R.RoleDescription, U.UserName, U.UserEmail, CONVERT(VARCHAR, ENCRYPTBYPASSPHRASE('CoviLAB', U.UserPassword)) AS [Password],  " +
                 "'No icon' AS Icon, U.Activo " +
@@ -195,11 +200,94 @@ namespace Hondana_Project_Beta
         {
             if (radioButton1.Checked == true) 
             {
-                //EXCEL
+                //JSON
+                string path = @"D:\users-backup.json";
+                try
+                {
+                    StringBuilder SB = new StringBuilder();
+                    StringWriter SW = new StringWriter(SB);
+                    string Query = "SELECT * FROM Users";
+                    Globales.conexion.Open();
+                    SqlCommand command = new SqlCommand(Query, Globales.conexion);
+                    SqlDataReader reader = command.ExecuteReader();
+                    using (JsonWriter jsonWriter = new JsonTextWriter(SW))
+                    {
+                        jsonWriter.Formatting = Newtonsoft.Json.Formatting.Indented;
+                        jsonWriter.WriteStartArray();
+                        while (reader.Read())
+                        {
+                            jsonWriter.WriteStartObject();
+                            int fields = reader.FieldCount;
+                            for (int i = 0; i < fields; i++)
+                            {
+                                jsonWriter.WritePropertyName(reader.GetName(i));
+                                jsonWriter.WriteValue(reader[i]);
+                            }
+                            jsonWriter.WriteEndObject();
+                        }
+                        jsonWriter.WriteEndArray();
+                        using (StreamWriter streamWriter = new StreamWriter(path))
+                        {
+                            streamWriter.Write(SB.ToString());
+                        }
+                    }
+                    MessageBox.Show("[!] The JSON file was successfully generated, File path: " + path);
+                }
+                catch (Exception ex4)
+                {
+                    MessageBox.Show("[!] An error occurred during the generation of the file.");
+                }
             }
             if (radioButton2.Checked == true)
             {
-                //XML
+                try
+                {
+                    int j = 0;
+                    var dt = new DataTable();
+                    foreach (DataGridViewColumn column in dataGridView1.Columns)
+                    {
+                        if (column.Visible)
+                        {
+                            dt.Columns.Add(dataGridView1.Columns[j].Name);
+                            j++;
+                        }
+                    }
+                    j = 0;
+                    object[] cellValues = new object[dataGridView1.Columns.Count];
+                    foreach (DataGridViewRow row in dataGridView1.Rows)
+                    {
+                        for (int i = 0; i < row.Cells.Count; i++)
+                        {
+                            cellValues[i] = row.Cells[i].Value;
+                        }
+                        dt.Rows.Add(cellValues);
+                    }
+
+                    DataSet dS = new DataSet();
+                    dS.Tables.Add(dt);
+                    SaveFileDialog sfd = new SaveFileDialog();
+                    sfd.Filter = "XML|*.xml";
+
+                    if (sfd.ShowDialog() == DialogResult.OK)
+                    {
+                        try
+                        {
+                            dS.WriteXml(sfd.FileName);
+                        }
+                        catch (Exception ex)
+                        {
+                            Console.WriteLine(ex);
+                        }
+                    }
+                }
+                catch (Exception)
+                {
+                    throw;
+                }
+            }
+            else
+            {
+                MessageBox.Show("[!] Please select a format. JSON and XML available.");
             }
         }
 
