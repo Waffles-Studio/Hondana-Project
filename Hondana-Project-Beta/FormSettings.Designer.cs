@@ -381,32 +381,32 @@ namespace Hondana_Project_Beta
             // comboBox1
             // 
             this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox1.Font = new System.Drawing.Font("Segoe UI Variable Text", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox1.Font = new System.Drawing.Font("Segoe UI Variable Text", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(63, 590);
             this.comboBox1.Items.AddRange(new object[] {
             "Administrator",
             "Client"});
+            this.comboBox1.Location = new System.Drawing.Point(63, 588);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(235, 35);
+            this.comboBox1.Size = new System.Drawing.Size(235, 36);
             this.comboBox1.TabIndex = 19;
             this.comboBox1.Visible = false;
             // 
             // textBox2
             // 
-            this.textBox2.Font = new System.Drawing.Font("Segoe UI Variable Text", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Font = new System.Drawing.Font("Segoe UI Variable Text", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.Location = new System.Drawing.Point(641, 588);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(235, 34);
+            this.textBox2.Size = new System.Drawing.Size(235, 35);
             this.textBox2.TabIndex = 18;
             this.textBox2.Visible = false;
             // 
             // textBox1
             // 
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI Variable Text", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Font = new System.Drawing.Font("Segoe UI Variable Text", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.Location = new System.Drawing.Point(352, 588);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(235, 34);
+            this.textBox1.Size = new System.Drawing.Size(235, 35);
             this.textBox1.TabIndex = 17;
             this.textBox1.Visible = false;
             // 
@@ -440,7 +440,7 @@ namespace Hondana_Project_Beta
             this.radioButton2.Location = new System.Drawing.Point(1008, 32);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.radioButton2.Size = new System.Drawing.Size(64, 26);
+            this.radioButton2.Size = new System.Drawing.Size(55, 23);
             this.radioButton2.TabIndex = 14;
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "XML";
@@ -453,7 +453,7 @@ namespace Hondana_Project_Beta
             this.radioButton1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.radioButton1.Location = new System.Drawing.Point(930, 32);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(72, 26);
+            this.radioButton1.Size = new System.Drawing.Size(60, 23);
             this.radioButton1.TabIndex = 13;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "JSON";
@@ -607,7 +607,7 @@ namespace Hondana_Project_Beta
             this.label9.Font = new System.Drawing.Font("Segoe UI Variable Text", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(5, 376);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(147, 32);
+            this.label9.Size = new System.Drawing.Size(115, 26);
             this.label9.TabIndex = 18;
             this.label9.Text = "Admin Tools";
             // 
@@ -644,10 +644,10 @@ namespace Hondana_Project_Beta
             // 
             // textBox4
             // 
-            this.textBox4.Font = new System.Drawing.Font("Segoe UI Variable Text", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox4.Font = new System.Drawing.Font("Segoe UI Variable Text", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox4.Location = new System.Drawing.Point(641, 159);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(235, 34);
+            this.textBox4.Size = new System.Drawing.Size(235, 35);
             this.textBox4.TabIndex = 24;
             this.textBox4.Visible = false;
             // 
@@ -664,10 +664,10 @@ namespace Hondana_Project_Beta
             // 
             // textBox3
             // 
-            this.textBox3.Font = new System.Drawing.Font("Segoe UI Variable Text", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox3.Font = new System.Drawing.Font("Segoe UI Variable Text", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox3.Location = new System.Drawing.Point(352, 159);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(235, 34);
+            this.textBox3.Size = new System.Drawing.Size(235, 35);
             this.textBox3.TabIndex = 22;
             this.textBox3.Visible = false;
             // 
@@ -722,7 +722,7 @@ namespace Hondana_Project_Beta
             this.label1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.label1.Location = new System.Drawing.Point(250, 77);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(133, 27);
+            this.label1.Size = new System.Drawing.Size(106, 21);
             this.label1.TabIndex = 3;
             this.label1.Text = "Administrator";
             // 
@@ -743,7 +743,7 @@ namespace Hondana_Project_Beta
             this.label6.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.label6.Location = new System.Drawing.Point(249, 50);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(226, 27);
+            this.label6.Size = new System.Drawing.Size(180, 21);
             this.label6.TabIndex = 1;
             this.label6.Text = "someone@example.com";
             // 
@@ -753,7 +753,7 @@ namespace Hondana_Project_Beta
             this.label5.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(249, 18);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(65, 32);
+            this.label5.Size = new System.Drawing.Size(51, 26);
             this.label5.TabIndex = 0;
             this.label5.Text = "User";
             // 
@@ -771,7 +771,7 @@ namespace Hondana_Project_Beta
             this.label4.Font = new System.Drawing.Font("Segoe UI Variable Text", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(5, 55);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(153, 32);
+            this.label4.Size = new System.Drawing.Size(122, 26);
             this.label4.TabIndex = 15;
             this.label4.Text = "Your account";
             // 
@@ -781,7 +781,7 @@ namespace Hondana_Project_Beta
             this.label3.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(3, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(145, 44);
+            this.label3.Size = new System.Drawing.Size(115, 36);
             this.label3.TabIndex = 14;
             this.label3.Text = "Settings";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -794,7 +794,7 @@ namespace Hondana_Project_Beta
             // 
             // FormSettings
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 22F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1422, 753);
