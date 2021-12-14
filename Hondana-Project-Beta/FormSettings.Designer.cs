@@ -380,8 +380,12 @@ namespace Hondana_Project_Beta
             // 
             // comboBox1
             // 
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox1.Font = new System.Drawing.Font("Segoe UI Variable Text", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Administrator",
+            "Client"});
             this.comboBox1.Location = new System.Drawing.Point(72, 585);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(239, 29);
@@ -425,9 +429,8 @@ namespace Hondana_Project_Beta
             this.label10.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.label10.Location = new System.Drawing.Point(250, 407);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(106, 21);
+            this.label10.Size = new System.Drawing.Size(0, 21);
             this.label10.TabIndex = 15;
-            this.label10.Text = "Administrator";
             // 
             // radioButton2
             // 
@@ -472,13 +475,17 @@ namespace Hondana_Project_Beta
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(63, 81);
             this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
+            this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView1.Size = new System.Drawing.Size(1150, 246);
             this.dataGridView1.TabIndex = 11;
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
             // button11
             // 
+            this.button11.Enabled = false;
             this.button11.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button11.Location = new System.Drawing.Point(63, 537);
             this.button11.Name = "button11";
@@ -512,17 +519,19 @@ namespace Hondana_Project_Beta
             // 
             // button5
             // 
+            this.button5.Enabled = false;
             this.button5.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.Location = new System.Drawing.Point(930, 537);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(283, 42);
             this.button5.TabIndex = 7;
-            this.button5.Text = "☠ Sleeping user";
+            this.button5.Text = "☠ Sleep/Wake up user";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
+            this.button6.Enabled = false;
             this.button6.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.Location = new System.Drawing.Point(641, 537);
             this.button6.Name = "button6";
@@ -534,6 +543,7 @@ namespace Hondana_Project_Beta
             // 
             // button7
             // 
+            this.button7.Enabled = false;
             this.button7.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button7.Location = new System.Drawing.Point(352, 537);
             this.button7.Name = "button7";
@@ -571,9 +581,8 @@ namespace Hondana_Project_Beta
             this.label7.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.label7.Location = new System.Drawing.Point(249, 383);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(180, 21);
+            this.label7.Size = new System.Drawing.Size(0, 21);
             this.label7.TabIndex = 1;
-            this.label7.Text = "someone@example.com";
             // 
             // label8
             // 
@@ -581,9 +590,8 @@ namespace Hondana_Project_Beta
             this.label8.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(249, 351);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(51, 26);
+            this.label8.Size = new System.Drawing.Size(0, 26);
             this.label8.TabIndex = 0;
-            this.label8.Text = "User";
             // 
             // panel7
             // 

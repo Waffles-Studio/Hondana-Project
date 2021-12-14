@@ -24,22 +24,19 @@ namespace Hondana_Project_Beta
         {
             label5.Text = Globales.UserName;
             label6.Text = Globales.UserEmail;
-            label8.Text = Globales.UserName;
-            label7.Text = Globales.UserEmail;
             if (Globales.UserRole == "1")
             {
                 label1.Text = "Administrator";
-                label10.Text = "Administrator";
             }
             else
             {
                 panel5.Enabled = false;
                 label1.Text = "User";
-                label10.Text = "User";
             }
         }
-
+        int seleccion = 0;
         private DataTable DT = new DataTable();
+        int iduser=0;
         #endregion
 
         #region Envio de formas
@@ -57,7 +54,7 @@ namespace Hondana_Project_Beta
         {
             NotificacionWaffle.Visible = false;
 
-            FormWelcome FH = new FormWelcome();
+            FormHome FH = new FormHome();
             this.Hide();
             FH.ShowDialog();
             this.Close();
@@ -143,12 +140,14 @@ namespace Hondana_Project_Beta
 
         private void button9_Click(object sender, EventArgs e)
         {
+            seleccion = 0;
             string cons = "select U.UserName, L.what as What, L.[where] as [Where], CONVERT(varchar, L.[when], 0) AS [When]  " +
                 "from Logs AS L INNER JOIN Users AS U ON (L.Who = U.UserID) ";
             llenarGrid(cons);
         }
         private void button12_Click(object sender, EventArgs e)
         {
+            seleccion = 1;
             string cons = "Select R.RoleDescription, U.UserName, U.UserEmail, CONVERT(VARCHAR, ENCRYPTBYPASSPHRASE('CoviLAB', U.UserPassword)) AS [Password],  " +
                 "'No icon' AS Icon, U.Activo " +
                 "FROM Users AS U INNER JOIN Roles AS R ON (U.UserRole = R.RoleID)";
@@ -156,6 +155,7 @@ namespace Hondana_Project_Beta
         }
         private void button10_Click(object sender, EventArgs e)
         {
+            seleccion = 0;
             string cons = "select B.BookTitle, E.EditorialName, B.BookPages, b.BookPages, B.BookISBN, B.BookLanguage, B.BookRating  " +
                 "from Books AS B INNER JOIN Editorials AS E ON (B.BookEditorial = E.EditorialId)";
             llenarGrid(cons);
@@ -208,12 +208,26 @@ namespace Hondana_Project_Beta
         #region ModificarUsuarioPropio
         private void button2_Click(object sender, EventArgs e)
         {
+
             textBox3.Visible = true;
             button17.Visible = true;
         }
 
         private void button17_Click(object sender, EventArgs e)
         {
+            if (textBox3.Text != "")
+            {
+                string c = "UPDATE Users SET UserName = '" + textBox3.Text + "' WHERE UserID = " + Globales.UserID;
+                Updates(c);
+                Globales.UserName = textBox3.Text;
+                label5.Text = Globales.UserName;
+                NotificacionWaffle.ShowBalloonTip(100, "Changed :)", "Username changed", ToolTipIcon.None);
+            }
+            else
+            {
+                NotificacionWaffle.ShowBalloonTip(100, "Sorry...", "Please enter an acceptable username", ToolTipIcon.Warning);
+            }
+
 
             textBox3.Visible = false;
             button17.Visible = false;
@@ -227,13 +241,36 @@ namespace Hondana_Project_Beta
 
         private void button18_Click(object sender, EventArgs e)
         {
+            if (textBox4.Text != "")
+            {
+                string c = "UPDATE Users SET UserPassword = '" + textBox4.Text + "' WHERE UserID = " + Globales.UserID;
+                Updates(c);
+                NotificacionWaffle.ShowBalloonTip(100, "Changed :)", "Password changed", ToolTipIcon.None);
+            }
+            else
+            {
+                NotificacionWaffle.ShowBalloonTip(100, "Sorry...", "Please enter an acceptable password", ToolTipIcon.Warning);
+            }
+
             textBox4.Visible = false;
             button18.Visible = false;
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Desactivar blablabla...", "Titulo", MessageBoxButtons.OKCancel, MessageBoxIcon.Exclamation);
+            DialogResult R =  MessageBox.Show("Are you sure you want to deactivate the account?", "Think wisely", MessageBoxButtons.OKCancel, MessageBoxIcon.Exclamation);
+            if (R == DialogResult.OK)
+            {
+                string c = "UPDATE Users SET Activo = '0' WHERE UserID = " + Globales.UserID;
+                Updates(c);
+                NotificacionWaffle.Visible = false;
+
+                FormWelcome FH = new FormWelcome();
+                this.Hide();
+                FH.ShowDialog();
+                this.Close();
+
+            }
         }
         #endregion
 
@@ -246,6 +283,26 @@ namespace Hondana_Project_Beta
 
         private void button16_Click(object sender, EventArgs e)
         {
+            if (comboBox1.SelectedItem == null)
+            {
+                NotificacionWaffle.ShowBalloonTip(100, "mmm...", "You did not select a user type", ToolTipIcon.Warning);
+            }
+            else
+            {
+                if (comboBox1.SelectedItem == "Administrator")
+                {
+                    string c = "UPDATE Users SET UserRole = '1' WHERE UserEmail = '"+label7.Text+"'";
+                    Updates(c);
+                    NotificacionWaffle.ShowBalloonTip(100, "Changed :)", "Modified user type", ToolTipIcon.None);
+                }
+                else
+                {
+                    string c = "UPDATE Users SET UserRole = '2' WHERE UserEmail = '" + label7.Text + "'";
+                    Updates(c);
+                    NotificacionWaffle.ShowBalloonTip(100, "Changed :)", "Modified user type", ToolTipIcon.None);
+                }
+            }
+
             comboBox1.Visible = false;
             button16.Visible = false;
         }
@@ -258,6 +315,17 @@ namespace Hondana_Project_Beta
 
         private void button15_Click(object sender, EventArgs e)
         {
+            if (textBox1.Text == "")
+            {
+                NotificacionWaffle.ShowBalloonTip(100, "Sorry...", "Please enter an acceptable username", ToolTipIcon.Warning);
+            }
+            else
+            {
+                string c = "UPDATE Users SET UserName = '"+textBox1.Text+"' WHERE UserEmail = '" + label7.Text + "'";
+                Updates(c);
+                NotificacionWaffle.ShowBalloonTip(100, "Changed :)", "Username changed", ToolTipIcon.None);
+            }
+
             textBox1.Visible = false;
             button15.Visible = false;
         }
@@ -270,13 +338,114 @@ namespace Hondana_Project_Beta
 
         private void button14_Click(object sender, EventArgs e)
         {
+            if (textBox2.Text == "")
+            {
+                NotificacionWaffle.ShowBalloonTip(100, "Sorry...", "Please enter an acceptable password", ToolTipIcon.Warning);
+            }
+            else
+            {
+                string c = "UPDATE Users SET UserPassword = '" + textBox2.Text + "' WHERE UserEmail = '" + label7.Text + "'";
+                Updates(c);
+                NotificacionWaffle.ShowBalloonTip(100, "Changed :)", "Password changed", ToolTipIcon.None);
+            }
+
+
             textBox2.Visible = false;
             button14.Visible = false;
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Desactivar blablabla...", "Titulo", MessageBoxButtons.OKCancel, MessageBoxIcon.Exclamation);
+            string r= "";
+            DialogResult R = MessageBox.Show("Are you sure you want to activate/deactivate the account?", "Think wisely", MessageBoxButtons.OKCancel, MessageBoxIcon.Exclamation);
+            if (R == DialogResult.OK)
+            {
+                using (SqlCommand cmd = new SqlCommand("select Activo from Users WHERE UserEmail = '"+label7.Text+"'", Globales.conexion))
+                {
+                    Globales.conexion.Open();
+                    r = cmd.ExecuteScalar().ToString();
+                    //MessageBox.Show(""+ cmd.ExecuteScalar().ToString());
+                    Globales.conexion.Close();
+                }
+                
+                if (r == "True")
+                {
+                    string c = "UPDATE Users SET Activo = '0' WHERE UserEmail = '" + label7.Text + "'"; ;
+                    Updates(c);
+                    NotificacionWaffle.ShowBalloonTip(100, "Changed :)", "User deactivated", ToolTipIcon.None);
+                }
+                else
+                {
+                    string c = "UPDATE Users SET Activo = '1' WHERE UserEmail = '" + label7.Text + "'"; ;
+                    Updates(c);
+                    NotificacionWaffle.ShowBalloonTip(100, "Changed :)", "User activated", ToolTipIcon.None);
+                }            
+            }
+        }
+        #endregion
+
+        #region Updates 
+        private void Updates(string c)
+        {
+            using (SqlCommand cmdchange = new SqlCommand(c, Globales.conexion))
+            {
+                Globales.conexion.Open();
+                cmdchange.ExecuteNonQuery();
+                Globales.conexion.Close();
+            }
+        }
+        #endregion
+
+        #region Seleccion DataGridView
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (seleccion == 1)
+            {                
+                string correo = dataGridView1.Rows[e.RowIndex].Cells["UserEmail"].Value.ToString();
+                if (correo != null)
+                {
+                    llenareditable(correo);
+                }
+            }
+        }
+
+        private void llenareditable(string c)
+        {
+            string sqlcon = "select U.UserName, U.UserEmail, R.RoleDescription " +
+                "FROM Users AS U INNER JOIN Roles AS R ON (U.UserRole = R.RoleID) " +
+                "WHERE UserEmail = '"+c+"'";
+            int p = 0;
+            using (SqlCommand cmddat = new SqlCommand(sqlcon, Globales.conexion))
+            {
+                Globales.conexion.Open();
+                SqlDataReader reader = cmddat.ExecuteReader();
+                
+                if (reader.Read())
+                {
+                    label8.Text = reader[0].ToString();
+                    label7.Text = reader[1].ToString();
+                    label10.Text = reader[2].ToString();
+
+                    button11.Enabled = true;
+                    button7.Enabled = true;
+                    button6.Enabled = true;
+                    button5.Enabled = true;
+                    p = 1;
+                }
+                Globales.conexion.Close();
+                reader.Close();
+
+            }
+            if (p == 1)
+            {
+                string coo = "select UserID From Users WHERE UserEmail = '" +c+ "'";
+                using (SqlCommand cmd = new SqlCommand(coo, Globales.conexion))
+                {
+                    Globales.conexion.Open();
+                    iduser = (Int32)cmd.ExecuteScalar();
+                    Globales.conexion.Close();
+                }
+            }
         }
         #endregion
     }
