@@ -63,7 +63,7 @@ namespace Hondana_Project_Beta
         }
         #endregion
 
-        #region Comprovar favoritos
+        #region Comprobar favoritos
         private void existe()
         {
             string sql = "select *from Favorites where UserId = @libro AND BookID = @usuario";
